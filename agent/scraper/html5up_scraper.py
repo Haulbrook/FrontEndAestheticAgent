@@ -101,7 +101,14 @@ class HTML5UPScraper(BaseScraper):
                 print(f"    ! Could not find download link")
                 return False
 
-            download_url = self.base_url + download_link.get('href')
+            # Construct download URL properly
+            href = download_link.get('href', '')
+            if href.startswith('http'):
+                download_url = href
+            elif href.startswith('/'):
+                download_url = self.base_url + href
+            else:
+                download_url = self.base_url + '/' + href
 
             # Download zip file
             response = self.session.get(download_url, timeout=60)
