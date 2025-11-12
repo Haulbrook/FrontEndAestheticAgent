@@ -36,22 +36,50 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Scrape Templates
+### 🤖 Automatic Mode (Recommended!)
+
+The agent can automatically scrape, analyze, and train on a schedule:
+
+#### Run a single automatic cycle
+```bash
+python cli.py auto --mode once
+```
+
+#### Schedule daily scraping (runs at 2:00 AM)
+```bash
+python cli.py auto --mode scheduled --interval daily
+```
+
+#### Continuous learning (every hour)
+```bash
+python cli.py auto --mode continuous --delay 60
+```
+
+#### View automation logs
+```bash
+python cli.py logs
+```
+
+See [docs/AUTOMATION.md](docs/AUTOMATION.md) for complete automation guide.
+
+### Manual Commands
+
+#### Scrape Templates
 ```bash
 python cli.py scrape --source html5up --limit 10
 ```
 
-### Analyze Templates
+#### Analyze Templates
 ```bash
 python cli.py analyze --input data/templates/
 ```
 
-### Train Knowledge Base
+#### Train Knowledge Base
 ```bash
 python cli.py train --data data/analyzed/
 ```
 
-### Generate Suggestions
+#### Generate Suggestions
 ```bash
 python cli.py generate --input your-website.html
 ```
