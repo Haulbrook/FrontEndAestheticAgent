@@ -1,0 +1,23 @@
+# Auto-Scraper Configuration
+
+# Directory settings
+output_dir: "data/templates"
+analyzed_dir: "data/analyzed"
+
+# Scraping settings
+templates_per_run: 5  # Number of templates to scrape per source per run
+sources:
+  - html5up
+  - freecss
+
+# Schedule settings
+# Options: 'hourly', 'daily', 'weekly', or a number of minutes (e.g., 30)
+schedule_interval: "daily"
+
+# Automation settings
+auto_analyze: true   # Automatically analyze scraped templates
+auto_train: true     # Automatically train on analyzed templates
+
+# Advanced settings
+max_retries: 3       # Number of retries on failure
+retry_delay: 300     # Delay between retries in seconds (5 minutes)

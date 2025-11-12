@@ -14,6 +14,7 @@ from agent.analyzer.template_analyzer import TemplateAnalyzer
 from agent.learner.pattern_learner import PatternLearner
 from agent.generator.design_generator import DesignGenerator
 from agent.generator.suggestion_engine import SuggestionEngine
+from agent.scheduler import AutoScraper
 
 console = Console()
 
@@ -264,6 +265,99 @@ def suggest(html_file):
     except Exception as e:
         console.print(f"[bold red]✗ Error: {e}[/bold red]")
         raise click.Abort()
+
+
+@cli.command()
+@click.option('--config', default='config/auto_scraper_config.yaml', help='Config file for auto-scraper')
+@click.option('--interval', help='Schedule interval (hourly/daily/weekly or minutes)')
+@click.option('--mode', type=click.Choice(['scheduled', 'continuous', 'once']), default='once',
+              help='Running mode')
+@click.option('--delay', default=60, help='Delay in minutes for continuous mode')
+def auto(config, interval, mode, delay):
+    """Automatically scrape, analyze, and train on a schedule"""
+    console.print("\n[bold cyan]🤖 Front-End Aesthetic Agent - Auto-Scraper[/bold cyan]\n")
+
+    try:
+        # Load config
+        import yaml
+        config_data = {}
+
+        if Path(config).exists():
+            with open(config, 'r') as f:
+                config_data = yaml.safe_load(f) or {}
+            console.print(f"[green]✓ Loaded config from: {config}[/green]\n")
+        else:
+            console.print(f"[yellow]! Config not found, using defaults[/yellow]\n")
+
+        # Override with CLI options
+        if interval:
+            config_data['schedule_interval'] = interval
+
+        # Create auto-scraper
+        auto_scraper = AutoScraper(config_data)
+
+        # Run based on mode
+        if mode == 'once':
+            console.print("[bold]Running single cycle...[/bold]\n")
+            results = auto_scraper.run_scraping_cycle()
+
+            # Display summary
+            table = Table(title="Cycle Results")
+            table.add_column("Metric", style="cyan")
+            table.add_column("Count", style="green")
+
+            table.add_row("Scraped", str(results['scraped']))
+            table.add_row("Analyzed", str(results['analyzed']))
+            table.add_row("Learned", str(results['learned']))
+            table.add_row("Errors", str(len(results['errors'])))
+
+            console.print(table)
+
+        elif mode == 'scheduled':
+            auto_scraper.start_scheduled()
+
+        elif mode == 'continuous':
+            auto_scraper.run_continuous(delay_minutes=delay)
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
+
+
+@cli.command()
+@click.option('--limit', default=10, help='Number of recent logs to show')
+def logs(limit):
+    """Show auto-scraper logs"""
+    console.print("\n[bold cyan]📋 Auto-Scraper Logs[/bold cyan]\n")
+
+    try:
+        auto_scraper = AutoScraper()
+        logs = auto_scraper.get_logs(limit)
+
+        if not logs:
+            console.print("[yellow]No logs found. Run 'auto' command first.[/yellow]")
+            return
+
+        for i, log in enumerate(reversed(logs), 1):
+            timestamp = log.get('timestamp', 'Unknown')
+            scraped = log.get('scraped', 0)
+            analyzed = log.get('analyzed', 0)
+            learned = log.get('learned', 0)
+            errors = len(log.get('errors', []))
+
+            status = "✓" if errors == 0 else "⚠"
+            color = "green" if errors == 0 else "yellow"
+
+            console.print(f"{i}. [{color}]{status}[/{color}] {timestamp}")
+            console.print(f"   Scraped: {scraped} | Analyzed: {analyzed} | Learned: {learned} | Errors: {errors}")
+
+            if errors > 0:
+                for error in log['errors'][:2]:
+                    console.print(f"   [red]• {error}[/red]")
+            console.print()
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
 
 
 @cli.command()

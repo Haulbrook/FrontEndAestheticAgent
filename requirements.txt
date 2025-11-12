@@ -33,3 +33,6 @@ aiohttp>=3.9.0
 # CLI
 click>=8.1.7
 rich>=13.7.0
+
+# Scheduling
+schedule>=1.2.0
