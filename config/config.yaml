@@ -1,0 +1,33 @@
+# Front-End Aesthetic Agent Configuration
+
+# Scraper settings
+scraper:
+  output_dir: "data/templates"
+  default_limit: 10
+  sources:
+    - html5up
+    - freecss
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  timeout: 30
+
+# Analyzer settings
+analyzer:
+  output_dir: "data/analyzed"
+  max_html_files: 5
+  max_css_files: 10
+
+# Knowledge base settings
+knowledge_base:
+  path: "data/knowledge_base/design_patterns.json"
+  high_quality_threshold: 70
+
+# Generator settings
+generator:
+  default_scheme: "balanced"
+  base_font_size: 16
+  type_scale_ratio: 1.25  # Major Third
+
+# CLI settings
+cli:
+  verbose: false
+  color_output: true
