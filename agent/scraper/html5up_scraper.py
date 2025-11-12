@@ -84,15 +84,24 @@ class HTML5UPScraper(BaseScraper):
     def _download_template(self, template_data: Dict, template_id: str) -> bool:
         """Download and extract template zip file"""
         try:
-            # HTML5 UP templates have direct download links
-            download_url = template_data['url'].replace(
-                self.base_url,
-                self.base_url + '/download?template='
-            )
+            # HTML5 UP uses direct download links from the template page
+            # First, get the template page to find the actual download link
+            template_page = self.fetch_page(template_data['url'])
+            if not template_page:
+                print(f"    ! Could not fetch template page")
+                return False
 
-            # Try to construct download URL
-            template_name = template_data['url'].split('/')[-1]
-            download_url = f"https://html5up.net/download?template={template_name}"
+            # Find the download link on the page
+            download_link = template_page.find('a', href=lambda x: x and 'download' in x.lower())
+            if not download_link:
+                # Try alternative: look for .zip link
+                download_link = template_page.find('a', href=lambda x: x and '.zip' in str(x).lower())
+
+            if not download_link:
+                print(f"    ! Could not find download link")
+                return False
+
+            download_url = self.base_url + download_link.get('href')
 
             # Download zip file
             response = self.session.get(download_url, timeout=60)
