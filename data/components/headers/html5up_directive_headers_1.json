@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"major last\">\n<h2>Questions or comments?</h2>\n</header>",
+  "category": "header",
+  "classes": "major last",
+  "text": "Questions or comments?",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_directive",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

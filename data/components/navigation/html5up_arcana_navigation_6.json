@@ -1,0 +1,12 @@
+{
+  "html": "<nav id=\"nav\">\n<ul>\n<li><a href=\"index.html\">Home</a></li>\n<li>\n<a href=\"#\">Dropdown</a>\n<ul>\n<li><a href=\"#\">Lorem dolor</a></li>\n<li><a href=\"#\">Magna phasellus</a></li>\n<li><a href=\"#\">Etiam sed tempus</a></li>\n<li>\n<a href=\"#\">Submenu</a>\n<ul>\n<li><a href=\"#\">Lorem dolor</a></li>\n<li><a href=\"#\">Phasellus magna</a></li>\n<li><a href=\"#\">Magna phasellus</a></li>\n<li><a href=\"#\">Etiam nisl</a></li>\n<li><a href=\"#\">Veroeros feugiat</a></li>\n</ul>\n</li>\n<li><a href=\"#\">Veroeros feugiat</a></li>\n</ul>\n</li>\n<li class=\"current\"><a href=\"left-sidebar.html\">Left Sidebar</a></li>\n<li><a href=\"right-sidebar.html\">Right Sidebar</a></li>\n<li><a href=\"two-sidebar.html\">Two Sidebar</a></li>\n<li><a href=\"no-sidebar.html\">No Sidebar</a></li>\n</ul>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "HomeDropdownLorem dolorMagna phasellusEtiam sed tempusSubmenuLorem dolorPhasellus magnaMagna phasellusEtiam nislVeroeros feugiatVeroeros feugiatLeft SidebarRight SidebarTwo SidebarNo Sidebar",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "left-sidebar.html"
+  },
+  "tag": "nav"
+}

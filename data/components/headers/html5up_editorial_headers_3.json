@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h1>Hi, I\u2019m Editorial<br/>\n\t\t\t\t\t\t\t\t\t\t\tby HTML5 UP</h1>\n<p>A free and fully responsive site template</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Hi, I\u2019m Editorialby HTML5 UPA free and fully responsive site template",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

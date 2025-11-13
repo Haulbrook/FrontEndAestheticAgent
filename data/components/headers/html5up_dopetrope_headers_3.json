@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h2>Howdy. This is Dopetrope.</h2>\n<p>A responsive template by HTML5 UP</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Howdy. This is Dopetrope.A responsive template by HTML5 UP",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

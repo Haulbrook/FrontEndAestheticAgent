@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h2>Generic</h2>\n<p>A generic page for every non-generic situation.</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "GenericA generic page for every non-generic situation.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "generic.html"
+  },
+  "tag": "header"
+}

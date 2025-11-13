@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"main\">\n<h1>Generic</h1>\n</header>",
+  "category": "header",
+  "classes": "main",
+  "text": "Generic",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "header"
+}

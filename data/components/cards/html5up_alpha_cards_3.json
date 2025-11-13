@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box special\">\n<span class=\"image featured\"><img alt=\"\" src=\"images/pic02.jpg\"/></span>\n<h3>Sed lorem adipiscing</h3>\n<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n<ul class=\"actions special\">\n<li><a class=\"button alt\" href=\"#\">Learn More</a></li>\n</ul>\n</section>",
+  "category": "card",
+  "classes": "box special",
+  "text": "Sed lorem adipiscingInteger volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.Learn More",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "index.html"
+  },
+  "tag": "section"
+}

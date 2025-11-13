@@ -1,0 +1,12 @@
+{
+  "html": "<article class=\"panel intro\" id=\"home\">\n<header>\n<h1>Jane Doe</h1>\n<p>Senior Astral Projectionist</p>\n</header>\n<a class=\"jumplink pic\" href=\"#work\">\n<span class=\"arrow icon fa-chevron-right\"><span>See my work</span></span>\n<img alt=\"\" src=\"images/me.jpg\"/>\n</a>\n</article>",
+  "category": "card",
+  "classes": "panel intro",
+  "text": "Jane DoeSenior Astral ProjectionistSee my work",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_astral",
+    "file": "index.html"
+  },
+  "tag": "article"
+}

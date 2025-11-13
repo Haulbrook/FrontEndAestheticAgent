@@ -15,6 +15,8 @@ from agent.learner.pattern_learner import PatternLearner
 from agent.generator.design_generator import DesignGenerator
 from agent.generator.suggestion_engine import SuggestionEngine
 from agent.scheduler import AutoScraper
+from agent.extractor.component_extractor import ComponentExtractor
+from agent.browser.template_browser import TemplateBrowser
 
 console = Console()
 
@@ -262,6 +264,73 @@ def suggest(html_file):
 
         console.print("[bold green]✓ Analysis complete![/bold green]\n")
 
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
+
+
+@cli.command()
+@click.option('--input', default='data/templates', help='Directory containing templates')
+@click.option('--output', default='data/components', help='Output directory for extracted components')
+@click.option('--limit', default=None, type=int, help='Limit number of templates to process')
+def extract(input, output, limit):
+    """Extract reusable components from templates"""
+    console.print("\n[bold cyan]🧩 Front-End Aesthetic Agent - Component Extractor[/bold cyan]\n")
+
+    extractor = ComponentExtractor(output)
+
+    try:
+        input_path = Path(input)
+
+        if not input_path.exists():
+            console.print(f"[bold red]✗ Directory not found: {input}[/bold red]")
+            raise click.Abort()
+
+        # Process each template source
+        template_count = 0
+        for source_dir in sorted(input_path.iterdir()):
+            if not source_dir.is_dir():
+                continue
+
+            # Process templates in this source
+            templates = sorted([d for d in source_dir.iterdir() if d.is_dir()])
+
+            if limit and template_count >= limit:
+                break
+
+            for template_dir in templates:
+                if limit and template_count >= limit:
+                    break
+
+                extractor.extract_from_directory(str(template_dir))
+                template_count += 1
+
+        # Save the component index
+        extractor.save_index()
+
+        console.print(f"\n[bold green]✓ Extracted components from {template_count} templates![/bold green]")
+        console.print(f"[bold green]✓ Components saved to: {output}/[/bold green]\n")
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
+
+
+@cli.command()
+@click.option('--port', default=5000, help='Port to run the server on')
+@click.option('--host', default='127.0.0.1', help='Host to bind to')
+def browse(port, host):
+    """Browse templates and components in your web browser"""
+    console.print("\n[bold cyan]🌐 Front-End Aesthetic Agent - Template Browser[/bold cyan]\n")
+
+    try:
+        browser = TemplateBrowser()
+        console.print(f"[green]✓ Starting browser on http://{host}:{port}[/green]")
+        console.print(f"[yellow]  Press CTRL+C to stop[/yellow]\n")
+        browser.run(host=host, port=port, debug=False)
+
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Browser stopped[/yellow]")
     except Exception as e:
         console.print(f"[bold red]✗ Error: {e}[/bold red]")
         raise click.Abort()

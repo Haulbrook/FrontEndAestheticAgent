@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h4>Heading with a Subtitle</h4>\n<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Heading with a SubtitleLorem ipsum dolor sit amet nullam id egestas urna aliquam",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "header"
+}

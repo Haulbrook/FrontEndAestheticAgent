@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button\" href=\"#\">More</a>",
+  "category": "button",
+  "classes": "button",
+  "text": "More",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "a"
+}

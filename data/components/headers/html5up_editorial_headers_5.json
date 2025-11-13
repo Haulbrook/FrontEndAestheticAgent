@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"major\">\n<h2>Ipsum sed dolor</h2>\n</header>",
+  "category": "header",
+  "classes": "major",
+  "text": "Ipsum sed dolor",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button primary fit\" href=\"#\">Default</a>",
+  "category": "button",
+  "classes": "button primary fit",
+  "text": "Default",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "elements.html"
+  },
+  "tag": "a"
+}

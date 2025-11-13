@@ -1,0 +1,12 @@
+{
+  "html": "<div class=\"box highlight\">\n<i class=\"icon major fa-paper-plane\"></i>\n<h3>This Is Important</h3>\n<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>\n</div>",
+  "category": "card",
+  "classes": "box highlight",
+  "text": "This Is ImportantDuis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "index.html"
+  },
+  "tag": "div"
+}

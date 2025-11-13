@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"style1\">\n<h2>Dolor consequat feugiat amet veroeros</h2>\n<p>Feugiat dolor nullam orci pretium phasellus justo</p>\n</header>",
+  "category": "header",
+  "classes": "style1",
+  "text": "Dolor consequat feugiat amet veroerosFeugiat dolor nullam orci pretium phasellus justo",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

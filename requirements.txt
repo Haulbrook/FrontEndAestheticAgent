@@ -34,5 +34,8 @@ aiohttp>=3.9.0
 click>=8.1.7
 rich>=13.7.0
 
+# Web server for template browser
+flask>=3.0.0
+
 # Scheduling
 schedule>=1.2.0

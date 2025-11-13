@@ -1,0 +1,12 @@
+{
+  "html": "<div class=\"box post\">\n<a class=\"image left\" href=\"#\"><img alt=\"\" src=\"images/pic02.jpg\"/></a>\n<div class=\"inner\">\n<h3>The Second Thing</h3>\n<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>\n</div>\n</div>",
+  "category": "card",
+  "classes": "box post",
+  "text": "The Second ThingDuis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "index.html"
+  },
+  "tag": "div"
+}

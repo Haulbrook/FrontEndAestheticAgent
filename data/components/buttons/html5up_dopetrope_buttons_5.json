@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button alt icon fa-comment\" href=\"#\">33 comments</a>",
+  "category": "button",
+  "classes": "button alt icon fa-comment",
+  "text": "33 comments",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<header>\n<h2>Ipsum nullam luctus</h2>\n</header>\n<p>Malesuada quis eget eros. Nullam sodales cursus sapien, id consequat\n\t\t\t\t\t\t\t\t\t\t\tleo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit\n\t\t\t\t\t\t\t\t\t\t\tamet risus elit.</p>\n<a class=\"button style1\" href=\"#\">Learn More</a>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "Ipsum nullam luctusMalesuada quis eget eros. Nullam sodales cursus sapien, id consequat\n\t\t\t\t\t\t\t\t\t\t\tleo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit\n\t\t\t\t\t\t\t\t\t\t\tamet ri",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "right-sidebar.html"
+  },
+  "tag": "section"
+}

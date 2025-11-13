@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<a class=\"image featured\" href=\"#\"><img alt=\"\" src=\"images/pic04.jpg\"/></a>\n<header>\n<h3>Consequat et tempus</h3>\n</header>\n<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>\n<footer>\n<ul class=\"actions\">\n<li><a class=\"button alt\" href=\"#\">Find out more</a></li>\n</ul>\n</footer>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "Consequat et tempusLorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.Find out more",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "section"
+}

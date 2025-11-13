@@ -1,0 +1,12 @@
+{
+  "html": "<header id=\"header\">\n<div class=\"logo\">\n<span class=\"icon fa-diamond\"></span>\n</div>\n<div class=\"content\">\n<div class=\"inner\">\n<h1>Dimension</h1>\n<p>A fully responsive site template designed by <a href=\"https://html5up.net\">HTML5 UP</a> and released<br/>\n\t\t\t\t\t\t\t\tfor free under the <a href=\"https://html5up.net/license\">Creative Commons</a> license.</p>\n</div>\n</div>\n<nav>\n<ul>\n<li><a href=\"#intro\">Intro</a></li>\n<li><a href=\"#work\">Work</a></li>\n<li><a href=\"#about\">About</a></li>\n<li><a href=\"#contact\">Contact</a></li>\n<!--<li><a href=\"#elements\">Elements</a></li>-->\n</ul>\n</nav>\n</header>",
+  "category": "navigation",
+  "classes": "",
+  "text": "DimensionA fully responsive site template designed byHTML5 UPand releasedfor free under theCreative Commonslicense.IntroWorkAboutContact",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dimension",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

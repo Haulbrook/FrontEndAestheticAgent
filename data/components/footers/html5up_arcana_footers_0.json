@@ -1,0 +1,12 @@
+{
+  "html": "<footer>\n<a class=\"button\" href=\"#\">Continue Reading</a>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "Continue Reading",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "footer"
+}

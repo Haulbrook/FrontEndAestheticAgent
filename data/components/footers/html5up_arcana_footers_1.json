@@ -1,0 +1,12 @@
+{
+  "html": "<footer>\n<a class=\"button\" href=\"#\">More Random Links</a>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "More Random Links",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "footer"
+}

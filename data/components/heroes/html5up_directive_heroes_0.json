@@ -1,0 +1,12 @@
+{
+  "html": "<div id=\"header\">\n<span class=\"logo icon fa-paper-plane-o\"></span>\n<h1>Hi. This is Directive.</h1>\n<p>A responsive HTML5 + CSS3 site template designed by <a href=\"http://html5up.net\">HTML5 UP</a>\n<br/>\n\t\t\t\tand released for free under the <a href=\"http://html5up.net/license\">Creative Commons license</a>.</p>\n</div>",
+  "category": "hero",
+  "classes": "",
+  "text": "Hi. This is Directive.A responsive HTML5 + CSS3 site template designed byHTML5 UPand released for free under theCreative Commons license.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_directive",
+    "file": "index.html"
+  },
+  "tag": "div"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div class=\"row gtr-uniform gtr-50\">\n<div class=\"col-9 col-12-mobilep\">\n<input id=\"query\" name=\"query\" placeholder=\"Query\" type=\"text\" value=\"\">\n</input></div>\n<div class=\"col-3 col-12-mobilep\">\n<input class=\"fit\" type=\"submit\" value=\"Search\">\n</input></div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "form"
+}

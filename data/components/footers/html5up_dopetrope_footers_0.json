@@ -1,0 +1,12 @@
+{
+  "html": "<footer>\n<ul class=\"actions\">\n<li><a class=\"button\" href=\"#\">Find out more</a></li>\n</ul>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "Find out more",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "no-sidebar.html"
+  },
+  "tag": "footer"
+}

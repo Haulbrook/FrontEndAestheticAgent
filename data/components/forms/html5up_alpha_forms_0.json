@@ -1,0 +1,12 @@
+{
+  "html": "<form>\n<div class=\"row gtr-50 gtr-uniform\">\n<div class=\"col-8 col-12-mobilep\">\n<input id=\"email\" name=\"email\" placeholder=\"Email Address\" type=\"email\"/>\n</div>\n<div class=\"col-4 col-12-mobilep\">\n<input class=\"fit\" type=\"submit\" value=\"Sign Up\"/>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "index.html"
+  },
+  "tag": "form"
+}

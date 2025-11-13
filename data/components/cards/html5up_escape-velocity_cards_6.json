@@ -1,0 +1,12 @@
+{
+  "html": "<article class=\"box post-excerpt\">\n<a class=\"image left\" href=\"#\"><img alt=\"\" src=\"images/pic08.jpg\"/></a>\n<h3><a href=\"#\">Diam odio lorem</a></h3>\n<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>\n</article>",
+  "category": "card",
+  "classes": "box post-excerpt",
+  "text": "Diam odio loremDuis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "right-sidebar.html"
+  },
+  "tag": "article"
+}

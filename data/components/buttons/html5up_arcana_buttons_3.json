@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button\" href=\"#\">Learn More</a>",
+  "category": "button",
+  "classes": "button",
+  "text": "Learn More",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

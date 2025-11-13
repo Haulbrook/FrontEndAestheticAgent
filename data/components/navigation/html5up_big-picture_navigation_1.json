@@ -1,0 +1,12 @@
+{
+  "html": "<nav>\n<ul>\n<li><a href=\"#intro\">Intro</a></li>\n<li><a href=\"#one\">What I Do</a></li>\n<li><a href=\"#two\">Who I Am</a></li>\n<li><a href=\"#work\">My Work</a></li>\n<li><a href=\"#contact\">Contact</a></li>\n</ul>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "IntroWhat I DoWho I AmMy WorkContact",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_big-picture",
+    "file": "index.html"
+  },
+  "tag": "nav"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button style1\" href=\"#\">Learn More</a>",
+  "category": "button",
+  "classes": "button style1",
+  "text": "Learn More",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

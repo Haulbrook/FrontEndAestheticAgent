@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button icon fa-download\" href=\"#\">Icon</a>",
+  "category": "button",
+  "classes": "button icon fa-download",
+  "text": "Icon",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dimension",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

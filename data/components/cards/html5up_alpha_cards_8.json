@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<h3>Buttons</h3>\n<ul class=\"actions\">\n<li><a class=\"button special\" href=\"#\">Special</a></li>\n<li><a class=\"button\" href=\"#\">Default</a></li>\n<li><a class=\"button alt\" href=\"#\">Alternate</a></li>\n</ul>\n<ul class=\"actions\">\n<li><a class=\"button special big\" href=\"#\">Big</a></li>\n<li><a class=\"button\" href=\"#\">Default</a></li>\n<li><a class=\"button alt small\" href=\"#\">Small</a></li>\n</ul>\n<ul class=\"actions fit\">\n<li><a class=\"button special fit\" href=\"#\">Fit</a></li>\n<li><a class=\"button fit\" href=\"#\">Fit</a></li>\n<li><a class=\"button alt fit\" href=\"#\">Fit</a></li>\n</ul>\n<ul class=\"actions fit small\">\n<li><a class=\"button special fit small\" href=\"#\">Fit + Small</a></li>\n<li><a class=\"button fit small\" href=\"#\">Fit + Small</a></li>\n<li><a class=\"button alt fit small\" href=\"#\">Fit + Small</a></li>\n</ul>\n<ul class=\"actions\">\n<li><a class=\"button special icon fa-search\" href=\"#\">Icon</a></li>\n<li><a class=\"button icon fa-download\" href=\"#\">Icon</a></li>\n<li><a class=\"button alt icon fa-check\" href=\"#\">Icon</a></li>\n</ul>\n<ul class=\"actions\">\n<li><span class=\"button special disabled\">Special</span></li>\n<li><span class=\"button disabled\">Default</span></li>\n<li><span class=\"button alt disabled\">Alternate</span></li>\n</ul>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "ButtonsSpecialDefaultAlternateBigDefaultSmallFitFitFitFit + SmallFit + SmallFit + SmallIconIconIconSpecialDefaultAlternate",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "section"
+}

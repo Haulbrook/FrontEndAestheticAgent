@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button style2 large\" href=\"#\">More Info</a>",
+  "category": "button",
+  "classes": "button style2 large",
+  "text": "More Info",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

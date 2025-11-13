@@ -1,0 +1,12 @@
+{
+  "html": "<footer>\n<ul class=\"actions\">\n<li><a class=\"button large\" href=\"#\">Get Started</a></li>\n<li><a class=\"button alt large\" href=\"#\">Learn More</a></li>\n</ul>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "Get StartedLearn More",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "footer"
+}

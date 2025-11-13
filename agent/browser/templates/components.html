@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components - Template Browser</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f7fa;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 2rem 3rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .nav-tabs {
+            margin: 2rem 0 2rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .nav-tabs a {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            color: #4a5568;
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.3s;
+        }
+
+        .nav-tabs a:hover {
+            color: #667eea;
+        }
+
+        .nav-tabs a.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            font-weight: 600;
+        }
+
+        .components-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .component-category-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .component-category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .category-name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            text-transform: capitalize;
+        }
+
+        .category-count {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-label {
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #718096;
+        }
+
+        .empty-state-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        .info-box {
+            background: #fff5eb;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        .info-box p {
+            color: #92400e;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>🧩 Component Library</h1>
+            <p class="subtitle">Browse extracted UI components from templates</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <a href="/">Templates</a>
+            <a href="/components" class="active">Components</a>
+        </div>
+
+        {% if components %}
+        <div class="components-grid">
+            {% for component in components %}
+            <a href="{{ component.view_url }}" class="component-category-card">
+                <div class="category-icon">
+                    {% if component.category == 'navigation' %}🧭
+                    {% elif component.category == 'buttons' %}🔘
+                    {% elif component.category == 'cards' %}🃏
+                    {% elif component.category == 'heroes' %}🎯
+                    {% elif component.category == 'forms' %}📝
+                    {% elif component.category == 'footers' %}⬇️
+                    {% elif component.category == 'headers' %}⬆️
+                    {% else %}📦
+                    {% endif %}
+                </div>
+                <div class="category-name">{{ component.category }}</div>
+                <div class="category-count">{{ component.count }}</div>
+                <div class="category-label">components</div>
+            </a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="info-box">
+            <p><strong>📦 No components extracted yet!</strong> Run the component extractor first:</p>
+            <pre style="background: white; padding: 1rem; margin-top: 1rem; border-radius: 4px;">python cli.py extract</pre>
+        </div>
+        <div class="empty-state">
+            <div class="empty-state-icon">🧩</div>
+            <h2>No Components Found</h2>
+            <p>Extract components from your templates to see them here.</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

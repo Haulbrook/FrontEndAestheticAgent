@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button icon fa-file-text\" href=\"#\">Continue Reading</a>",
+  "category": "button",
+  "classes": "button icon fa-file-text",
+  "text": "Continue Reading",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

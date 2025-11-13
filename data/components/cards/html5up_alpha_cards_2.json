@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box special features\">\n<div class=\"features-row\">\n<section>\n<span class=\"icon major fa-bolt accent2\"></span>\n<h3>Magna etiam</h3>\n<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n</section>\n<section>\n<span class=\"icon major fa-area-chart accent3\"></span>\n<h3>Ipsum dolor</h3>\n<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n</section>\n</div>\n<div class=\"features-row\">\n<section>\n<span class=\"icon major fa-cloud accent4\"></span>\n<h3>Sed feugiat</h3>\n<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n</section>\n<section>\n<span class=\"icon major fa-lock accent5\"></span>\n<h3>Enim phasellus</h3>\n<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>\n</section>\n</div>\n</section>",
+  "category": "card",
+  "classes": "box special features",
+  "text": "Magna etiamInteger volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.Ipsum dolorInteger volutpat ante e",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "index.html"
+  },
+  "tag": "section"
+}

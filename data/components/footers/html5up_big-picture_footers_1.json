@@ -1,0 +1,12 @@
+{
+  "html": "<footer id=\"footer\">\n<!-- Icons -->\n<ul class=\"icons\">\n<li><a class=\"icon fa-twitter\" href=\"#\"><span class=\"label\">Twitter</span></a></li>\n<li><a class=\"icon fa-facebook\" href=\"#\"><span class=\"label\">Facebook</span></a></li>\n<li><a class=\"icon fa-instagram\" href=\"#\"><span class=\"label\">Instagram</span></a></li>\n<li><a class=\"icon fa-linkedin\" href=\"#\"><span class=\"label\">LinkedIn</span></a></li>\n<li><a class=\"icon fa-dribbble\" href=\"#\"><span class=\"label\">Dribbble</span></a></li>\n<li><a class=\"icon fa-pinterest\" href=\"#\"><span class=\"label\">Pinterest</span></a></li>\n</ul>\n<!-- Menu -->\n<ul class=\"menu\">\n<li>\u00a9 Untitled</li><li>Design: <a href=\"https://html5up.net\">HTML5 UP</a></li>\n</ul>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "TwitterFacebookInstagramLinkedInDribbblePinterest\u00a9 UntitledDesign:HTML5 UP",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_big-picture",
+    "file": "index.html"
+  },
+  "tag": "footer"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<header>\n<h3>Feugiat consequat</h3>\n</header>\n<p>Veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.</p>\n<ul class=\"divided\">\n<li><a href=\"#\">Sed et blandit consequat sed</a></li>\n<li><a href=\"#\">Hendrerit tortor vitae sapien dolore</a></li>\n<li><a href=\"#\">Sapien id suscipit magna sed felis</a></li>\n<li><a href=\"#\">Aptent taciti sociosqu ad litora</a></li>\n</ul>\n<footer>\n<a class=\"button alt\" href=\"#\">Ipsum consequat</a>\n</footer>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "Feugiat consequatVeroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat sed lorem consequat feugiat lorem dolore.Sed et blandit consequat sedHendrerit tortor vitae sapien dol",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "right-sidebar.html"
+  },
+  "tag": "section"
+}

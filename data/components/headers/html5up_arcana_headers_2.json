@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"major\">\n<h2>A gigantic heading you can use for whatever</h2>\n<p>With a much smaller subtitle hanging out just below it</p>\n</header>",
+  "category": "header",
+  "classes": "major",
+  "text": "A gigantic heading you can use for whateverWith a much smaller subtitle hanging out just below it",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

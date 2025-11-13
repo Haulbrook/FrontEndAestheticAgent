@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"style1\">\n<h2>Lorem ipsum dolor sit amet magna egestas morbi bibendum sed malesuada</h2>\n<p>Tempus feugiat veroeros sed nullam dolore</p>\n</header>",
+  "category": "header",
+  "classes": "style1",
+  "text": "Lorem ipsum dolor sit amet magna egestas morbi bibendum sed malesuadaTempus feugiat veroeros sed nullam dolore",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "right-sidebar.html"
+  },
+  "tag": "header"
+}

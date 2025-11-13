@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"main\">\n<h1>Elements</h1>\n</header>",
+  "category": "header",
+  "classes": "main",
+  "text": "Elements",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "elements.html"
+  },
+  "tag": "header"
+}

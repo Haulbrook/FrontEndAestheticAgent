@@ -1,0 +1,12 @@
+{
+  "html": "<header id=\"header\">\n<h1><a href=\"index.html\">Alpha</a> by HTML5 UP</h1>\n<nav id=\"nav\">\n<ul>\n<li><a href=\"index.html\">Home</a></li>\n<li>\n<a class=\"icon fa-angle-down\" href=\"#\">Layouts</a>\n<ul>\n<li><a href=\"generic.html\">Generic</a></li>\n<li><a href=\"contact.html\">Contact</a></li>\n<li><a href=\"elements.html\">Elements</a></li>\n<li>\n<a href=\"#\">Submenu</a>\n<ul>\n<li><a href=\"#\">Option One</a></li>\n<li><a href=\"#\">Option Two</a></li>\n<li><a href=\"#\">Option Three</a></li>\n<li><a href=\"#\">Option Four</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a class=\"button\" href=\"#\">Sign Up</a></li>\n</ul>\n</nav>\n</header>",
+  "category": "navigation",
+  "classes": "",
+  "text": "Alphaby HTML5 UPHomeLayoutsGenericContactElementsSubmenuOption OneOption TwoOption ThreeOption FourSign Up",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "generic.html"
+  },
+  "tag": "header"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button large\" href=\"#\">Get Started</a>",
+  "category": "button",
+  "classes": "button large",
+  "text": "Get Started",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

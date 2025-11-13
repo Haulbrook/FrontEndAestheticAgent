@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div>\n<div class=\"row\">\n<div class=\"col-6 col-12-medium\">\n<input name=\"name\" placeholder=\"Name\" type=\"text\"/>\n</div>\n<div class=\"col-6 col-12-medium\">\n<input name=\"email\" placeholder=\"Email\" type=\"text\"/>\n</div>\n<div class=\"col-12\">\n<input name=\"subject\" placeholder=\"Subject\" type=\"text\"/>\n</div>\n<div class=\"col-12\">\n<textarea name=\"message\" placeholder=\"Message\" rows=\"6\"></textarea>\n</div>\n<div class=\"col-12\">\n<input type=\"submit\" value=\"Send Message\"/>\n</div>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_astral",
+    "file": "index.html"
+  },
+  "tag": "form"
+}

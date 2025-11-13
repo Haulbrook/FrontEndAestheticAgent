@@ -1,0 +1,12 @@
+{
+  "html": "<ul class=\"menu\">\n<li>\u00a9 Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n</ul>",
+  "category": "navigation",
+  "classes": "menu",
+  "text": "\u00a9 Untitled. All rights reservedDesign:HTML5 UP",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "ul"
+}

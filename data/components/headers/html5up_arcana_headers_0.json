@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h2>Two Sidebar</h2>\n<p>Yup. Two sidebars at the same time.</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Two SidebarYup. Two sidebars at the same time.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "header"
+}

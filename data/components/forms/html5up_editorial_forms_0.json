@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div class=\"row gtr-uniform\">\n<div class=\"col-6 col-12-xsmall\">\n<input id=\"demo-name\" name=\"demo-name\" placeholder=\"Name\" type=\"text\" value=\"\"/>\n</div>\n<div class=\"col-6 col-12-xsmall\">\n<input id=\"demo-email\" name=\"demo-email\" placeholder=\"Email\" type=\"email\" value=\"\"/>\n</div>\n<!-- Break -->\n<div class=\"col-12\">\n<select id=\"demo-category\" name=\"demo-category\">\n<option value=\"\">- Category -</option>\n<option value=\"1\">Manufacturing</option>\n<option value=\"1\">Shipping</option>\n<option value=\"1\">Administration</option>\n<option value=\"1\">Human Resources</option>\n</select>\n</div>\n<!-- Break -->\n<div class=\"col-4 col-12-small\">\n<input checked=\"\" id=\"demo-priority-low\" name=\"demo-priority\" type=\"radio\"/>\n<label for=\"demo-priority-low\">Low</label>\n</div>\n<div class=\"col-4 col-12-small\">\n<input id=\"demo-priority-normal\" name=\"demo-priority\" type=\"radio\"/>\n<label for=\"demo-priority-normal\">Normal</label>\n</div>\n<div class=\"col-4 col-12-small\">\n<input id=\"demo-priority-high\" name=\"demo-priority\" type=\"radio\"/>\n<label for=\"demo-priority-high\">High</label>\n</div>\n<!-- Break -->\n<div class=\"col-6 col-12-small\">\n<input id=\"demo-copy\" name=\"demo-copy\" type=\"checkbox\"/>\n<label for=\"demo-copy\">Email me a copy</label>\n</div>\n<div class=\"col-6 col-12-small\">\n<input checked=\"\" id=\"demo-human\" name=\"demo-human\" type=\"checkbox\"/>\n<label for=\"demo-human\">I am a human</label>\n</div>\n<!-- Break -->\n<div class=\"col-12\">\n<textarea id=\"demo-message\" name=\"demo-message\" placeholder=\"Enter your message\" rows=\"6\"></textarea>\n</div>\n<!-- Break -->\n<div class=\"col-12\">\n<ul class=\"actions\">\n<li><input class=\"primary\" type=\"submit\" value=\"Send Message\"/></li>\n<li><input type=\"reset\" value=\"Reset\"/></li>\n</ul>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "- Category -ManufacturingShippingAdministrationHuman ResourcesLowNormalHighEmail me a copyI am a human",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "elements.html"
+  },
+  "tag": "form"
+}

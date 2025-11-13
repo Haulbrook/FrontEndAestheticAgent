@@ -1,0 +1,12 @@
+{
+  "html": "<form>\n<div class=\"row gtr-50\">\n<div class=\"col-6 col-12-mobilep\">\n<input id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\"/>\n</div>\n<div class=\"col-6 col-12-mobilep\">\n<input id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\"/>\n</div>\n<div class=\"col-12\">\n<textarea id=\"message\" name=\"message\" placeholder=\"Message\" rows=\"5\"></textarea>\n</div>\n<div class=\"col-12\">\n<ul class=\"actions\">\n<li><input class=\"button alt\" type=\"submit\" value=\"Send Message\"/></li>\n</ul>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "form"
+}

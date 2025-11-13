@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<h3>Table</h3>\n<h4>Default</h4>\n<div class=\"table-wrapper\">\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Description</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Something</td>\n<td>Ante turpis integer aliquet porttitor.</td>\n<td>29.99</td>\n</tr>\n<tr>\n<td>Nothing</td>\n<td>Vis ac commodo adipiscing arcu aliquet.</td>\n<td>19.99</td>\n</tr>\n<tr>\n<td>Something</td>\n<td> Morbi faucibus arcu accumsan lorem.</td>\n<td>29.99</td>\n</tr>\n<tr>\n<td>Nothing</td>\n<td>Vitae integer tempus condimentum.</td>\n<td>19.99</td>\n</tr>\n<tr>\n<td>Something</td>\n<td>Ante turpis integer aliquet porttitor.</td>\n<td>29.99</td>\n</tr>\n</tbody>\n<tfoot>\n<tr>\n<td colspan=\"2\"></td>\n<td>100.00</td>\n</tr>\n</tfoot>\n</table>\n</div>\n<h4>Alternate</h4>\n<div class=\"table-wrapper\">\n<table class=\"alt\">\n<thead>\n<tr>\n<th>Name</th>\n<th>Description</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Something</td>\n<td>Ante turpis integer aliquet porttitor.</td>\n<td>29.99</td>\n</tr>\n<tr>\n<td>Nothing</td>\n<td>Vis ac commodo adipiscing arcu aliquet.</td>\n<td>19.99</td>\n</tr>\n<tr>\n<td>Something</td>\n<td> Morbi faucibus arcu accumsan lorem.</td>\n<td>29.99</td>\n</tr>\n<tr>\n<td>Nothing</td>\n<td>Vitae integer tempus condimentum.</td>\n<td>19.99</td>\n</tr>\n<tr>\n<td>Something</td>\n<td>Ante turpis integer aliquet porttitor.</td>\n<td>29.99</td>\n</tr>\n</tbody>\n<tfoot>\n<tr>\n<td colspan=\"2\"></td>\n<td>100.00</td>\n</tr>\n</tfoot>\n</table>\n</div>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "TableDefaultNameDescriptionPriceSomethingAnte turpis integer aliquet porttitor.29.99NothingVis ac commodo adipiscing arcu aliquet.19.99SomethingMorbi faucibus arcu accumsan lorem.29.99NothingVitae int",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "section"
+}

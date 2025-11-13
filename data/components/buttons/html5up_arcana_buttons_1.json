@@ -1,0 +1,12 @@
+{
+  "html": "<input class=\"button alt\" type=\"submit\" value=\"Send Message\"/>",
+  "category": "button",
+  "classes": "button alt",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "two-sidebar.html"
+  },
+  "tag": "input"
+}

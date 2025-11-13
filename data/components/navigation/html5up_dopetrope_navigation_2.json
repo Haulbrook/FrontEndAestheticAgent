@@ -1,0 +1,12 @@
+{
+  "html": "<nav id=\"nav\">\n<ul>\n<li><a href=\"index.html\">Home</a></li>\n<li>\n<a href=\"#\">Dropdown</a>\n<ul>\n<li><a href=\"#\">Lorem ipsum dolor</a></li>\n<li><a href=\"#\">Magna phasellus</a></li>\n<li><a href=\"#\">Etiam dolore nisl</a></li>\n<li>\n<a href=\"#\">Phasellus consequat</a>\n<ul>\n<li><a href=\"#\">Magna phasellus</a></li>\n<li><a href=\"#\">Etiam dolore nisl</a></li>\n<li><a href=\"#\">Veroeros feugiat</a></li>\n<li><a href=\"#\">Nisl sed aliquam</a></li>\n<li><a href=\"#\">Dolore adipiscing</a></li>\n</ul>\n</li>\n<li><a href=\"#\">Veroeros feugiat</a></li>\n</ul>\n</li>\n<li><a href=\"left-sidebar.html\">Left Sidebar</a></li>\n<li class=\"current\"><a href=\"right-sidebar.html\">Right Sidebar</a></li>\n<li><a href=\"no-sidebar.html\">No Sidebar</a></li>\n</ul>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "HomeDropdownLorem ipsum dolorMagna phasellusEtiam dolore nislPhasellus consequatMagna phasellusEtiam dolore nislVeroeros feugiatNisl sed aliquamDolore adipiscingVeroeros feugiatLeft SidebarRight Sideb",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "right-sidebar.html"
+  },
+  "tag": "nav"
+}

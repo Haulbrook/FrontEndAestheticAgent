@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button alt\" href=\"#\">Default</a>",
+  "category": "button",
+  "classes": "button alt",
+  "text": "Default",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "a"
+}

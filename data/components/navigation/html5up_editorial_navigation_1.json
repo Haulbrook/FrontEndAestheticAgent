@@ -1,0 +1,12 @@
+{
+  "html": "<nav id=\"menu\">\n<header class=\"major\">\n<h2>Menu</h2>\n</header>\n<ul>\n<li><a href=\"index.html\">Homepage</a></li>\n<li><a href=\"generic.html\">Generic</a></li>\n<li><a href=\"elements.html\">Elements</a></li>\n<li>\n<span class=\"opener\">Submenu</span>\n<ul>\n<li><a href=\"#\">Lorem Dolor</a></li>\n<li><a href=\"#\">Ipsum Adipiscing</a></li>\n<li><a href=\"#\">Tempus Magna</a></li>\n<li><a href=\"#\">Feugiat Veroeros</a></li>\n</ul>\n</li>\n<li><a href=\"#\">Etiam Dolore</a></li>\n<li><a href=\"#\">Adipiscing</a></li>\n<li>\n<span class=\"opener\">Another Submenu</span>\n<ul>\n<li><a href=\"#\">Lorem Dolor</a></li>\n<li><a href=\"#\">Ipsum Adipiscing</a></li>\n<li><a href=\"#\">Tempus Magna</a></li>\n<li><a href=\"#\">Feugiat Veroeros</a></li>\n</ul>\n</li>\n<li><a href=\"#\">Maximus Erat</a></li>\n<li><a href=\"#\">Sapien Mauris</a></li>\n<li><a href=\"#\">Amet Lacinia</a></li>\n</ul>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "MenuHomepageGenericElementsSubmenuLorem DolorIpsum AdipiscingTempus MagnaFeugiat VeroerosEtiam DoloreAdipiscingAnother SubmenuLorem DolorIpsum AdipiscingTempus MagnaFeugiat VeroerosMaximus EratSapien ",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "nav"
+}

@@ -1,0 +1,13 @@
+{
+  "total_components": 228,
+  "by_category": {
+    "navigation": 28,
+    "buttons": 63,
+    "cards": 45,
+    "heroes": 24,
+    "forms": 12,
+    "footers": 14,
+    "headers": 42,
+    "sections": 0
+  }
+}

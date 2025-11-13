@@ -1,0 +1,12 @@
+{
+  "html": "<nav>\n<ul>\n<li><a href=\"#intro\">Intro</a></li>\n<li><a href=\"#work\">Work</a></li>\n<li><a href=\"#about\">About</a></li>\n<li><a href=\"#contact\">Contact</a></li>\n<!--<li><a href=\"#elements\">Elements</a></li>-->\n</ul>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "IntroWorkAboutContact",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dimension",
+    "file": "index.html"
+  },
+  "tag": "nav"
+}

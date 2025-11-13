@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<header>\n<h2>Magna pulvinar tempus</h2>\n</header>\n<a class=\"image featured\" href=\"#\"><img alt=\"\" src=\"images/pic06.jpg\"/></a>\n<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus\n\t\t\t\t\t\t\t\t\t\t\t\t\teget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis\n\t\t\t\t\t\t\t\t\t\t\t\t\ttempus.</p>\n<a class=\"button style1\" href=\"#\">More</a>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "Magna pulvinar tempusRutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus\n\t\t\t\t\t\t\t\t\t\t\t\t\teget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis\n\t\t\t\t\t\t\t\t\t",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "right-sidebar.html"
+  },
+  "tag": "section"
+}

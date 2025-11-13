@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h2>Left Sidebar</h2>\n<p>Lorem ipsum dolor sit amet feugiat</p>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Left SidebarLorem ipsum dolor sit amet feugiat",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "left-sidebar.html"
+  },
+  "tag": "header"
+}

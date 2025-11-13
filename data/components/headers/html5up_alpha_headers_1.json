@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"major\">\n<h2>Introducing the ultimate mobile app\n\t\t\t\t\t\t\t<br/>\n\t\t\t\t\t\t\tfor doing stuff with your phone</h2>\n<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br/>\n\t\t\t\t\t\t\tadipiscing nunc adipiscing. Condimentum turpis massa.</p>\n</header>",
+  "category": "header",
+  "classes": "major",
+  "text": "Introducing the ultimate mobile appfor doing stuff with your phoneBlandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornareadipiscing nunc adipiscing. Condimentum turpis massa.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "index.html"
+  },
+  "tag": "header"
+}

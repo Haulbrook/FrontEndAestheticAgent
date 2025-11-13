@@ -1,0 +1,12 @@
+{
+  "html": "<footer id=\"footer\">\n<span class=\"copyright\">\u00a9 Untitled. Design: <a href=\"http://html5up.net\">HTML5 UP</a>.</span>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "\u00a9 Untitled. Design:HTML5 UP.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_aerial",
+    "file": "index.html"
+  },
+  "tag": "footer"
+}

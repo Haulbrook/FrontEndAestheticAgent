@@ -1,0 +1,12 @@
+{
+  "html": "<div class=\"box alt container\">\n<section class=\"feature left\">\n<a class=\"image icon fa-signal\" href=\"#\"><img alt=\"\" src=\"images/pic01.jpg\"/></a>\n<div class=\"content\">\n<h3>The First Thing</h3>\n<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>\n</div>\n</section>\n<section class=\"feature right\">\n<a class=\"image icon fa-code\" href=\"#\"><img alt=\"\" src=\"images/pic02.jpg\"/></a>\n<div class=\"content\">\n<h3>The Second Thing</h3>\n<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>\n</div>\n</section>\n<section class=\"feature left\">\n<a class=\"image icon fa-mobile\" href=\"#\"><img alt=\"\" src=\"images/pic03.jpg\"/></a>\n<div class=\"content\">\n<h3>The Third Thing</h3>\n<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>\n</div>\n</section>\n</div>",
+  "category": "card",
+  "classes": "box alt container",
+  "text": "The First ThingVitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.The S",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_directive",
+    "file": "index.html"
+  },
+  "tag": "div"
+}

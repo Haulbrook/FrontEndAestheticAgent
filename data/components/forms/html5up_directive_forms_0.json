@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div class=\"row\">\n<div class=\"col-6 col-12-mobilep\">\n<input name=\"name\" placeholder=\"Name\" type=\"text\"/>\n</div>\n<div class=\"col-6 col-12-mobilep\">\n<input name=\"email\" placeholder=\"Email\" type=\"email\"/>\n</div>\n<div class=\"col-12\">\n<textarea name=\"message\" placeholder=\"Message\" rows=\"6\"></textarea>\n</div>\n<div class=\"col-12\">\n<ul class=\"actions special\">\n<li><input type=\"submit\" value=\"Send Message\"/></li>\n</ul>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_directive",
+    "file": "index.html"
+  },
+  "tag": "form"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<div class=\"content box style2\">\n<header>\n<h2>What I Do</h2>\n</header>\n<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.\n\t\t\t\t\tFusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,\n\t\t\t\t\tid varius justo euismod in. Curabitur egestas consectetur magna.</p>\n</div>",
+  "category": "card",
+  "classes": "content box style2",
+  "text": "What I DoLorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.\n\t\t\t\t\tFusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,\n\t\t\t\t\tid varius just",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_big-picture",
+    "file": "index.html"
+  },
+  "tag": "div"
+}

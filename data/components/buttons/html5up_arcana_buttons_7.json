@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button\" href=\"#\">Continue Reading</a>",
+  "category": "button",
+  "classes": "button",
+  "text": "Continue Reading",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_arcana",
+    "file": "left-sidebar.html"
+  },
+  "tag": "a"
+}

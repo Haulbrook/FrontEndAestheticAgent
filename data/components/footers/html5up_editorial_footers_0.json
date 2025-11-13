@@ -1,0 +1,12 @@
+{
+  "html": "<footer id=\"footer\">\n<p class=\"copyright\">\u00a9 Untitled. All rights reserved. Demo Images: <a href=\"https://unsplash.com\">Unsplash</a>. Design: <a href=\"https://html5up.net\">HTML5 UP</a>.</p>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "\u00a9 Untitled. All rights reserved. Demo Images:Unsplash. Design:HTML5 UP.",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "footer"
+}

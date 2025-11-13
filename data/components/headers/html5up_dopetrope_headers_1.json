@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h3>Something else</h3>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Something else",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "no-sidebar.html"
+  },
+  "tag": "header"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button\" href=\"#\">Find out more</a>",
+  "category": "button",
+  "classes": "button",
+  "text": "Find out more",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

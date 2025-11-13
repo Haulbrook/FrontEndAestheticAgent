@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div class=\"row gtr-50 gtr-uniform\">\n<div class=\"col-6 col-12-mobilep\">\n<input id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" value=\"\"/>\n</div>\n<div class=\"col-6 col-12-mobilep\">\n<input id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" value=\"\"/>\n</div>\n<div class=\"col-12\">\n<input id=\"subject\" name=\"subject\" placeholder=\"Subject\" type=\"text\" value=\"\"/>\n</div>\n<div class=\"col-12\">\n<textarea id=\"message\" name=\"message\" placeholder=\"Enter your message\" rows=\"6\"></textarea>\n</div>\n<div class=\"col-12\">\n<ul class=\"actions special\">\n<li><input type=\"submit\" value=\"Send Message\"/></li>\n</ul>\n</div>\n</div>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "contact.html"
+  },
+  "tag": "form"
+}

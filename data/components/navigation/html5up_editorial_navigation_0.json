@@ -1,0 +1,12 @@
+{
+  "html": "<header id=\"header\">\n<a class=\"logo\" href=\"index.html\"><strong>Editorial</strong> by HTML5 UP</a>\n<ul class=\"icons\">\n<li><a class=\"icon fa-twitter\" href=\"#\"><span class=\"label\">Twitter</span></a></li>\n<li><a class=\"icon fa-facebook\" href=\"#\"><span class=\"label\">Facebook</span></a></li>\n<li><a class=\"icon fa-snapchat-ghost\" href=\"#\"><span class=\"label\">Snapchat</span></a></li>\n<li><a class=\"icon fa-instagram\" href=\"#\"><span class=\"label\">Instagram</span></a></li>\n<li><a class=\"icon fa-medium\" href=\"#\"><span class=\"label\">Medium</span></a></li>\n</ul>\n</header>",
+  "category": "navigation",
+  "classes": "",
+  "text": "Editorialby HTML5 UPTwitterFacebookSnapchatInstagramMedium",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "header"
+}

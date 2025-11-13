@@ -1,0 +1,12 @@
+{
+  "html": "<form action=\"#\" method=\"post\">\n<div class=\"fields\">\n<div class=\"field half\">\n<label for=\"demo-name\">Name</label>\n<input id=\"demo-name\" name=\"demo-name\" placeholder=\"Jane Doe\" type=\"text\" value=\"\"/>\n</div>\n<div class=\"field half\">\n<label for=\"demo-email\">Email</label>\n<input id=\"demo-email\" name=\"demo-email\" placeholder=\"jane@untitled.tld\" type=\"email\" value=\"\"/>\n</div>\n<div class=\"field\">\n<label for=\"demo-category\">Category</label>\n<select id=\"demo-category\" name=\"demo-category\">\n<option value=\"\">-</option>\n<option value=\"1\">Manufacturing</option>\n<option value=\"1\">Shipping</option>\n<option value=\"1\">Administration</option>\n<option value=\"1\">Human Resources</option>\n</select>\n</div>\n<div class=\"field half\">\n<input checked=\"\" id=\"demo-priority-low\" name=\"demo-priority\" type=\"radio\"/>\n<label for=\"demo-priority-low\">Low</label>\n</div>\n<div class=\"field half\">\n<input id=\"demo-priority-high\" name=\"demo-priority\" type=\"radio\"/>\n<label for=\"demo-priority-high\">High</label>\n</div>\n<div class=\"field half\">\n<input id=\"demo-copy\" name=\"demo-copy\" type=\"checkbox\"/>\n<label for=\"demo-copy\">Email me a copy</label>\n</div>\n<div class=\"field half\">\n<input checked=\"\" id=\"demo-human\" name=\"demo-human\" type=\"checkbox\"/>\n<label for=\"demo-human\">Not a robot</label>\n</div>\n<div class=\"field\">\n<label for=\"demo-message\">Message</label>\n<textarea id=\"demo-message\" name=\"demo-message\" placeholder=\"Enter your message\" rows=\"6\"></textarea>\n</div>\n</div>\n<ul class=\"actions\">\n<li><input class=\"primary\" type=\"submit\" value=\"Send Message\"/></li>\n<li><input type=\"reset\" value=\"Reset\"/></li>\n</ul>\n</form>",
+  "category": "form",
+  "classes": "",
+  "text": "NameEmailCategory-ManufacturingShippingAdministrationHuman ResourcesLowHighEmail me a copyNot a robotMessage",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dimension",
+    "file": "index.html"
+  },
+  "tag": "form"
+}

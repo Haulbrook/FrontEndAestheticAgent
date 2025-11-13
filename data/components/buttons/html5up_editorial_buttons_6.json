@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button small\" href=\"#\">Small</a>",
+  "category": "button",
+  "classes": "button small",
+  "text": "Small",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "elements.html"
+  },
+  "tag": "a"
+}

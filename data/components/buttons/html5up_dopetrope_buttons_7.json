@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button alt\" href=\"#\">Magna sed taciti</a>",
+  "category": "button",
+  "classes": "button alt",
+  "text": "Magna sed taciti",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "right-sidebar.html"
+  },
+  "tag": "a"
+}

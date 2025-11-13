@@ -1,0 +1,12 @@
+{
+  "html": "<footer>\n<a class=\"button alt\" href=\"#\">Ipsum consequat</a>\n</footer>",
+  "category": "footer",
+  "classes": "",
+  "text": "Ipsum consequat",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "right-sidebar.html"
+  },
+  "tag": "footer"
+}

@@ -1,0 +1,12 @@
+{
+  "html": "<nav id=\"nav\">\n<a class=\"icon fa-home\" href=\"#\"><span>Home</span></a>\n<a class=\"icon fa-folder\" href=\"#work\"><span>Work</span></a>\n<a class=\"icon fa-envelope\" href=\"#contact\"><span>Contact</span></a>\n<a class=\"icon fa-twitter\" href=\"https://twitter.com/ajlkn\"><span>Twitter</span></a>\n</nav>",
+  "category": "navigation",
+  "classes": "",
+  "text": "HomeWorkContactTwitter",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_astral",
+    "file": "index.html"
+  },
+  "tag": "nav"
+}

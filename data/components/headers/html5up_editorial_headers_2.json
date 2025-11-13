@@ -1,0 +1,12 @@
+{
+  "html": "<header class=\"major\">\n<h2>Ante interdum</h2>\n</header>",
+  "category": "header",
+  "classes": "major",
+  "text": "Ante interdum",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_editorial",
+    "file": "generic.html"
+  },
+  "tag": "header"
+}

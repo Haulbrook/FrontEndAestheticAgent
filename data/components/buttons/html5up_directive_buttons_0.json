@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button\" href=\"#\">Join our crew</a>",
+  "category": "button",
+  "classes": "button",
+  "text": "Join our crew",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_directive",
+    "file": "index.html"
+  },
+  "tag": "a"
+}

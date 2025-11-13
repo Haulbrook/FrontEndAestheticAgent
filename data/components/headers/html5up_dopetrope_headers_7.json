@@ -1,0 +1,12 @@
+{
+  "html": "<header>\n<h3>Feugiat consequat</h3>\n</header>",
+  "category": "header",
+  "classes": "",
+  "text": "Feugiat consequat",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_dopetrope",
+    "file": "right-sidebar.html"
+  },
+  "tag": "header"
+}

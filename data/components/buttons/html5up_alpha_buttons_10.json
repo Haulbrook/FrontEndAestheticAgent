@@ -1,0 +1,12 @@
+{
+  "html": "<a class=\"button special fit\" href=\"#\">Default</a>",
+  "category": "button",
+  "classes": "button special fit",
+  "text": "Default",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_alpha",
+    "file": "elements.html"
+  },
+  "tag": "a"
+}

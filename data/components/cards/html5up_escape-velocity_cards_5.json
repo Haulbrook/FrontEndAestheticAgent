@@ -1,0 +1,12 @@
+{
+  "html": "<section class=\"box\">\n<header>\n<h2>Vitae turpis consequat</h2>\n</header>\n<ul class=\"style2\">\n<li>\n<article class=\"box post-excerpt\">\n<a class=\"image left\" href=\"#\"><img alt=\"\" src=\"images/pic08.jpg\"/></a>\n<h3><a href=\"#\">Diam odio lorem</a></h3>\n<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>\n</article>\n</li>\n<li>\n<article class=\"box post-excerpt\">\n<a class=\"image left\" href=\"#\"><img alt=\"\" src=\"images/pic09.jpg\"/></a>\n<h3><a href=\"#\">Sed duis consequat</a></h3>\n<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>\n</article>\n</li>\n<li>\n<article class=\"box post-excerpt\">\n<a class=\"image left\" href=\"#\"><img alt=\"\" src=\"images/pic10.jpg\"/></a>\n<h3><a href=\"#\">Tellus nulla volutpat</a></h3>\n<p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>\n</article>\n</li>\n</ul>\n<a class=\"button style1\" href=\"#\">Archives</a>\n</section>",
+  "category": "card",
+  "classes": "box",
+  "text": "Vitae turpis consequatDiam odio loremDuis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.Sed duis consequatDuis odio diam, luctus et vulputate vita",
+  "inline_style": "",
+  "source": {
+    "template": "html5up_escape-velocity",
+    "file": "right-sidebar.html"
+  },
+  "tag": "section"
+}
