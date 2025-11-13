@@ -86,10 +86,10 @@ python cli.py generate --input your-website.html
 
 ## Template Sources
 
-- HTML5 UP (https://html5up.net)
-- Free-CSS.com (https://www.free-css.com)
-- Templated.co (https://templated.co)
-- BootstrapMade (https://bootstrapmade.com/free-templates/)
+- HTML5 UP (https://html5up.net) - ✅ Active
+- TemplateMo (https://templatemo.com) - ✅ Active
+- Free-CSS.com (https://www.free-css.com) - ⚠️ SSL issues
+- More sources can be easily added!
 
 ## License
 

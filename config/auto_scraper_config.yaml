@@ -8,7 +8,8 @@ analyzed_dir: "data/analyzed"
 templates_per_run: 5  # Number of templates to scrape per source per run
 sources:
   - html5up
-  - freecss
+  - templatemo
+  # - freecss  # Disabled due to SSL issues
 
 # Schedule settings
 # Options: 'hourly', 'daily', 'weekly', or a number of minutes (e.g., 30)
