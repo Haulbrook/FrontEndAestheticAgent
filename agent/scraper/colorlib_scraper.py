@@ -1,0 +1,214 @@
+"""Colorlib template scraper"""
+
+import re
+import zipfile
+import io
+import time
+from typing import List, Dict
+from .base_scraper import BaseScraper
+from pathlib import Path
+from urllib.parse import urljoin
+
+
+class ColorlibScraper(BaseScraper):
+    """Scraper for Colorlib free templates"""
+
+    def __init__(self, output_dir: str = "data/templates/colorlib"):
+        super().__init__(output_dir)
+        self.base_url = "https://colorlib.com"
+        self.templates_url = f"{self.base_url}/wp/cat/templates/"
+
+    def get_template_list_url(self) -> str:
+        return self.templates_url
+
+    def scrape(self, limit: int = 10) -> List[Dict]:
+        """Scrape Colorlib templates"""
+        print(f"🎨 Scraping Colorlib templates (limit: {limit})...")
+
+        soup = self.fetch_page(self.templates_url)
+        if not soup:
+            return []
+
+        templates = []
+
+        # Find template articles/items - Colorlib uses article tags or post items
+        template_items = []
+
+        # Try multiple selectors
+        selectors = [
+            ('article', {}),
+            ('div', {'class': re.compile(r'post.*', re.I)}),
+            ('div', {'class': re.compile(r'item.*', re.I)}),
+        ]
+
+        for tag, attrs in selectors:
+            template_items = soup.find_all(tag, attrs, limit=limit * 2)
+            if template_items:
+                print(f"  Found {len(template_items)} potential templates using {tag} selector")
+                break
+
+        for i, item in enumerate(template_items):
+            if len(templates) >= limit:
+                break
+
+            try:
+                template_data = self._parse_template_item(item)
+                if template_data:
+                    print(f"  ✓ Found: {template_data['title']}")
+
+                    # Check if already downloaded
+                    template_id = self.generate_template_id(template_data['url'])
+                    if self.template_exists(template_id):
+                        print(f"    ⏭  Already downloaded, skipping...")
+                        continue
+
+                    # Add delay between requests to avoid rate limiting
+                    if i > 0:
+                        delay = 3
+                        print(f"    ⏳ Waiting {delay}s to avoid rate limiting...")
+                        time.sleep(delay)
+
+                    # Download and save template
+                    template_data['id'] = template_id
+                    template_data['source'] = 'colorlib'
+
+                    # Download template
+                    if self._download_template(template_data, template_id):
+                        templates.append(template_data)
+                        print(f"    Downloaded to: {template_id}/")
+
+            except Exception as e:
+                print(f"  ✗ Error processing template: {e}")
+                continue
+
+        print(f"✓ Scraped {len(templates)} templates from Colorlib")
+        return templates
+
+    def _parse_template_item(self, item) -> Dict:
+        """Parse template information from item element"""
+        # Find title - usually in h2 or h3
+        title_elem = item.find(['h2', 'h3', 'h1'])
+        if title_elem:
+            # Get text from link if present
+            title_link = title_elem.find('a')
+            title = title_link.text.strip() if title_link else title_elem.text.strip()
+        else:
+            title = 'Unknown'
+
+        # Find template link
+        link = item.find('a', href=True)
+        if not link:
+            return None
+
+        template_url = urljoin(self.base_url, link.get('href', ''))
+
+        # Skip if it's not a valid template page
+        if not template_url or template_url == self.base_url:
+            return None
+
+        # Find preview image
+        img = item.find('img')
+        preview_image = ''
+        if img:
+            # Try src first, then data-src (lazy loading)
+            preview_image = img.get('src') or img.get('data-src', '')
+            if preview_image:
+                preview_image = urljoin(self.base_url, preview_image)
+
+        # Get description if available
+        desc_elem = item.find(['p', 'div'], class_=re.compile(r'excerpt|description|summary', re.I))
+        description = desc_elem.text.strip() if desc_elem else ''
+
+        return {
+            'title': title,
+            'url': template_url,
+            'description': description,
+            'preview_image': preview_image
+        }
+
+    def _download_template(self, template_data: Dict, template_id: str) -> bool:
+        """Download and extract template zip file"""
+        try:
+            # Visit the template page to find the download link
+            template_page = self.fetch_page(template_data['url'])
+            if not template_page:
+                print(f"    ! Could not fetch template page")
+                return False
+
+            # Colorlib typically has "Download" buttons or links
+            download_link = None
+
+            # Try multiple patterns to find download link
+            patterns = [
+                template_page.find('a', href=re.compile(r'\.zip$', re.I)),
+                template_page.find('a', string=re.compile(r'download', re.I)),
+                template_page.find('a', class_=re.compile(r'download', re.I)),
+                template_page.find('a', href=re.compile(r'download', re.I)),
+            ]
+
+            for pattern in patterns:
+                if pattern:
+                    download_link = pattern
+                    break
+
+            if not download_link:
+                print(f"    ! Could not find download link")
+                return False
+
+            # Construct download URL
+            href = download_link.get('href', '')
+            if href.startswith('http'):
+                download_url = href
+            elif href.startswith('/'):
+                download_url = self.base_url + href
+            else:
+                download_url = urljoin(template_data['url'], href)
+
+            # Download zip file with retry logic
+            max_retries = 3
+            for retry in range(max_retries):
+                response = self.session.get(download_url, timeout=60, stream=True, allow_redirects=True)
+
+                if response.status_code == 200 and len(response.content) > 1000:
+                    break
+                elif response.status_code == 429:
+                    if retry < max_retries - 1:
+                        wait_time = (retry + 1) * 5
+                        print(f"    ⚠ Rate limited (429), waiting {wait_time}s before retry...")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"    ! Could not download zip (status: 429 - rate limited)")
+                        return False
+                else:
+                    print(f"    ! Could not download zip (status: {response.status_code})")
+                    return False
+
+            if response.status_code == 200 and len(response.content) > 1000:
+                # Check if it's actually a zip file
+                content_type = response.headers.get('content-type', '')
+                if 'zip' not in content_type and not download_url.endswith('.zip'):
+                    print(f"    ! Downloaded file is not a zip")
+                    return False
+
+                # Extract zip
+                template_dir = self.output_dir / template_id
+                template_dir.mkdir(parents=True, exist_ok=True)
+
+                try:
+                    with zipfile.ZipFile(io.BytesIO(response.content)) as zf:
+                        zf.extractall(template_dir)
+                except zipfile.BadZipFile:
+                    print(f"    ! Invalid zip file")
+                    return False
+
+                # Save metadata
+                self.save_template(template_data, template_id)
+                return True
+            else:
+                print(f"    ! Download failed")
+                return False
+
+        except Exception as e:
+            print(f"    ! Download error: {e}")
+            return False

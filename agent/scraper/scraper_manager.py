@@ -4,6 +4,7 @@ from typing import List, Dict, Optional
 from .html5up_scraper import HTML5UPScraper
 from .freecss_scraper import FreeCSScraper
 from .templatemo_scraper import TemplateMoScraper
+from .colorlib_scraper import ColorlibScraper
 
 
 class ScraperManager:
@@ -14,6 +15,7 @@ class ScraperManager:
             'html5up': HTML5UPScraper(f"{output_dir}/html5up"),
             'freecss': FreeCSScraper(f"{output_dir}/freecss"),
             'templatemo': TemplateMoScraper(f"{output_dir}/templatemo"),
+            'colorlib': ColorlibScraper(f"{output_dir}/colorlib"),
         }
 
     def scrape_source(self, source: str, limit: int = 10) -> List[Dict]:

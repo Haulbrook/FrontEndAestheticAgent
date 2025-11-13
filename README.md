@@ -87,7 +87,8 @@ python cli.py generate --input your-website.html
 ## Template Sources
 
 - HTML5 UP (https://html5up.net) - ✅ Active
-- TemplateMo (https://templatemo.com) - ✅ Active
+- Colorlib (https://colorlib.com/wp/templates/) - ✅ Active
+- TemplateMo (https://templatemo.com) - ⚠️ Detection issues
 - Free-CSS.com (https://www.free-css.com) - ⚠️ SSL issues
 - More sources can be easily added!
 
