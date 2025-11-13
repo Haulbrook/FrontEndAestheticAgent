@@ -3,6 +3,7 @@
 from typing import List, Dict, Optional
 from .html5up_scraper import HTML5UPScraper
 from .freecss_scraper import FreeCSScraper
+from .templatemo_scraper import TemplateMoScraper
 
 
 class ScraperManager:
@@ -12,6 +13,7 @@ class ScraperManager:
         self.scrapers = {
             'html5up': HTML5UPScraper(f"{output_dir}/html5up"),
             'freecss': FreeCSScraper(f"{output_dir}/freecss"),
+            'templatemo': TemplateMoScraper(f"{output_dir}/templatemo"),
         }
 
     def scrape_source(self, source: str, limit: int = 10) -> List[Dict]:
