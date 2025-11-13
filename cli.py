@@ -27,7 +27,7 @@ def cli():
 
 
 @cli.command()
-@click.option('--source', type=click.Choice(['html5up', 'freecss', 'all']), default='all',
+@click.option('--source', type=click.Choice(['html5up', 'freecss', 'templatemo', 'all']), default='all',
               help='Template source to scrape from')
 @click.option('--limit', default=10, help='Number of templates to scrape per source')
 @click.option('--output', default='data/templates', help='Output directory for scraped templates')
