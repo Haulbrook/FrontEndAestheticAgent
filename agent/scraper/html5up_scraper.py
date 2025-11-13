@@ -36,6 +36,12 @@ class HTML5UPScraper(BaseScraper):
                 if template_data:
                     print(f"  ✓ Found: {template_data['title']}")
 
+                    # Check if already downloaded
+                    template_id = self.generate_template_id(template_data['url'])
+                    if self.template_exists(template_id):
+                        print(f"    ⏭  Already downloaded, skipping...")
+                        continue
+
                     # Add delay between requests to avoid rate limiting (except first)
                     if i > 0:
                         delay = 3  # 3 seconds between downloads
@@ -43,7 +49,6 @@ class HTML5UPScraper(BaseScraper):
                         time.sleep(delay)
 
                     # Download and save template
-                    template_id = self.generate_template_id(template_data['url'])
                     template_data['id'] = template_id
                     template_data['source'] = 'html5up'
 
