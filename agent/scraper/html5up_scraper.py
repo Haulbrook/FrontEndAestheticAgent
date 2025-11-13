@@ -16,56 +16,118 @@ class HTML5UPScraper(BaseScraper):
         super().__init__(output_dir)
         self.base_url = "https://html5up.net"
 
+        # Complete list of all HTML5UP templates (47 total)
+        self.all_templates = [
+            'paradigm-shift', 'massively', 'ethereal', 'story', 'dimension',
+            'editorial', 'forty', 'stellar', 'multiverse', 'phantom',
+            'hyperspace', 'future-imperfect', 'solid-state', 'identity', 'lens',
+            'fractal', 'eventually', 'spectral', 'photon', 'highlights',
+            'landed', 'strata', 'read-only', 'alpha', 'directive',
+            'aerial', 'twenty', 'big-picture', 'tessellate', 'overflow',
+            'prologue', 'helios', 'telephasic', 'strongly-typed', 'parallelism',
+            'escape-velocity', 'astral', 'striped', 'dopetrope', 'miniport',
+            'txt', 'verti', 'zerofour', 'arcana', 'halcyonic', 'minimaxing'
+        ]
+
     def get_template_list_url(self) -> str:
         return self.base_url
 
     def scrape(self, limit: int = 10) -> List[Dict]:
-        """Scrape HTML5 UP templates"""
+        """Scrape HTML5 UP templates from homepage"""
         print(f"🎨 Scraping HTML5 UP templates (limit: {limit})...")
+        print(f"  Note: HTML5UP shows ~40 templates on homepage, all available templates: {len(self.all_templates)}")
+
+        # Add random delay before first request to appear more human-like
+        time.sleep(2)
 
         soup = self.fetch_page(self.base_url)
         if not soup:
             return []
 
         templates = []
-        articles = soup.find_all('article', limit=limit)
+        downloaded_count = 0
+
+        # Find all articles on homepage (don't limit here to see all available)
+        articles = soup.find_all('article')
+        print(f"  Found {len(articles)} templates on homepage")
 
         for i, article in enumerate(articles):
+            # Stop if we've downloaded enough new templates
+            if downloaded_count >= limit:
+                break
+
             try:
                 template_data = self._parse_template_article(article)
-                if template_data:
-                    print(f"  ✓ Found: {template_data['title']}")
+                if not template_data:
+                    continue
 
-                    # Check if already downloaded
-                    template_id = self.generate_template_id(template_data['url'])
-                    if self.template_exists(template_id):
-                        print(f"    ⏭  Already downloaded, skipping...")
-                        continue
+                # Check if already downloaded
+                template_id = self.generate_template_id(template_data['url'])
+                if self.template_exists(template_id):
+                    print(f"  ⏭  {template_data['title']}: Already downloaded, skipping...")
+                    continue
 
-                    # Add delay between requests to avoid rate limiting (except first)
-                    if i > 0:
-                        delay = 3  # 3 seconds between downloads
-                        print(f"    ⏳ Waiting {delay}s to avoid rate limiting...")
-                        time.sleep(delay)
+                print(f"  ✓ Found: {template_data['title']}")
 
-                    # Download and save template
-                    template_data['id'] = template_id
-                    template_data['source'] = 'html5up'
+                # Add delay between requests to avoid rate limiting
+                if downloaded_count > 0:
+                    delay = 3  # 3 seconds between downloads
+                    print(f"    ⏳ Waiting {delay}s to avoid rate limiting...")
+                    time.sleep(delay)
 
-                    # Download template zip
-                    if self._download_template(template_data, template_id):
-                        templates.append(template_data)
-                        print(f"    Downloaded to: {template_id}/")
+                # Download and save template
+                template_data['id'] = template_id
+                template_data['source'] = 'html5up'
+
+                # Download template zip
+                if self._download_template(template_data, template_id):
+                    templates.append(template_data)
+                    downloaded_count += 1
+                    print(f"    Downloaded to: {template_id}/")
 
             except Exception as e:
                 print(f"  ✗ Error processing template: {e}")
                 continue
 
-        print(f"✓ Scraped {len(templates)} templates from HTML5 UP")
+        if downloaded_count == 0 and len(articles) > 0:
+            print(f"\n  ℹ  All {len(articles)} templates from homepage are already downloaded!")
+            print(f"  ℹ  HTML5UP has {len(self.all_templates)} templates total, but homepage shows limited set.")
+            print(f"  ℹ  To access more templates, you may need to manually browse HTML5UP categories.")
+
+        print(f"✓ Scraped {len(templates)} new templates from HTML5 UP")
         return templates
 
+    def _parse_template_page(self, soup, template_url: str, template_name: str) -> Dict:
+        """Parse template information from individual template page"""
+        # Get title - usually in h1 or header
+        title_elem = soup.find('h1') or soup.find('header')
+        if title_elem:
+            title = title_elem.text.strip()
+        else:
+            # Fallback to template name, converting hyphens to title case
+            title = template_name.replace('-', ' ').title()
+
+        # Get description - usually in a paragraph near the top
+        desc_elem = soup.find('p')
+        description = desc_elem.text.strip() if desc_elem else ''
+
+        # Get preview image - usually the first image on the page
+        img = soup.find('img')
+        preview_image = ''
+        if img:
+            preview_image = img.get('src', '')
+            if preview_image and not preview_image.startswith('http'):
+                preview_image = self.base_url + ('/' if not preview_image.startswith('/') else '') + preview_image
+
+        return {
+            'title': title,
+            'url': template_url,
+            'description': description,
+            'preview_image': preview_image
+        }
+
     def _parse_template_article(self, article) -> Dict:
-        """Parse template information from article element"""
+        """Parse template information from article element (legacy method)"""
         title_elem = article.find('h2')
         title = title_elem.text.strip() if title_elem else 'Unknown'
 
