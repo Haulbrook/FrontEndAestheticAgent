@@ -3,6 +3,7 @@
 import re
 import zipfile
 import io
+import time
 from typing import List, Dict
 from .base_scraper import BaseScraper
 from pathlib import Path
@@ -29,11 +30,17 @@ class HTML5UPScraper(BaseScraper):
         templates = []
         articles = soup.find_all('article', limit=limit)
 
-        for article in articles:
+        for i, article in enumerate(articles):
             try:
                 template_data = self._parse_template_article(article)
                 if template_data:
                     print(f"  ✓ Found: {template_data['title']}")
+
+                    # Add delay between requests to avoid rate limiting (except first)
+                    if i > 0:
+                        delay = 3  # 3 seconds between downloads
+                        print(f"    ⏳ Waiting {delay}s to avoid rate limiting...")
+                        time.sleep(delay)
 
                     # Download and save template
                     template_id = self.generate_template_id(template_data['url'])
@@ -110,8 +117,26 @@ class HTML5UPScraper(BaseScraper):
             else:
                 download_url = self.base_url + '/' + href
 
-            # Download zip file
-            response = self.session.get(download_url, timeout=60)
+            # Download zip file with retry logic for rate limiting
+            max_retries = 3
+            for retry in range(max_retries):
+                response = self.session.get(download_url, timeout=60)
+
+                if response.status_code == 200 and len(response.content) > 1000:
+                    break
+                elif response.status_code == 429:
+                    if retry < max_retries - 1:
+                        wait_time = (retry + 1) * 5  # 5, 10, 15 seconds
+                        print(f"    ⚠ Rate limited (429), waiting {wait_time}s before retry...")
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"    ! Could not download zip (status: 429 - rate limited)")
+                        return False
+                else:
+                    print(f"    ! Could not download zip (status: {response.status_code})")
+                    return False
+
             if response.status_code == 200 and len(response.content) > 1000:
                 # Extract zip
                 template_dir = self.output_dir / template_id
