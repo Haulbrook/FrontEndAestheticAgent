@@ -5,6 +5,7 @@ from .html5up_scraper import HTML5UPScraper
 from .freecss_scraper import FreeCSScraper
 from .templatemo_scraper import TemplateMoScraper
 from .colorlib_scraper import ColorlibScraper
+from .startbootstrap_scraper import StartBootstrapScraper
 
 
 class ScraperManager:
@@ -16,6 +17,7 @@ class ScraperManager:
             'freecss': FreeCSScraper(f"{output_dir}/freecss"),
             'templatemo': TemplateMoScraper(f"{output_dir}/templatemo"),
             'colorlib': ColorlibScraper(f"{output_dir}/colorlib"),
+            'startbootstrap': StartBootstrapScraper(f"{output_dir}/startbootstrap"),
         }
 
     def scrape_source(self, source: str, limit: int = 10) -> List[Dict]:
