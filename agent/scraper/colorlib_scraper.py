@@ -16,7 +16,7 @@ class ColorlibScraper(BaseScraper):
     def __init__(self, output_dir: str = "data/templates/colorlib"):
         super().__init__(output_dir)
         self.base_url = "https://colorlib.com"
-        self.templates_url = f"{self.base_url}/wp/cat/templates/"
+        self.templates_url = f"{self.base_url}/wp/templates/"
 
     def get_template_list_url(self) -> str:
         return self.templates_url
