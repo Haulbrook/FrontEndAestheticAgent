@@ -89,6 +89,12 @@ class BaseScraper:
                 images.append(urljoin(base_url, src))
         return images
 
+    def template_exists(self, template_id: str) -> bool:
+        """Check if template already exists"""
+        template_dir = self.output_dir / template_id
+        metadata_path = template_dir / 'metadata.json'
+        return metadata_path.exists()
+
     def save_template(self, template_data: Dict, template_id: str) -> Path:
         """Save template data to disk"""
         template_dir = self.output_dir / template_id
