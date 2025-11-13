@@ -30,8 +30,31 @@ class TemplateMoScraper(BaseScraper):
 
         templates = []
 
-        # Find template items - TemplateMo uses specific structure
-        template_items = soup.find_all('div', class_=re.compile(r'col.*tm-col'))[:limit * 2]
+        # TemplateMo has templates in various container types
+        # Try multiple selectors to find template items
+        template_items = []
+
+        # Try common patterns
+        selectors = [
+            ('div', {'class': re.compile(r'col.*')}),
+            ('div', {'class': re.compile(r'template.*', re.I)}),
+            ('article', {}),
+            ('div', {'class': re.compile(r'item.*', re.I)}),
+        ]
+
+        for tag, attrs in selectors:
+            template_items = soup.find_all(tag, attrs, limit=limit * 2)
+            if template_items:
+                print(f"  Found {len(template_items)} potential templates using {tag} selector")
+                break
+
+        if not template_items:
+            # Last resort: find all links with 'tm-' in the href
+            links = soup.find_all('a', href=re.compile(r'/tm-'))
+            for link in links[:limit]:
+                parent = link.find_parent(['div', 'article'])
+                if parent and parent not in template_items:
+                    template_items.append(parent)
 
         for i, item in enumerate(template_items):
             if len(templates) >= limit:
