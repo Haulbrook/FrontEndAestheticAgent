@@ -1,0 +1,171 @@
+{
+  "input_file": "examples/basic-website.html",
+  "output_file": "examples/basic-website-transformed.html",
+  "current_quality": 10,
+  "target_quality": 80,
+  "suggestions": {
+    "colors": [
+      {
+        "type": "warning",
+        "issue": "Limited color palette",
+        "suggestion": "Consider adding more colors to create visual interest",
+        "recommendation": "Add accent colors for CTAs and interactive elements"
+      },
+      {
+        "type": "info",
+        "issue": "No clear color scheme",
+        "suggestion": "Establish a cohesive color scheme",
+        "recommendation": {
+          "colors": {
+            "recommended_scheme": "balanced",
+            "popular_schemes": []
+          }
+        }
+      },
+      {
+        "type": "info",
+        "issue": "Neutral color palette",
+        "suggestion": "Consider adding vibrant accent colors",
+        "recommendation": "Use bright colors for buttons and important CTAs"
+      }
+    ],
+    "layout": [
+      {
+        "type": "recommendation",
+        "issue": "Not using Flexbox",
+        "suggestion": "Consider using Flexbox for component layouts",
+        "recommendation": "Flexbox is essential for modern, responsive designs"
+      },
+      {
+        "type": "recommendation",
+        "issue": "Not using CSS Grid",
+        "suggestion": "Consider using CSS Grid for page layouts",
+        "recommendation": "CSS Grid excels at creating complex, responsive layouts"
+      },
+      {
+        "type": "critical",
+        "issue": "No media queries detected",
+        "suggestion": "Add responsive design with media queries",
+        "recommendation": "Essential for mobile-friendly design"
+      },
+      {
+        "type": "warning",
+        "issue": "Limited responsive design",
+        "suggestion": "Improve responsive design coverage",
+        "recommendation": "Add more breakpoints for different screen sizes"
+      }
+    ],
+    "typography": [
+      {
+        "type": "info",
+        "issue": "No custom line-height",
+        "suggestion": "Set appropriate line-height for readability",
+        "recommendation": "Use 1.5-1.6 for body text, 1.2-1.4 for headings"
+      }
+    ],
+    "style": [
+      {
+        "type": "recommendation",
+        "issue": "Limited modern CSS features",
+        "suggestion": "Adopt modern CSS techniques",
+        "recommendation": {
+          "style": {
+            "recommended_features": [],
+            "modernity_tip": "Use CSS Grid, Flexbox, and CSS variables for modern designs"
+          }
+        }
+      },
+      {
+        "type": "recommendation",
+        "issue": "Not using CSS variables",
+        "suggestion": "Use CSS custom properties for theming",
+        "recommendation": "Makes it easier to maintain consistent styles"
+      },
+      {
+        "type": "info",
+        "issue": "No CSS transforms",
+        "suggestion": "Consider adding subtle transform animations",
+        "recommendation": "Enhances user interaction feedback"
+      },
+      {
+        "type": "info",
+        "issue": "No animations",
+        "suggestion": "Add subtle animations for better UX",
+        "recommendation": "Animations guide user attention and improve perceived performance"
+      },
+      {
+        "type": "recommendation",
+        "issue": "No transitions",
+        "suggestion": "Add transitions to interactive elements",
+        "recommendation": "Smooth transitions improve user experience"
+      }
+    ],
+    "priority_improvements": [
+      {
+        "type": "critical",
+        "issue": "No media queries detected",
+        "suggestion": "Add responsive design with media queries",
+        "recommendation": "Essential for mobile-friendly design"
+      },
+      {
+        "type": "high_priority",
+        "issue": "Low overall quality score",
+        "suggestion": "Focus on improving layout, colors, and typography",
+        "recommendation": "Review the specific suggestions in each category"
+      },
+      {
+        "type": "warning",
+        "issue": "Limited color palette",
+        "suggestion": "Consider adding more colors to create visual interest",
+        "recommendation": "Add accent colors for CTAs and interactive elements"
+      },
+      {
+        "type": "warning",
+        "issue": "Limited responsive design",
+        "suggestion": "Improve responsive design coverage",
+        "recommendation": "Add more breakpoints for different screen sizes"
+      }
+    ]
+  },
+  "recommended_design": {
+    "colors": {
+      "scheme": "balanced",
+      "colors": [
+        "#2C3E50",
+        "#3498DB",
+        "#E74C3C",
+        "#ECF0F1",
+        "#95A5A6"
+      ],
+      "primary": "#2C3E50",
+      "secondary": "#3498DB",
+      "accent": "#E74C3C",
+      "usage_tips": [
+        "Use colors consistently",
+        "Maintain good contrast",
+        "Test accessibility"
+      ]
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter",
+      "type": "monofont"
+    },
+    "layout_systems": [
+      "flexbox"
+    ]
+  },
+  "component_library": {
+    "total_components": 228,
+    "categories": {
+      "navigation": 28,
+      "buttons": 63,
+      "cards": 45,
+      "heroes": 24,
+      "forms": 12,
+      "footers": 14,
+      "headers": 42,
+      "sections": 0
+    }
+  }
+}
