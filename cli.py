@@ -469,5 +469,155 @@ def stats():
         console.print("[yellow]Tip: Run 'train' command first to build the knowledge base[/yellow]")
 
 
+@cli.command()
+@click.argument('html_file', type=click.Path(exists=True))
+@click.option('--output', help='Output file for transformed HTML (default: adds -transformed suffix)')
+@click.option('--interactive', is_flag=True, help='Interactive mode with step-by-step guidance')
+def transform(html_file, output, interactive):
+    """Transform a basic website into a beautiful, professional design
+
+    This command guides you through transforming a website using the
+    component library and learned design patterns while preserving all
+    backend functionality.
+    """
+    console.print("\n[bold cyan]✨ Frontend Aesthetic Transformation[/bold cyan]\n")
+
+    try:
+        # Set default output path
+        if not output:
+            input_path = Path(html_file)
+            output = str(input_path.parent / f"{input_path.stem}-transformed{input_path.suffix}")
+
+        # Read input file
+        html_content = Path(html_file).read_text(encoding='utf-8')
+
+        # Step 1: Analyze current site
+        console.print("[bold]Step 1: Analyzing your website...[/bold]\n")
+        engine = SuggestionEngine()
+        result = engine.analyze_and_suggest(html_file)
+
+        if 'error' in result:
+            console.print(f"[bold red]✗ {result['error']}[/bold red]")
+            raise click.Abort()
+
+        quality_score = result['quality_score']
+        suggestions = result['suggestions']
+
+        score_color = "green" if quality_score >= 70 else "yellow" if quality_score >= 50 else "red"
+        console.print(Panel.fit(
+            f"Current Quality Score: [bold {score_color}]{quality_score}/100[/bold {score_color}]\n"
+            f"Component Library: 228 professional components available",
+            title="Analysis Complete",
+            border_style="cyan"
+        ))
+
+        # Step 2: Show component library stats
+        console.print("\n[bold]Step 2: Component Library Available[/bold]\n")
+
+        component_summary_path = Path('data/components/summary.json')
+        if component_summary_path.exists():
+            summary = json.loads(component_summary_path.read_text())
+
+            table = Table(title="Available Components")
+            table.add_column("Category", style="cyan")
+            table.add_column("Count", style="green")
+
+            for category, count in summary.get('by_category', {}).items():
+                if count > 0:
+                    table.add_row(category.title(), str(count))
+
+            console.print(table)
+
+        # Step 3: Priority improvements
+        console.print("\n[bold]Step 3: Priority Improvements Needed[/bold]\n")
+
+        priority = suggestions.get('priority_improvements', [])
+        if priority:
+            for i, suggestion in enumerate(priority[:5], 1):
+                console.print(f"{i}. [yellow]{suggestion['issue']}[/yellow]")
+                console.print(f"   → {suggestion['suggestion']}\n")
+        else:
+            console.print("[green]✓ No critical issues found![/green]\n")
+
+        # Step 4: Transformation guidance
+        console.print("\n[bold]Step 4: Transformation Guidance[/bold]\n")
+
+        console.print("📖 [cyan]To transform this website:[/cyan]")
+        console.print("   1. Review SKILL.md for transformation patterns")
+        console.print("   2. Browse components: python cli.py browse")
+        console.print("   3. Match your components to library equivalents")
+        console.print("   4. Preserve ALL functionality (onclick, IDs, data-attributes)")
+        console.print("   5. Apply modern design system (colors, typography, spacing)")
+        console.print("   6. Test all interactive elements\n")
+
+        # Step 5: Design recommendations
+        console.print("\n[bold]Step 5: Design Recommendations[/bold]\n")
+
+        generator = DesignGenerator()
+        guide = generator.generate_complete_design_guide()
+
+        console.print(f"[cyan]Recommended Color Scheme:[/cyan] {guide['colors']['scheme']}")
+        console.print(f"[cyan]Primary Color:[/cyan] {guide['colors']['primary']}")
+        console.print(f"[cyan]Typography:[/cyan] {guide['typography']['recommended_fonts'].get('heading', 'Inter')} + {guide['typography']['recommended_fonts'].get('body', 'Inter')}")
+        console.print(f"[cyan]Layout System:[/cyan] {', '.join(guide['layout']['recommended_systems'])}\n")
+
+        # Interactive mode
+        if interactive:
+            console.print("\n[bold yellow]🤖 Interactive Transformation Mode[/bold yellow]\n")
+            console.print("I will now guide you through transforming your website.")
+            console.print("This feature requires Claude Code to assist with the actual transformation.\n")
+
+            console.print("[cyan]Use this prompt with Claude Code:[/cyan]")
+            console.print("─" * 60)
+            console.print(f"""
+Please transform {html_file} using the Frontend Aesthetic Agent skill:
+
+1. Analyze the current HTML structure
+2. Browse the component library (228 components available)
+3. Create a modern design system with:
+   - Color scheme: {guide['colors']['scheme']}
+   - Typography: {guide['typography']['recommended_fonts'].get('heading')} + {guide['typography']['recommended_fonts'].get('body')}
+   - Layout: {', '.join(guide['layout']['recommended_systems'])}
+4. Transform each component while preserving:
+   - All onclick/event handlers
+   - All IDs and data-attributes
+   - All backend functionality
+5. Save the result to: {output}
+
+Quality target: 80+/100 (current: {quality_score}/100)
+""")
+            console.print("─" * 60)
+
+        # Save analysis report
+        report_path = Path(output).parent / f"{Path(html_file).stem}-analysis-report.json"
+        report = {
+            'input_file': html_file,
+            'output_file': output,
+            'current_quality': quality_score,
+            'target_quality': 80,
+            'suggestions': suggestions,
+            'recommended_design': {
+                'colors': guide['colors'],
+                'typography': guide['typography']['recommended_fonts'],
+                'layout_systems': guide['layout']['recommended_systems']
+            },
+            'component_library': {
+                'total_components': 228,
+                'categories': summary.get('by_category', {}) if component_summary_path.exists() else {}
+            }
+        }
+
+        report_path.write_text(json.dumps(report, indent=2), encoding='utf-8')
+
+        console.print(f"\n[green]✓ Analysis report saved to: {report_path}[/green]")
+        console.print(f"[green]✓ Ready to transform! Use Claude Code with SKILL.md guidance[/green]\n")
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        import traceback
+        traceback.print_exc()
+        raise click.Abort()
+
+
 if __name__ == '__main__':
     cli()

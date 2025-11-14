@@ -1,0 +1,61 @@
+#!/bin/bash
+
+# Frontend Aesthetic Agent - Session Start Hook
+# This hook prepares the environment for website transformation
+
+echo "🎨 Frontend Aesthetic Agent - Initializing..."
+echo ""
+
+# Check if we're in the right directory
+if [ ! -f "cli.py" ]; then
+    echo "⚠️  Warning: Not in FrontEndAestheticAgent directory"
+    exit 0
+fi
+
+# Check Python dependencies
+if ! python -c "import click, rich, flask" 2>/dev/null; then
+    echo "📦 Installing dependencies..."
+    pip install -q -r requirements.txt 2>/dev/null || echo "⚠️  Could not install dependencies. Run: pip install -r requirements.txt"
+fi
+
+# Check component library
+COMPONENT_COUNT=$(find data/components -name "*.json" 2>/dev/null | wc -l)
+if [ "$COMPONENT_COUNT" -lt 10 ]; then
+    echo "⚠️  Component library appears empty. Run: python cli.py extract"
+    echo ""
+else
+    echo "✅ Component Library: $COMPONENT_COUNT components available"
+    echo ""
+
+    # Show component breakdown
+    if [ -f "data/components/summary.json" ]; then
+        echo "📊 Component Breakdown:"
+        python -c "
+import json
+try:
+    with open('data/components/summary.json') as f:
+        data = json.load(f)
+        for category, count in data.get('by_category', {}).items():
+            if count > 0:
+                print(f'   - {category.title()}: {count}')
+except: pass
+" 2>/dev/null
+        echo ""
+    fi
+fi
+
+# Show SKILL.md status
+if [ -f "SKILL.md" ]; then
+    echo "✅ Frontend Transformation Skill: Active"
+else
+    echo "⚠️  SKILL.md not found"
+fi
+
+echo ""
+echo "🚀 Ready to transform websites!"
+echo ""
+echo "Quick Commands:"
+echo "  • Browse components: python cli.py browse"
+echo "  • Analyze website:   python cli.py suggest <file.html>"
+echo "  • Generate guide:    python cli.py generate"
+echo ""

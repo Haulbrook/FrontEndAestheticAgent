@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Basic Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        .header {
+            background: blue;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .btn {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Site</h1>
+        <p>This is a basic website</p>
+    </div>
+
+    <div class="content">
+        <h2>About Us</h2>
+        <p>We provide great services to our customers.</p>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Description of feature 1</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Description of feature 2</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Description of feature 3</p>
+            </div>
+        </div>
+
+        <button class="btn" onclick="submitForm()">Contact Us</button>
+    </div>
+
+    <script>
+        function submitForm() {
+            alert('Form submitted! (Backend functionality preserved)');
+        }
+    </script>
+</body>
+</html>
