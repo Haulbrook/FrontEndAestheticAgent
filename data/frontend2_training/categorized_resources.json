@@ -1,0 +1,4140 @@
+{
+  "ui_frameworks": [
+    {
+      "name": "Bootstrap Icons",
+      "url": "https://icons.getbootstrap.com/"
+    },
+    {
+      "name": "React Icons",
+      "url": "https://react-icons.github.io/react-icons/"
+    },
+    {
+      "name": "Start Bootstrap",
+      "url": "https://startbootstrap.com/"
+    },
+    {
+      "name": "BootstrapTaste",
+      "url": "https://bootstraptaste.com/"
+    },
+    {
+      "name": "BootstrapMade",
+      "url": "https://bootstrapmade.com/"
+    },
+    {
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com/"
+    },
+    {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/"
+    },
+    {
+      "name": "Vanilla Framework",
+      "url": "https://vanillaframework.io/"
+    },
+    {
+      "name": "Framework7",
+      "url": "https://framework7.io/"
+    },
+    {
+      "name": "Material Bootstrap",
+      "url": "https://fezvrasta.github.io/bootstrap-material-design/"
+    },
+    {
+      "name": "Medialoot CSS Components",
+      "url": "https://medialoot.com/free-themes/css-components/"
+    },
+    {
+      "name": "Material Design For Bootstrap",
+      "url": "https://mdbootstrap.com/"
+    },
+    {
+      "name": "Tailwindtoolbox",
+      "url": "https://www.tailwindtoolbox.com/"
+    },
+    {
+      "name": "tailwindcomponents",
+      "url": "https://tailwindcomponents.com/"
+    },
+    {
+      "name": "Tailwind Templates",
+      "url": "https://tailwindtemplates.io/"
+    },
+    {
+      "name": "Meraki UI Components",
+      "url": "https://merakiui.com/"
+    },
+    {
+      "name": "Daemonites Material Design For Bootstrap",
+      "url": "https://http://daemonite.github.io/material/"
+    },
+    {
+      "name": "Styled components",
+      "url": "https://styled-components.com/"
+    },
+    {
+      "name": "Figma Bootstrap 5 UI Kit",
+      "url": "https://drive.google.com/file/d/1SZOTxXYfCMujqP2P684Vd5QIrlk5bwe6/view?usp=sharing"
+    },
+    {
+      "name": "React Bootstrap",
+      "url": "https://react-bootstrap.github.io/"
+    },
+    {
+      "name": "ReactStrap",
+      "url": "https://reactstrap.github.io/"
+    },
+    {
+      "name": "React Admin",
+      "url": "https://marmelab.com/react-admin/"
+    },
+    {
+      "name": "React Semantic UI",
+      "url": "https://react.semantic-ui.com/"
+    },
+    {
+      "name": "Shards React",
+      "url": "https://designrevision.com/downloads/shards-react/"
+    },
+    {
+      "name": "React Virtualized",
+      "url": "https://bvaughn.github.io/react-virtualized"
+    },
+    {
+      "name": "React Toolbox",
+      "url": "http://react-toolbox.io/#/"
+    },
+    {
+      "name": "React Desktop",
+      "url": "http://reactdesktop.js.org/"
+    },
+    {
+      "name": "Onsen React",
+      "url": "https://onsen.io/react/"
+    },
+    {
+      "name": "PRIMEREACT",
+      "url": "https://www.primefaces.org/primereact/"
+    },
+    {
+      "name": "Primer Components",
+      "url": "https://primer.style/components/"
+    },
+    {
+      "name": "React Suite",
+      "url": "https://rsuitejs.com/en/"
+    },
+    {
+      "name": "React Spring",
+      "url": "https://www.react-spring.io/"
+    },
+    {
+      "name": "React Spectrum",
+      "url": "https://react-spectrum.adobe.com/react-spectrum/index.html"
+    },
+    {
+      "name": "Treact",
+      "url": "https://treact.owaiskhan.me"
+    },
+    {
+      "name": "React-WeUI",
+      "url": "https://weui.github.io/react-weui/docs/#/react-weui/docs/page/0/articles/0"
+    },
+    {
+      "name": "React95",
+      "url": "https://react95.io/"
+    },
+    {
+      "name": "React Rainbow",
+      "url": "https://react-rainbow.io/"
+    },
+    {
+      "name": "Carbon React",
+      "url": "https://carbondesignsystem.com/developing/frameworks/react/"
+    },
+    {
+      "name": "React Aria",
+      "url": "https://react-spectrum.adobe.com/react-aria/"
+    },
+    {
+      "name": "Vuetify",
+      "url": "https://vuetifyjs.com/en/"
+    },
+    {
+      "name": "Bootstrap Vue",
+      "url": "https://bootstrap-vue.org/"
+    },
+    {
+      "name": "Semantic UI Vue",
+      "url": "https://semantic-ui-vue.github.io"
+    },
+    {
+      "name": "Arco Design Vue",
+      "url": "https://arco.design/vue/en-US/docs/start"
+    },
+    {
+      "name": "Onsen Vue",
+      "url": "https://onsen.io/vue/"
+    },
+    {
+      "name": "Vuejsexamples",
+      "url": "https://vuejsexamples.com"
+    },
+    {
+      "name": "Vuesax",
+      "url": "https://vuesax.com/"
+    },
+    {
+      "name": "Shards Vue",
+      "url": "https://designrevision.com/downloads/shards-vue/"
+    },
+    {
+      "name": "Prime Vue",
+      "url": "https://primevue.org/"
+    },
+    {
+      "name": "Chakra UI Vue",
+      "url": "https://vue.chakra-ui.com/"
+    },
+    {
+      "name": "TC Components",
+      "url": "https://components.timos.design"
+    },
+    {
+      "name": "VueTailwind",
+      "url": "https://www.vue-tailwind.com/"
+    },
+    {
+      "name": "Vuestic",
+      "url": "https://vuestic.dev/"
+    },
+    {
+      "name": "Vue Final Modal",
+      "url": "https://vue-final-modal.org/"
+    },
+    {
+      "name": "Vuetensils",
+      "url": "https://vuetensils.stegosource.com/"
+    },
+    {
+      "name": "shadcn-vue",
+      "url": "https://www.shadcn-vue.com/"
+    },
+    {
+      "name": "Material Angular",
+      "url": "https://material.angular.io/"
+    },
+    {
+      "name": "NG Bootstrap",
+      "url": "https://ng-bootstrap.github.io/#/home"
+    },
+    {
+      "name": "Onsen Angular",
+      "url": "https://onsen.io/angular2/"
+    },
+    {
+      "name": "NGX Bootstrap",
+      "url": "https://valor-software.com/ngx-bootstrap/#/"
+    },
+    {
+      "name": "Carbon Components Svelte",
+      "url": "https://carbon-components-svelte.onrender.com/"
+    },
+    {
+      "name": "React Native UI Lib",
+      "url": "https://wix.github.io/react-native-ui-lib/"
+    },
+    {
+      "name": "React Native Paper",
+      "url": "https://reactnativepaper.com/"
+    },
+    {
+      "name": "React Native Elements",
+      "url": "https://reactnativeelements.com/"
+    },
+    {
+      "name": "React Developer Tool",
+      "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi"
+    },
+    {
+      "name": "Angular Developer Tool",
+      "url": "https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh"
+    },
+    {
+      "name": "React Developer Tool",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/"
+    },
+    {
+      "name": "Vue Telemetry",
+      "url": "https://vuetelemetry.com/"
+    },
+    {
+      "name": "Bootstrap CheatSheet",
+      "url": "https://bootstrap-cheatsheet.themeselection.com/"
+    },
+    {
+      "name": "Vue CheatSheet",
+      "url": "https://vue-cheatsheet.themeselection.com/"
+    }
+  ],
+  "icons": [
+    {
+      "name": "icons8.com/illustrations",
+      "url": "https://icons8.com/illustrations"
+    },
+    {
+      "name": "Circum Icons",
+      "url": "https://circumicons.com/"
+    },
+    {
+      "name": "Shapedfonts Iconclub",
+      "url": "https://shapedfonts.com/iconclub/"
+    },
+    {
+      "name": "Feather Icons",
+      "url": "https://feathericons.com/"
+    },
+    {
+      "name": "Tabler Icons",
+      "url": "https://tabler-icons.io/"
+    },
+    {
+      "name": "Xicons",
+      "url": "https://www.xicons.org/#/"
+    },
+    {
+      "name": "Iconoir",
+      "url": "https://iconoir.com/"
+    },
+    {
+      "name": "Simple Icons",
+      "url": "https://simpleicons.org/"
+    },
+    {
+      "name": "Linear Icons",
+      "url": "https://linearicons.com/free"
+    },
+    {
+      "name": "Icons8",
+      "url": "https://icons8.com/"
+    },
+    {
+      "name": "Flat Icon",
+      "url": "https://www.flaticon.com/"
+    },
+    {
+      "name": "Iconscout",
+      "url": "https://iconscout.com/"
+    },
+    {
+      "name": "IconSear.ch",
+      "url": "https://iconsear.ch/search.html"
+    },
+    {
+      "name": "Icon-icons.com",
+      "url": "https://icon-icons.com/"
+    },
+    {
+      "name": "Remix Icon",
+      "url": "https://remixicon.com/"
+    },
+    {
+      "name": "Iconmonstr",
+      "url": "https://iconmonstr.com/"
+    },
+    {
+      "name": "Iconfinder",
+      "url": "https://www.iconfinder.com/"
+    },
+    {
+      "name": "Lordicon",
+      "url": "https://lordicon.com/icons#free"
+    },
+    {
+      "name": "IconBros",
+      "url": "https://www.iconbros.com"
+    },
+    {
+      "name": "Material Design Icons",
+      "url": "https://materialdesignicons.com/"
+    },
+    {
+      "name": "Heroicons",
+      "url": "https://heroicons.dev/"
+    },
+    {
+      "name": "Zondicons",
+      "url": "https://www.zondicons.com/icons.html"
+    },
+    {
+      "name": "Endless Icons",
+      "url": "http://endlessicons.com/"
+    },
+    {
+      "name": "Eva Icons",
+      "url": "https://akveo.github.io/eva-icons/#/"
+    },
+    {
+      "name": "Cryptoicons",
+      "url": "http://cryptoicons.co/"
+    },
+    {
+      "name": "appicon",
+      "url": "https://appicon.co/"
+    },
+    {
+      "name": "LineIcons",
+      "url": "https://lineicons.com"
+    },
+    {
+      "name": "Evericons",
+      "url": "https://www.figma.com/resources/assets/evericons-for-figma/"
+    },
+    {
+      "name": "CSS ICON",
+      "url": "https://cssicon.space/"
+    },
+    {
+      "name": "Unified icons",
+      "url": "https://iconify.design/"
+    },
+    {
+      "name": "System UIcons",
+      "url": "https://systemuicons.com/"
+    },
+    {
+      "name": "Radix Icons",
+      "url": "https://www.radix-ui.com/icons"
+    },
+    {
+      "name": "EOS Icons",
+      "url": "https://icons.eosdesignsystem.com/"
+    },
+    {
+      "name": "Ionicons",
+      "url": "https://ionicons.com"
+    },
+    {
+      "name": "Phosphor Icons",
+      "url": "https://phosphoricons.com"
+    },
+    {
+      "name": "Teeny Icons",
+      "url": "https://teenyicons.com/"
+    },
+    {
+      "name": "Icones",
+      "url": "https://icones.js.org/"
+    },
+    {
+      "name": "Shitty Icons",
+      "url": "https://shittyicons.com/"
+    },
+    {
+      "name": "Iconspedia",
+      "url": "https://www.iconspedia.com/"
+    },
+    {
+      "name": "iconhub",
+      "url": "https://iconhub.io/"
+    },
+    {
+      "name": "3DICONS",
+      "url": "https://3dicons.co"
+    },
+    {
+      "name": "IconsDb",
+      "url": "https://www.iconsdb.com/"
+    },
+    {
+      "name": "Unicorn Icons",
+      "url": "https://unicornicons.com"
+    },
+    {
+      "name": "Sargam Icons",
+      "url": "https://sargamicons.com/"
+    },
+    {
+      "name": "Icon buddy",
+      "url": "https://iconbuddy.app/"
+    },
+    {
+      "name": "Round Icons",
+      "url": "https://roundicons.com/"
+    },
+    {
+      "name": "IconShelf",
+      "url": "https://iconshelf.com/"
+    },
+    {
+      "name": "FaviconForge",
+      "url": "https://faviconforge.io/"
+    },
+    {
+      "name": "Favicon.io",
+      "url": "https://favicon.io/"
+    },
+    {
+      "name": "Favicon Generator",
+      "url": "http://tools.dynamicdrive.com/favicon/"
+    },
+    {
+      "name": "RealFaviconGenerator",
+      "url": "https://realfavicongenerator.net/"
+    },
+    {
+      "name": "FontIcon",
+      "url": "https://gauger.io/fonticon/"
+    },
+    {
+      "name": "Favicon.cc",
+      "url": "https://www.favicon.cc"
+    },
+    {
+      "name": "Favicon Generator",
+      "url": "https://favicon.inbrowser.app/"
+    },
+    {
+      "name": "Material Icons",
+      "url": "https://material.io/resources/icons/"
+    },
+    {
+      "name": "IonIcons",
+      "url": "http://ionicons.com/"
+    },
+    {
+      "name": "Zurb Foundation Icons",
+      "url": "https://zurb.com/playground/foundation-icon-fonts-3"
+    },
+    {
+      "name": "Fontisto Icons",
+      "url": "https://fontisto.com/"
+    },
+    {
+      "name": "Boxicons",
+      "url": "https://boxicons.com/"
+    },
+    {
+      "name": "Material Design Iconic Font",
+      "url": "http://zavoloklom.github.io/material-design-iconic-font/index.html"
+    },
+    {
+      "name": "Vscode Codicons",
+      "url": "https://microsoft.github.io/vscode-codicons/dist/codicon.html"
+    },
+    {
+      "name": "Devicon",
+      "url": "https://devicon.dev"
+    },
+    {
+      "name": "Weather Icons",
+      "url": "https://erikflowers.github.io/weather-icons/"
+    },
+    {
+      "name": "Jam Icons",
+      "url": "https://jam-icons.com/"
+    },
+    {
+      "name": "Unicons",
+      "url": "https://iconscout.com/unicons"
+    },
+    {
+      "name": "Mobirise Icons",
+      "url": "https://mobiriseicons.com/"
+    },
+    {
+      "name": "Hero Icons",
+      "url": "https://heroicons.dev/"
+    },
+    {
+      "name": "Lexicon",
+      "url": "https://liferay.design/lexicon/"
+    }
+  ],
+  "illustrations": [
+    {
+      "name": "Humaaans",
+      "url": "https://www.humaaans.com/"
+    },
+    {
+      "name": "Drawkit.io",
+      "url": "https://www.drawkit.io/"
+    },
+    {
+      "name": "Absurd.design",
+      "url": "https://absurd.design/"
+    },
+    {
+      "name": "Undraw.co",
+      "url": "https://undraw.co/"
+    },
+    {
+      "name": "Pixeltrue Illustrations",
+      "url": "https://www.pixeltrue.com/illustrations"
+    },
+    {
+      "name": "illustration kit",
+      "url": "https://illustrationkit.com/"
+    },
+    {
+      "name": "Growwwkit illustrations",
+      "url": "https://growwwkit.com/illustrations/phonies"
+    },
+    {
+      "name": "Black Illustrations",
+      "url": "https://www.blackillustrations.com/"
+    },
+    {
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com/"
+    },
+    {
+      "name": "Draw.io",
+      "url": "https://www.draw.io/"
+    },
+    {
+      "name": "tldraw",
+      "url": "https://www.tldraw.com"
+    }
+  ],
+  "colors": [
+    {
+      "name": "Mesh Gradient",
+      "url": "https://meshgradient.in/"
+    },
+    {
+      "name": "CSS Shadow Gradients",
+      "url": "https://alvarotrigo.com/shadow-gradients/"
+    },
+    {
+      "name": "PaletteForge",
+      "url": "https://paletteforge.io"
+    },
+    {
+      "name": "Colorlab",
+      "url": "https://getcolorlab.com"
+    },
+    {
+      "name": "Color Brewer 2",
+      "url": "https://colorbrewer2.org/"
+    },
+    {
+      "name": "Colormind.io",
+      "url": "http://colormind.io"
+    },
+    {
+      "name": "ColorCurves.app",
+      "url": "https://colorcurves.app"
+    },
+    {
+      "name": "ColorGradient",
+      "url": "https://colorgradient.dev/"
+    },
+    {
+      "name": "UI Colors",
+      "url": "https://uicolors.app/create"
+    },
+    {
+      "name": "HTML Color Codes",
+      "url": "https://htmlcolorcodes.com/"
+    },
+    {
+      "name": "Colors & Fonts",
+      "url": "https://www.colorsandfonts.com/"
+    },
+    {
+      "name": "Palette List",
+      "url": "https://www.palettelist.com/"
+    },
+    {
+      "name": "Google Material Color Tool",
+      "url": "https://material.io/resources/color/"
+    },
+    {
+      "name": "Material Palette",
+      "url": "https://www.materialpalette.com/"
+    },
+    {
+      "name": "ColorSpace",
+      "url": "https://mycolor.space/"
+    },
+    {
+      "name": "FlatUIColors",
+      "url": "https://flatuicolors.com"
+    },
+    {
+      "name": "Adobe Color",
+      "url": "https://color.adobe.com/create"
+    },
+    {
+      "name": "Colorsinspo",
+      "url": "https://colorsinspo.com/"
+    },
+    {
+      "name": "ColorsWall",
+      "url": "https://colorswall.com/"
+    },
+    {
+      "name": "Happyhues",
+      "url": "https://www.happyhues.co/"
+    },
+    {
+      "name": "Color Hunt",
+      "url": "https://colorhunt.co/"
+    },
+    {
+      "name": "Gradient Hunt",
+      "url": "https://gradienthunt.com/"
+    },
+    {
+      "name": "Web Gradients",
+      "url": "https://webgradients.com/"
+    },
+    {
+      "name": "ColorBox",
+      "url": "https://www.colorbox.io"
+    },
+    {
+      "name": "CSS gradient",
+      "url": "https://cssgradient.io/"
+    },
+    {
+      "name": "gradienta",
+      "url": "https://gradienta.io/"
+    },
+    {
+      "name": "UI Gradients",
+      "url": "https://uigradients.com/"
+    },
+    {
+      "name": "Palette Generator",
+      "url": "https://palettegenerator.colorion.co/"
+    },
+    {
+      "name": "Material Palettes",
+      "url": "https://material.colorion.co/"
+    },
+    {
+      "name": "BrandColors",
+      "url": "http://brandcolors.net/"
+    },
+    {
+      "name": "BRAND PALETTES",
+      "url": "https://brandpalettes.com/"
+    },
+    {
+      "name": "Material Design Palette Generator",
+      "url": "http://mcg.mbitson.com"
+    },
+    {
+      "name": "Colorate",
+      "url": "https://colorate.azurewebsites.net/"
+    },
+    {
+      "name": "Color Blender",
+      "url": "https://meyerweb.com/eric/tools/color-blend"
+    },
+    {
+      "name": "Gradient Buttons",
+      "url": "https://gradientbuttons.colorion.co/"
+    },
+    {
+      "name": "Colorable",
+      "url": "https://colorable.jxnblk.com/"
+    },
+    {
+      "name": "Color Hex Picker",
+      "url": "https://colorhexpicker.com"
+    },
+    {
+      "name": "Colorzilla",
+      "url": "https://www.colorzilla.com/"
+    },
+    {
+      "name": "CSS Gradient Editor",
+      "url": "https://www.cssgradienteditor.com"
+    },
+    {
+      "name": "Image Color Picker",
+      "url": "https://image-color.com/"
+    },
+    {
+      "name": "CombineCOLORS",
+      "url": "https://combinecolors.com/"
+    },
+    {
+      "name": "Color Lovers",
+      "url": "https://www.colourlovers.com/palettes"
+    },
+    {
+      "name": "HTML CSS Color",
+      "url": "https://www.htmlcsscolor.com/"
+    },
+    {
+      "name": "HEX Color Codes",
+      "url": "https://hexcolorcodes.org/"
+    },
+    {
+      "name": "CoolHue 2.0",
+      "url": "https://webkul.github.io/coolhue/"
+    },
+    {
+      "name": "Colors.lol",
+      "url": "https://colors.lol/"
+    },
+    {
+      "name": "colors.dopely",
+      "url": "https://colors.dopely.top/"
+    },
+    {
+      "name": "UIColor Picker",
+      "url": "https://uicolorpicker.com/"
+    },
+    {
+      "name": "Color Hex",
+      "url": "https://www.color-hex.com"
+    },
+    {
+      "name": "Veranda Color",
+      "url": "https://verandacolor.com"
+    },
+    {
+      "name": "Lospec Palette List",
+      "url": "https://lospec.com/palette-list"
+    },
+    {
+      "name": "Eggradients",
+      "url": "https://www.eggradients.com/"
+    },
+    {
+      "name": "Gradientos",
+      "url": "https://www.gradientos.app/"
+    },
+    {
+      "name": "Encycolorpedia",
+      "url": "https://encycolorpedia.com/"
+    },
+    {
+      "name": "Color Designer",
+      "url": "https://colordesigner.io/gradient-generator"
+    },
+    {
+      "name": "Color Shades Generator",
+      "url": "https://mdigi.tools/color-shades/"
+    },
+    {
+      "name": "Huemint",
+      "url": "https://huemint.com/"
+    },
+    {
+      "name": "InclusiveColors palette creator",
+      "url": "https://www.inclusivecolors.com/"
+    },
+    {
+      "name": "Material Palette",
+      "url": "https://www.materialpalette.com/icons"
+    },
+    {
+      "name": "Colorlib",
+      "url": "https://colorlib.com/wp/templates/"
+    },
+    {
+      "name": "Gradienty Animations",
+      "url": "https://gradienty.codes/animations"
+    },
+    {
+      "name": "Shadow Palette Generator",
+      "url": "https://www.joshwcomeau.com/shadow-palette/"
+    },
+    {
+      "name": "Colorpicker",
+      "url": "https://colorpicker.fr"
+    },
+    {
+      "name": "Site Palette",
+      "url": "https://chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh"
+    },
+    {
+      "name": "ColorZilla",
+      "url": "https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp"
+    },
+    {
+      "name": "ColorPick Eyedropper",
+      "url": "https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg"
+    },
+    {
+      "name": "Site Palette",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/website-color-palette/"
+    },
+    {
+      "name": "ColorZilla",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorzilla/"
+    },
+    {
+      "name": "ColorPick Eyedropper",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/colorpick-eyedropper/"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/"
+    },
+    {
+      "name": "DaFont",
+      "url": "https://www.dafont.com/"
+    },
+    {
+      "name": "1001 Free Fonts",
+      "url": "https://www.1001freefonts.com/"
+    },
+    {
+      "name": "Font Squirrel",
+      "url": "https://www.fontsquirrel.com/"
+    },
+    {
+      "name": "Font Fabric",
+      "url": "https://www.fontfabric.com/free-fonts/"
+    },
+    {
+      "name": "Just Free Fonts",
+      "url": "https://justfreefonts.com/"
+    },
+    {
+      "name": "Fontjoy",
+      "url": "https://fontjoy.com/"
+    },
+    {
+      "name": "FontGet",
+      "url": "https://www.fontget.com/"
+    },
+    {
+      "name": "FontPair",
+      "url": "https://fontpair.co/"
+    },
+    {
+      "name": "Font Space",
+      "url": "https://www.fontspace.com/"
+    },
+    {
+      "name": "Abstract Fonts",
+      "url": "http://www.abstractfonts.com/"
+    },
+    {
+      "name": "Free Typography",
+      "url": "https://freetypography.com/"
+    },
+    {
+      "name": "Fonts for Apple Platforms",
+      "url": "https://developer.apple.com/fonts/"
+    },
+    {
+      "name": "Font Flipper",
+      "url": "https://fontflipper.com/"
+    },
+    {
+      "name": "Fonts Arena",
+      "url": "https://fontsarena.com/"
+    },
+    {
+      "name": "Befonts",
+      "url": "https://befonts.com/"
+    },
+    {
+      "name": "Arabic fonts",
+      "url": "https://arabicfonts.net/"
+    },
+    {
+      "name": "FontDrop",
+      "url": "https://fontdrop.info"
+    },
+    {
+      "name": "Google Webfonts Helper",
+      "url": "https://google-webfonts-helper.herokuapp.com/fonts"
+    },
+    {
+      "name": "Rough Font Awesome",
+      "url": "https://djamshed.github.io/rough-awesome-font/dist/"
+    },
+    {
+      "name": "FFonts",
+      "url": "https://ffonts.net"
+    },
+    {
+      "name": "Malayalam Fonts",
+      "url": "https://smc.org.in/fonts/"
+    },
+    {
+      "name": "Dev Fonts",
+      "url": "https://devfonts.gafi.dev/"
+    },
+    {
+      "name": "Font M",
+      "url": "https://fontm.com/"
+    },
+    {
+      "name": "W Fonts",
+      "url": "https://www.wfonts.com/"
+    },
+    {
+      "name": "Modern fluid typography editor",
+      "url": "https://modern-fluid-typography.vercel.app/"
+    },
+    {
+      "name": "UrbanFonts",
+      "url": "https://www.urbanfonts.com/"
+    },
+    {
+      "name": "Fontsource",
+      "url": "https://fontsource.org/"
+    },
+    {
+      "name": "FontBolt",
+      "url": "https://www.fontbolt.com/"
+    },
+    {
+      "name": "Fontshare",
+      "url": "https://www.fontshare.com/"
+    },
+    {
+      "name": "Font Awesome",
+      "url": "https://fontawesome.com/"
+    },
+    {
+      "name": "Icofont",
+      "url": "https://icofont.com/"
+    },
+    {
+      "name": "Fontello",
+      "url": "http://fontello.com/"
+    },
+    {
+      "name": "WhatFont",
+      "url": "https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm"
+    },
+    {
+      "name": "Fonts Ninja",
+      "url": "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh"
+    },
+    {
+      "name": "WhatFont",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/"
+    }
+  ],
+  "stock_photos": [
+    {
+      "name": "Pexels",
+      "url": "https://www.pexels.com/"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://unsplash.com/"
+    },
+    {
+      "name": "Stock Snap",
+      "url": "https://stocksnap.io/"
+    },
+    {
+      "name": "New Old Stock",
+      "url": "https://nos.twnsnd.co/"
+    },
+    {
+      "name": "Public Domain Pictures",
+      "url": "https://www.publicdomainpictures.net/en/"
+    },
+    {
+      "name": "Find A Photo",
+      "url": "https://www.chamberofcommerce.org/findaphoto/"
+    },
+    {
+      "name": "Stockvault",
+      "url": "http://www.stockvault.net/"
+    },
+    {
+      "name": "SkitterPhoto",
+      "url": "https://skitterphoto.com/"
+    },
+    {
+      "name": "Wunder Stock",
+      "url": "https://wunderstock.com/"
+    },
+    {
+      "name": "Generated Photos",
+      "url": "https://generated.photos/"
+    },
+    {
+      "name": "Free Images",
+      "url": "https://www.freeimages.com/"
+    },
+    {
+      "name": "AllTheFreeStock",
+      "url": "https://allthefreestock.com/"
+    },
+    {
+      "name": "Pexels",
+      "url": "https://www.pexels.com/videos"
+    },
+    {
+      "name": "Free-Stock-Video",
+      "url": "https://free-stock.video"
+    },
+    {
+      "name": "Free Stock Music",
+      "url": "https://www.free-stock-music.com/"
+    },
+    {
+      "name": "Photonkit",
+      "url": "http://photonkit.com/"
+    },
+    {
+      "name": "Photo Creator",
+      "url": "https://photos.icons8.com/creator"
+    },
+    {
+      "name": "Cartoon Photo",
+      "url": "https://cartoon.pho.to/"
+    },
+    {
+      "name": "Photopea",
+      "url": "https://www.photopea.com"
+    },
+    {
+      "name": "Inpixio photo Editor",
+      "url": "https://www.inpixio.com/free-photo-editor"
+    },
+    {
+      "name": "BulkResizePhotos",
+      "url": "https://bulkresizephotos.com/"
+    }
+  ],
+  "design_systems": [
+    {
+      "name": "Material Design Lite",
+      "url": "https://getmdl.io/"
+    },
+    {
+      "name": "Material Design",
+      "url": "https://material.io/"
+    },
+    {
+      "name": "Clarity Design System",
+      "url": "https://clarity.design/"
+    },
+    {
+      "name": "Carbon Design Systems",
+      "url": "https://www.carbondesignsystem.com/"
+    },
+    {
+      "name": "Yelp Style Guide",
+      "url": "https://www.yelp.com/styleguide"
+    },
+    {
+      "name": "ETrade Design System",
+      "url": "https://etrade.design/"
+    },
+    {
+      "name": "Marvel Style Guide",
+      "url": "https://marvelapp.com/styleguide/overview/introduction"
+    },
+    {
+      "name": "Pluralsight Design System",
+      "url": "https://design-system.pluralsight.com/"
+    },
+    {
+      "name": "SendGrid Style Guide",
+      "url": "http://styleguide.sendgrid.com/"
+    },
+    {
+      "name": "Done Design System",
+      "url": "https://uilibrary.github.io/done-design-system/"
+    },
+    {
+      "name": "Pr1mer Guidelines",
+      "url": "https://guidelines.pr1mer.tech"
+    },
+    {
+      "name": "Material Design Resources",
+      "url": "https://material.io/resources"
+    }
+  ],
+  "animations": [
+    {
+      "name": "UseAnimations",
+      "url": "https://useanimations.com/"
+    },
+    {
+      "name": "Animate.css",
+      "url": "https://animate.style/"
+    },
+    {
+      "name": "Magic Animations",
+      "url": "https://www.minimamente.com/project/magic/"
+    },
+    {
+      "name": "MOTION UI",
+      "url": "https://zurb.com/playground/motion-ui"
+    },
+    {
+      "name": "Motion One",
+      "url": "https://motion.dev/"
+    },
+    {
+      "name": "Animate On Scroll",
+      "url": "https://michalsnik.github.io/aos/"
+    },
+    {
+      "name": "Popmotion",
+      "url": "https://popmotion.io/"
+    },
+    {
+      "name": "LottieFiles",
+      "url": "https://lottiefiles.com/"
+    },
+    {
+      "name": "Framer Motion",
+      "url": "https://www.framer.com/motion/"
+    },
+    {
+      "name": "App Motion",
+      "url": "https://appmotion.design/"
+    }
+  ],
+  "generators": [
+    {
+      "name": "Doodad Pattern Generator",
+      "url": "https://doodad.dev/pattern-generator/"
+    },
+    {
+      "name": "coolbackgrounds generator",
+      "url": "https://coolbackgrounds.io/"
+    },
+    {
+      "name": "Logo Maker",
+      "url": "https://logomakr.com/"
+    },
+    {
+      "name": "Free Logo Maker",
+      "url": "https://www.namecheap.com/logo-maker/"
+    },
+    {
+      "name": "Lorem.space - Placeholder image generator",
+      "url": "https://lorem.space"
+    },
+    {
+      "name": "Brumm Shadow Maker",
+      "url": "https://brumm.af/shadows"
+    },
+    {
+      "name": "CSS Grid Generator",
+      "url": "https://cssgrid-generator.netlify.app/"
+    },
+    {
+      "name": "HTML Table Generator",
+      "url": "https://www.htmltables.io/"
+    },
+    {
+      "name": "Animoto Video Maker",
+      "url": "https://animoto.com/apps/online-video-maker"
+    },
+    {
+      "name": "CTA Button Maker",
+      "url": "https://www.clickminded.com/button-generator/"
+    },
+    {
+      "name": "Blobmaker",
+      "url": "https://www.blobmaker.app/"
+    },
+    {
+      "name": "CSS Grid Generator",
+      "url": "https://grid.layoutit.com/"
+    },
+    {
+      "name": "Calc Generator",
+      "url": "https://fpece.com/calc-generator"
+    },
+    {
+      "name": "Lorem Ipsum Generator (Default Text)",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/openlorem/"
+    },
+    {
+      "name": "Free AI Diagram Generator",
+      "url": "https://diagram-generator.com/"
+    },
+    {
+      "name": "CSS Ribbon Generator",
+      "url": "https://www.cssportal.com/css-ribbon-generator/"
+    },
+    {
+      "name": "Critical Path CSS Generator",
+      "url": "https://www.sitelocity.com/critical-path-css-generator"
+    },
+    {
+      "name": "QR Code Generator",
+      "url": "https://markodenic.com/tools/qr-code-generator/"
+    }
+  ],
+  "templates": [
+    {
+      "name": "Templatemo",
+      "url": "https://templatemo.com/"
+    },
+    {
+      "name": "ThemeWagon",
+      "url": "https://themewagon.com/theme-price/free/"
+    },
+    {
+      "name": "Themes For App",
+      "url": "https://themesfor.app/"
+    },
+    {
+      "name": "W3css_templates",
+      "url": "https://www.w3schools.com/w3css/w3css_templates.asp"
+    },
+    {
+      "name": "mashup-template",
+      "url": "http://www.mashup-template.com/templates.html"
+    },
+    {
+      "name": "KeenThemes",
+      "url": "https://keenthemes.com/"
+    },
+    {
+      "name": "Themesberg",
+      "url": "https://themesberg.com/templates/free"
+    },
+    {
+      "name": "Theme UI",
+      "url": "https://theme-ui.com/home"
+    },
+    {
+      "name": "Chakra Templates",
+      "url": "https://chakra-templates.dev/"
+    },
+    {
+      "name": "Shadcn Templates",
+      "url": "https://shadcntemplates.com/"
+    }
+  ],
+  "learning": [
+    {
+      "name": "Emoji Guide",
+      "url": "https://emojiguide.org/"
+    },
+    {
+      "name": "VTEX Styleguide",
+      "url": "https://styleguide.vtex.com/"
+    },
+    {
+      "name": "StyleGuides.io",
+      "url": "http://styleguides.io/"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Maskable.app Editor",
+      "url": "https://maskable.app/editor/"
+    },
+    {
+      "name": "Yellow Lab Tools",
+      "url": "https://yellowlab.tools/"
+    },
+    {
+      "name": "UXWing SVG Editor",
+      "url": "https://uxwing.com/svg-icon-editor"
+    },
+    {
+      "name": "bestwebdesigntools",
+      "url": "https://www.bestwebdesigntools.com/"
+    },
+    {
+      "name": "Image Optimizer",
+      "url": "http://www.imageoptimizer.net/"
+    },
+    {
+      "name": "JPEG Optimizer",
+      "url": "http://jpeg-optimizer.com/"
+    },
+    {
+      "name": "OnlinePngtools",
+      "url": "https://onlinepngtools.com/resize-png"
+    },
+    {
+      "name": "Web Editor",
+      "url": "https://chrome.google.com/webstore/detail/web-editor/pdmlhckofhkhebmcplblcijijgjiakcm"
+    },
+    {
+      "name": "Redux Developer Tool",
+      "url": "https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en"
+    },
+    {
+      "name": "The Web Toolbox",
+      "url": "https://thewebtoolbox.cc/"
+    },
+    {
+      "name": "SETools.xyz",
+      "url": "https://www.setools.xyz/"
+    },
+    {
+      "name": "SmallDev.tools",
+      "url": "https://SmallDev.tools/"
+    },
+    {
+      "name": "Angry Tools",
+      "url": "https://angrytools.com/"
+    }
+  ],
+  "other": [
+    {
+      "name": "SVG sine waves",
+      "url": "https://www.sinwaver.com/"
+    },
+    {
+      "name": "UI Design Daily",
+      "url": "https://uidesigndaily.com/"
+    },
+    {
+      "name": "100 Daily UI",
+      "url": "https://100dailyui.webflow.io/"
+    },
+    {
+      "name": "Sketch App Sources",
+      "url": "https://www.sketchappsources.com/"
+    },
+    {
+      "name": "Paaatterns",
+      "url": "https://products.ls.graphics/paaatterns/"
+    },
+    {
+      "name": "Manypixels.co",
+      "url": "https://www.manypixels.co/gallery/"
+    },
+    {
+      "name": "Open Peeps",
+      "url": "https://www.openpeeps.com/"
+    },
+    {
+      "name": "InvisionApp",
+      "url": "https://www.invisionapp.com/inside-design/design-resources/"
+    },
+    {
+      "name": "Open Doodles",
+      "url": "https://www.opendoodles.com/"
+    },
+    {
+      "name": "Avataaars",
+      "url": "https://avataaars.com/"
+    },
+    {
+      "name": "Blush",
+      "url": "https://blush.design/"
+    },
+    {
+      "name": "Hero Patterns",
+      "url": "http://www.heropatterns.com/"
+    },
+    {
+      "name": "BEAUBUS Patterns",
+      "url": "https://patterns.beaubus.com/"
+    },
+    {
+      "name": "IRA Design",
+      "url": "https://iradesign.io/"
+    },
+    {
+      "name": "Transparent Textures",
+      "url": "https://www.transparenttextures.com/"
+    },
+    {
+      "name": "Patternico",
+      "url": "https://patternico.com"
+    },
+    {
+      "name": "Abstract User Avatar API",
+      "url": "https://www.abstractapi.com/user-avatar-api"
+    },
+    {
+      "name": "sketchvalley",
+      "url": "https://sketchvalley.com/"
+    },
+    {
+      "name": "PatternPad",
+      "url": "https://patternpad.com/"
+    },
+    {
+      "name": "Dimensions",
+      "url": "https://www.dimensions.com/"
+    },
+    {
+      "name": "Freebiesbug",
+      "url": "https://freebiesbug.com/"
+    },
+    {
+      "name": "Flexiple",
+      "url": "https://2.flexiple.com/scale/all-illustrations"
+    },
+    {
+      "name": "Cool Text",
+      "url": "https://cooltext.com/"
+    },
+    {
+      "name": "Pattern Monster",
+      "url": "https://pattern.monster/"
+    },
+    {
+      "name": "Exemplar",
+      "url": "https://themeselection.com/products/exemplar-free-avatar-library-for-figma-and-sketch/"
+    },
+    {
+      "name": "UIBundle",
+      "url": "https://uibundle.com"
+    },
+    {
+      "name": "openby.design",
+      "url": "http://openby.design/"
+    },
+    {
+      "name": "Design Stripe",
+      "url": "https://designstripe.com/catalog"
+    },
+    {
+      "name": "HOLA SVG!",
+      "url": "https://holasvg.com/"
+    },
+    {
+      "name": "symu.co",
+      "url": "https://symu.co/freebies/templates-4/"
+    },
+    {
+      "name": "Creatica",
+      "url": "https://creatica.app/backgrounds"
+    },
+    {
+      "name": "Boring Avatars",
+      "url": "https://boringavatars.com/"
+    },
+    {
+      "name": "Html to Design",
+      "url": "https://www.figma.com/community/plugin/1159123024924461424/html.to.design"
+    },
+    {
+      "name": "fffuel",
+      "url": "https://www.fffuel.co"
+    },
+    {
+      "name": "Mesher",
+      "url": "https://csshero.org/mesher"
+    },
+    {
+      "name": "Use & Modify",
+      "url": "https://usemodify.com/"
+    },
+    {
+      "name": "Tiff",
+      "url": "https://winniethemu.github.io/tiff/"
+    },
+    {
+      "name": "TypeKit Practice",
+      "url": "https://practice.typekit.com/"
+    },
+    {
+      "name": "Golden Ratio",
+      "url": "https://grtcalculator.com/"
+    },
+    {
+      "name": "Lexend",
+      "url": "https://www.lexend.com/"
+    },
+    {
+      "name": "Open Foundry",
+      "url": "https://open-foundry.com"
+    },
+    {
+      "name": "Glyphter",
+      "url": "https://glyphter.com"
+    },
+    {
+      "name": "Typespiration",
+      "url": "https://typespiration.com/"
+    },
+    {
+      "name": "Coolors",
+      "url": "https://coolors.co"
+    },
+    {
+      "name": "Adobe Trends",
+      "url": "https://color.adobe.com/trends"
+    },
+    {
+      "name": "Grabient",
+      "url": "https://www.grabient.com/"
+    },
+    {
+      "name": "ShadeSwash",
+      "url": "https://shadeswash.netlify.app/"
+    },
+    {
+      "name": "0to255",
+      "url": "https://www.0to255.com/"
+    },
+    {
+      "name": "Khroma",
+      "url": "http://khroma.co/"
+    },
+    {
+      "name": "whocanuse",
+      "url": "https://whocanuse.com"
+    },
+    {
+      "name": "Saruwakakun",
+      "url": "https://saruwakakun.com/en/color-ideas"
+    },
+    {
+      "name": "Paletton",
+      "url": "https://paletton.com/"
+    },
+    {
+      "name": "FarbVelo",
+      "url": "https://farbvelo.elastiq.ch/"
+    },
+    {
+      "name": "Duo",
+      "url": "https://duo.alexpate.uk/"
+    },
+    {
+      "name": "Palettte App",
+      "url": "https://palettte.app"
+    },
+    {
+      "name": "Croma",
+      "url": "https://chroma.dev/"
+    },
+    {
+      "name": "Duotone",
+      "url": "https://duotone.shapefactory.co/"
+    },
+    {
+      "name": "AiSeka",
+      "url": "https://www.aiseka.com/"
+    },
+    {
+      "name": "UXWing",
+      "url": "https://uxwing.com/"
+    },
+    {
+      "name": "The Noun Project",
+      "url": "https://thenounproject.com/"
+    },
+    {
+      "name": "Nucleo App",
+      "url": "https://nucleoapp.com/"
+    },
+    {
+      "name": "Vivid.js",
+      "url": "https://webkul.github.io/vivid/"
+    },
+    {
+      "name": "css.gg",
+      "url": "https://css.gg/"
+    },
+    {
+      "name": "Icomoon",
+      "url": "https://icomoon.io/app/"
+    },
+    {
+      "name": "Ikonate",
+      "url": "https://ikonate.com/"
+    },
+    {
+      "name": "SVG Repo",
+      "url": "https://www.svgrepo.com/"
+    },
+    {
+      "name": "Convertio",
+      "url": "https://convertio.co/png-svg/"
+    },
+    {
+      "name": "Lucide",
+      "url": "https://lucide.netlify.app/"
+    },
+    {
+      "name": "Vectopus",
+      "url": "https://vectopus.com"
+    },
+    {
+      "name": "LogoSear.ch",
+      "url": "https://logosear.ch/search.html"
+    },
+    {
+      "name": "SVGPorn",
+      "url": "https://svgporn.com"
+    },
+    {
+      "name": "VectorLogoZone",
+      "url": "https://www.vectorlogo.zone/"
+    },
+    {
+      "name": "World Vector Logo",
+      "url": "https://worldvectorlogo.com/"
+    },
+    {
+      "name": "LOGOwine",
+      "url": "https://www.logo.wine/"
+    },
+    {
+      "name": "Favicomatic",
+      "url": "https://favicomatic.com/"
+    },
+    {
+      "name": "FaviFiles",
+      "url": "https://favifiles.com/"
+    },
+    {
+      "name": "Line Awesome",
+      "url": "https://icons8.com/line-awesome"
+    },
+    {
+      "name": "Stroke 7",
+      "url": "https://themes-pixeden.com/font-demos/7-stroke/index.html"
+    },
+    {
+      "name": "Linea",
+      "url": "https://linea.io/"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com/"
+    },
+    {
+      "name": "Magdeleine",
+      "url": "https://magdeleine.co/"
+    },
+    {
+      "name": "Picspree",
+      "url": "https://picspree.com"
+    },
+    {
+      "name": "Burst",
+      "url": "https://burst.shopify.com/"
+    },
+    {
+      "name": "Gratisography",
+      "url": "https://gratisography.com/"
+    },
+    {
+      "name": "Life of Pix",
+      "url": "https://www.lifeofpix.com/"
+    },
+    {
+      "name": "Morguefile",
+      "url": "https://morguefile.com/"
+    },
+    {
+      "name": "Kaboom Pics",
+      "url": "https://kaboompics.com/"
+    },
+    {
+      "name": "Pic Jumbo",
+      "url": "https://picjumbo.com/"
+    },
+    {
+      "name": "Placeholder",
+      "url": "https://placeholder.com/"
+    },
+    {
+      "name": "Realistic Shots",
+      "url": "https://realisticshots.com/"
+    },
+    {
+      "name": "Negative Space",
+      "url": "https://negativespace.co/"
+    },
+    {
+      "name": "PicoGraphy",
+      "url": "https://picography.co/"
+    },
+    {
+      "name": "PxHere",
+      "url": "https://pxhere.com/"
+    },
+    {
+      "name": "Piqsels",
+      "url": "https://piqsels.com/"
+    },
+    {
+      "name": "FoodiesFeed",
+      "url": "https://www.foodiesfeed.com/"
+    },
+    {
+      "name": "Nappy",
+      "url": "https://www.nappy.co/"
+    },
+    {
+      "name": "Reshot",
+      "url": "https://www.reshot.com/"
+    },
+    {
+      "name": "Lorem Picsum",
+      "url": "https://picsum.photos/"
+    },
+    {
+      "name": "scienceimage",
+      "url": "https://www.scienceimage.csiro.au"
+    },
+    {
+      "name": "Integration & Application Network Image Library",
+      "url": "https://ian.umces.edu/imagelibrary"
+    },
+    {
+      "name": "Saxifraga",
+      "url": "http://www.freenatureimages.eu"
+    },
+    {
+      "name": "Creative Commons",
+      "url": "https://search.creativecommons.org"
+    },
+    {
+      "name": "Openverse",
+      "url": "https://wordpress.org/openverse/"
+    },
+    {
+      "name": "ISO Republic",
+      "url": "https://isorepublic.com/"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://www.pixabay.com/videos"
+    },
+    {
+      "name": "Coverr.co",
+      "url": "https://coverr.co/"
+    },
+    {
+      "name": "Videezy",
+      "url": "https://www.videezy.com/"
+    },
+    {
+      "name": "Mix Kit",
+      "url": "https://mixkit.co/"
+    },
+    {
+      "name": "Life Of Vids",
+      "url": "https://www.lifeofvids.com/"
+    },
+    {
+      "name": "Videvo",
+      "url": "https://www.videvo.net/stock-video-footage/"
+    },
+    {
+      "name": "Loopvidz",
+      "url": "http://stock.loopvidz.com/"
+    },
+    {
+      "name": "SplitShire",
+      "url": "https://www.splitshire.com/"
+    },
+    {
+      "name": "YouTube Studio Audio Library",
+      "url": "https://www.youtube.com/audiolibrary"
+    },
+    {
+      "name": "Bensound",
+      "url": "https://www.bensound.com/"
+    },
+    {
+      "name": "Mixkit",
+      "url": "https://mixkit.co/free-stock-music/"
+    },
+    {
+      "name": "Freesound",
+      "url": "https://freesound.org/"
+    },
+    {
+      "name": "Free Music Archive",
+      "url": "https://freemusicarchive.org/"
+    },
+    {
+      "name": "Musopen",
+      "url": "https://musopen.org/music/"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com/music/"
+    },
+    {
+      "name": "Unminus",
+      "url": "https://www.unminus.com/"
+    },
+    {
+      "name": "PNGFree.ai",
+      "url": "https://pngfree.ai/"
+    },
+    {
+      "name": "Vecteezy",
+      "url": "https://www.vecteezy.com/"
+    },
+    {
+      "name": "Freepik",
+      "url": "https://www.freepik.com"
+    },
+    {
+      "name": "Free Vectors",
+      "url": "https://www.freevectors.net/"
+    },
+    {
+      "name": "PNGTree",
+      "url": "https://pngtree.com/free-vectors"
+    },
+    {
+      "name": "Vector4Free",
+      "url": "https://www.vector4free.com/"
+    },
+    {
+      "name": "Freeble",
+      "url": "http://freebbble.com/"
+    },
+    {
+      "name": "Lukaszadam",
+      "url": "https://lukaszadam.com/"
+    },
+    {
+      "name": "Illlustrations",
+      "url": "https://illlustrations.co/"
+    },
+    {
+      "name": "Clipart",
+      "url": "https://www.clipart.email/"
+    },
+    {
+      "name": "trianglify.io",
+      "url": "https://trianglify.io/"
+    },
+    {
+      "name": "blob",
+      "url": "https://blobs.app/"
+    },
+    {
+      "name": "HiClipart",
+      "url": "https://www.hiclipart.com/"
+    },
+    {
+      "name": "Stories by Freepik",
+      "url": "https://stories.freepik.com/"
+    },
+    {
+      "name": "Delesign",
+      "url": "https://delesign.com/free-designs/graphics"
+    },
+    {
+      "name": "Custom Shape Dividers",
+      "url": "https://www.shapedivider.app/"
+    },
+    {
+      "name": "Servier Medical Art",
+      "url": "https://smart.servier.com"
+    },
+    {
+      "name": "Clker",
+      "url": "http://www.clker.com"
+    },
+    {
+      "name": "SVG wave",
+      "url": "https://svgwave.in/"
+    },
+    {
+      "name": "BGjar",
+      "url": "https://bgjar.com"
+    },
+    {
+      "name": "Heritage Library",
+      "url": "https://www.heritagetype.com/collections/free-vintage-illustrations"
+    },
+    {
+      "name": "ROBOHASH",
+      "url": "https://robohash.org/"
+    },
+    {
+      "name": "Tabbied",
+      "url": "https://tabbied.com/"
+    },
+    {
+      "name": "Haikei",
+      "url": "https://app.haikei.app/"
+    },
+    {
+      "name": "Vector",
+      "url": "https://vector.ma/"
+    },
+    {
+      "name": "Heazy",
+      "url": "https://app.heazy.studio/"
+    },
+    {
+      "name": "Mossaik",
+      "url": "https://mossaik.app/"
+    },
+    {
+      "name": "MockCity",
+      "url": "https://mockcity.com/"
+    },
+    {
+      "name": "Smart Mockups",
+      "url": "https://smartmockups.com/"
+    },
+    {
+      "name": "Media Modifier",
+      "url": "https://mediamodifier.com/"
+    },
+    {
+      "name": "Shot Snap",
+      "url": "https://shotsnapp.com/"
+    },
+    {
+      "name": "Screely",
+      "url": "https://www.screely.com/"
+    },
+    {
+      "name": "Screenshot.rocks",
+      "url": "https://screenshot.rocks/"
+    },
+    {
+      "name": "Screen Peak",
+      "url": "https://screenpeek.io/"
+    },
+    {
+      "name": "Mockup World",
+      "url": "https://www.mockupworld.co/"
+    },
+    {
+      "name": "Collab Shot",
+      "url": "https://www.collabshot.com/"
+    },
+    {
+      "name": "Facebook Devices",
+      "url": "https://facebook.design/devices"
+    },
+    {
+      "name": "Threed.io",
+      "url": "https://threed.io"
+    },
+    {
+      "name": "Mockuphone",
+      "url": "https://mockuphone.com/"
+    },
+    {
+      "name": "Device Shots",
+      "url": "https://deviceshots.com/"
+    },
+    {
+      "name": "Clean Mock",
+      "url": "https://cleanmock.com/"
+    },
+    {
+      "name": "Mock.Video",
+      "url": "https://www.mock.video/"
+    },
+    {
+      "name": "MockupBro",
+      "url": "https://mockupbro.com/"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.style"
+    },
+    {
+      "name": "Lunacy",
+      "url": "https://icons8.com/lunacy"
+    },
+    {
+      "name": "HTML5Up",
+      "url": "https://html5up.net/"
+    },
+    {
+      "name": "FreeHTML5",
+      "url": "https://freehtml5.co/"
+    },
+    {
+      "name": "StyleShout",
+      "url": "https://www.styleshout.com/free-templates/"
+    },
+    {
+      "name": "Free CSS",
+      "url": "https://www.free-css.com/free-css-templates"
+    },
+    {
+      "name": "Hubspot",
+      "url": "https://www.hubspot.com/resources"
+    },
+    {
+      "name": "Mobirise",
+      "url": "https://mobirise.com/html-templates/"
+    },
+    {
+      "name": "Bootswatch",
+      "url": "https://bootswatch.com/"
+    },
+    {
+      "name": "Onepagelove",
+      "url": "https://onepagelove.com/"
+    },
+    {
+      "name": "W3Layouts",
+      "url": "https://w3layouts.com/"
+    },
+    {
+      "name": "Tooplate",
+      "url": "https://www.tooplate.com/"
+    },
+    {
+      "name": "Cruip",
+      "url": "https://cruip.com/free-templates/"
+    },
+    {
+      "name": "UIdeck",
+      "url": "https://uideck.com/"
+    },
+    {
+      "name": "Splawr",
+      "url": "https://splawr.com/"
+    },
+    {
+      "name": "All-Free-Download",
+      "url": "https://all-free-download.com/free-website-templates/free-html-css-templates.html"
+    },
+    {
+      "name": "HTMLrev",
+      "url": "https://htmlrev.com"
+    },
+    {
+      "name": "Horizon UI",
+      "url": "https://horizon-ui.com/"
+    },
+    {
+      "name": "Materialize",
+      "url": "https://materializecss.com/"
+    },
+    {
+      "name": "Bulma",
+      "url": "https://bulma.io/"
+    },
+    {
+      "name": "Skeleton",
+      "url": "http://getskeleton.com/"
+    },
+    {
+      "name": "Uniform CSS",
+      "url": "https://uniformcss.com/"
+    },
+    {
+      "name": "Semantic UI",
+      "url": "https://semantic-ui.com/"
+    },
+    {
+      "name": "Fomantic UI",
+      "url": "https://fomantic-ui.com/"
+    },
+    {
+      "name": "Foundation",
+      "url": "https://get.foundation/"
+    },
+    {
+      "name": "Pure CSS",
+      "url": "https://purecss.io/"
+    },
+    {
+      "name": "UIKit",
+      "url": "https://getuikit.com/"
+    },
+    {
+      "name": "Susy",
+      "url": "https://www.oddbird.net/susy/"
+    },
+    {
+      "name": "Milligram.io",
+      "url": "https://milligram.io/"
+    },
+    {
+      "name": "Spectre CSS",
+      "url": "https://picturepan2.github.io/spectre/"
+    },
+    {
+      "name": "Picnic CSS",
+      "url": "https://picnicss.com/"
+    },
+    {
+      "name": "Wing",
+      "url": "https://kbrsh.github.io/wing/"
+    },
+    {
+      "name": "Chota",
+      "url": "https://jenil.github.io/chota/"
+    },
+    {
+      "name": "Blueprint CSS",
+      "url": "https://blueprintcss.dev/"
+    },
+    {
+      "name": "W3.CSS",
+      "url": "https://www.w3schools.com/w3css/"
+    },
+    {
+      "name": "98.css",
+      "url": "https://jdan.github.io/98.css/"
+    },
+    {
+      "name": "NES CSS",
+      "url": "https://nostalgic-css.github.io/NES.css/"
+    },
+    {
+      "name": "Shoelace.css",
+      "url": "https://www.shoelace.style/"
+    },
+    {
+      "name": "MVP.css",
+      "url": "https://andybrewer.github.io/mvp/"
+    },
+    {
+      "name": "Blaze.css",
+      "url": "http://blazecss.com/"
+    },
+    {
+      "name": "Turret CSS",
+      "url": "https://turretcss.com/"
+    },
+    {
+      "name": "Cutestrap",
+      "url": "https://www.cutestrap.com/"
+    },
+    {
+      "name": "XP.css",
+      "url": "https://botoxparty.github.io/XP.css/"
+    },
+    {
+      "name": "Hint.css",
+      "url": "https://kushagra.dev/lab/hint/"
+    },
+    {
+      "name": "imagehover.io",
+      "url": "http://imagehover.io/"
+    },
+    {
+      "name": "mini.css",
+      "url": "https://minicss.org/"
+    },
+    {
+      "name": "Tachyons",
+      "url": "https://tachyons.io/"
+    },
+    {
+      "name": "Halfmoon UI",
+      "url": "https://www.gethalfmoon.com/"
+    },
+    {
+      "name": "Metro 4",
+      "url": "https://metroui.org.ua/index.html"
+    },
+    {
+      "name": "css-doodle",
+      "url": "https://css-doodle.com/"
+    },
+    {
+      "name": "latex.css",
+      "url": "https://latex.now.sh/"
+    },
+    {
+      "name": "Windi CSS",
+      "url": "https://windicss.org/"
+    },
+    {
+      "name": "Cirrus CSS",
+      "url": "https://cirrus-ui.netlify.app/"
+    },
+    {
+      "name": "Bojler",
+      "url": "https://bojler.slicejack.com/"
+    },
+    {
+      "name": "Terminal CSS",
+      "url": "https://terminalcss.xyz/"
+    },
+    {
+      "name": "Sakura",
+      "url": "https://oxal.org/projects/sakura/"
+    },
+    {
+      "name": "Axentix",
+      "url": "https://useaxentix.com/"
+    },
+    {
+      "name": "Raster Simple Grid System",
+      "url": "https://rsms.me/raster/"
+    },
+    {
+      "name": "flowrift",
+      "url": "https://flowrift.com/c/banner"
+    },
+    {
+      "name": "twind",
+      "url": "https://twind.dev/"
+    },
+    {
+      "name": "Pico.css",
+      "url": "https://picocss.com/"
+    },
+    {
+      "name": "BeerCSS",
+      "url": "https://www.beercss.com"
+    },
+    {
+      "name": "UnoCSS",
+      "url": "https://unocss.dev/"
+    },
+    {
+      "name": "StyleX",
+      "url": "https://stylexjs.com/"
+    },
+    {
+      "name": "OOCSS",
+      "url": "http://oocss.org/"
+    },
+    {
+      "name": "Atomic CSS",
+      "url": "https://acss.io/"
+    },
+    {
+      "name": "BEM",
+      "url": "http://getbem.com/"
+    },
+    {
+      "name": "SMACSS",
+      "url": "http://smacss.com/"
+    },
+    {
+      "name": "CUBE",
+      "url": "https://cube.fyi/"
+    },
+    {
+      "name": "Bounce.js",
+      "url": "http://bouncejs.com/"
+    },
+    {
+      "name": "Anime.js",
+      "url": "https://animejs.com/"
+    },
+    {
+      "name": "Zdog",
+      "url": "https://zzz.dog/"
+    },
+    {
+      "name": "CSShake",
+      "url": "http://elrumordelaluz.github.io/csshake/"
+    },
+    {
+      "name": "Hover.css",
+      "url": "http://ianlunn.github.io/Hover/"
+    },
+    {
+      "name": "AniJS",
+      "url": "http://anijs.github.io/"
+    },
+    {
+      "name": "Animista",
+      "url": "http://animista.net/"
+    },
+    {
+      "name": "Sequence.js",
+      "url": "https://www.sequencejs.com/"
+    },
+    {
+      "name": "Infinite",
+      "url": "https://tilomitra.github.io/infinite/"
+    },
+    {
+      "name": "OBNOXIOUS.CSS",
+      "url": "http://tholman.com/obnoxious/"
+    },
+    {
+      "name": "Keyframes.app",
+      "url": "https://keyframes.app/"
+    },
+    {
+      "name": "thoughtbot",
+      "url": "https://thoughtbot.com/blog/transitions-and-transforms"
+    },
+    {
+      "name": "SVG Artista",
+      "url": "https://svgartista.net/"
+    },
+    {
+      "name": "AnimXYZ",
+      "url": "https://animxyz.com/"
+    },
+    {
+      "name": "Hamburgers",
+      "url": "https://jonsuh.com/hamburgers/"
+    },
+    {
+      "name": "CSS Loaders & Spinners",
+      "url": "https://cssloaders.github.io/"
+    },
+    {
+      "name": "pocoloco",
+      "url": "https://pocoloco.io/"
+    },
+    {
+      "name": "AniX",
+      "url": "https://adajuly.github.io/AniX/"
+    },
+    {
+      "name": "AOS",
+      "url": "https://michalsnik.github.io/aos/"
+    },
+    {
+      "name": "Animatopy",
+      "url": "https://sarthology.github.io/Animatopy/"
+    },
+    {
+      "name": "GSAP",
+      "url": "https://gsap.com/"
+    },
+    {
+      "name": "Velocity.js",
+      "url": "http://velocityjs.org/"
+    },
+    {
+      "name": "Atropos",
+      "url": "https://atroposjs.com/"
+    },
+    {
+      "name": "wow.js",
+      "url": "https://wowjs.uk/"
+    },
+    {
+      "name": "chocolat.js",
+      "url": "http://chocolat.insipi.de/"
+    },
+    {
+      "name": "Tilt.js",
+      "url": "http://gijsroge.github.io/tilt.js/"
+    },
+    {
+      "name": "Roughnotation",
+      "url": "https://roughnotation.com/"
+    },
+    {
+      "name": "tsParticles",
+      "url": "https://particles.js.org/"
+    },
+    {
+      "name": "Particles.js",
+      "url": "https://vincentgarreau.com/particles.js/"
+    },
+    {
+      "name": "mo.js",
+      "url": "https://mojs.github.io/"
+    },
+    {
+      "name": "Lightbox2",
+      "url": "https://lokeshdhakar.com/projects/lightbox2/"
+    },
+    {
+      "name": "Slick",
+      "url": "https://kenwheeler.github.io/slick/"
+    },
+    {
+      "name": "barba.js",
+      "url": "https://barba.js.org/"
+    },
+    {
+      "name": "Locomotive Scroll",
+      "url": "https://locomotivemtl.github.io/locomotive-scroll/"
+    },
+    {
+      "name": "Owl carousel",
+      "url": "https://owlcarousel2.github.io/OwlCarousel2/"
+    },
+    {
+      "name": "Swiperjs",
+      "url": "https://swiperjs.com/"
+    },
+    {
+      "name": "Splide",
+      "url": "https://splidejs.com"
+    },
+    {
+      "name": "Simple Parallax",
+      "url": "https://simpleparallax.com/"
+    },
+    {
+      "name": "KUTE.js",
+      "url": "https://thednp.github.io/kute.js/"
+    },
+    {
+      "name": "Granim.js",
+      "url": "https://sarcadass.github.io/granim.js/index.html"
+    },
+    {
+      "name": "Vivus",
+      "url": "https://maxwellito.github.io/vivus/"
+    },
+    {
+      "name": "Typed.js",
+      "url": "https://mattboldt.com/demos/typed-js/"
+    },
+    {
+      "name": "Progress Bar.js",
+      "url": "https://kimmobrunfeldt.github.io/progressbar.js/"
+    },
+    {
+      "name": "Midnight.js",
+      "url": "https://aerolab.github.io/midnight.js/"
+    },
+    {
+      "name": "Tingle.js",
+      "url": "https://tingle.robinparisi.com/"
+    },
+    {
+      "name": "Theatre.js",
+      "url": "https://www.theatrejs.com/"
+    },
+    {
+      "name": "splidejs",
+      "url": "https://splidejs.com/"
+    },
+    {
+      "name": "nice-waves",
+      "url": "https://gvguy.github.io/nice-waves/"
+    },
+    {
+      "name": "Vanta.js",
+      "url": "https://www.vantajs.com/"
+    },
+    {
+      "name": "Splitting.js",
+      "url": "https://splitting.js.org/"
+    },
+    {
+      "name": "ChartJS",
+      "url": "https://www.chartjs.org/"
+    },
+    {
+      "name": "FrappeJS",
+      "url": "https://frappe.io/charts"
+    },
+    {
+      "name": "G2Plot",
+      "url": "https://g2plot.antv.vision/en"
+    },
+    {
+      "name": "Google Charts",
+      "url": "https://developers.google.com/chart/"
+    },
+    {
+      "name": "Data Driven Documents (D3)",
+      "url": "https://d3js.org/"
+    },
+    {
+      "name": "ApexCharts.Js",
+      "url": "https://apexcharts.com/"
+    },
+    {
+      "name": "Chartist",
+      "url": "http://gionkunz.github.io/chartist-js/index.html"
+    },
+    {
+      "name": "Vizzu",
+      "url": "https://lib.vizzuhq.com/0.3.0/"
+    },
+    {
+      "name": "AntV",
+      "url": "https://ant-design-charts.antgroup.com/en/"
+    },
+    {
+      "name": "Nivo",
+      "url": "https://nivo.rocks/"
+    },
+    {
+      "name": "Echarts",
+      "url": "https://echarts.apache.org/en/index.html"
+    },
+    {
+      "name": "VChart",
+      "url": "https://visactor.io/vchart"
+    },
+    {
+      "name": "VTable",
+      "url": "https://visactor.io/vtable"
+    },
+    {
+      "name": "VStory",
+      "url": "https://visactor.io/vstory"
+    },
+    {
+      "name": "CSSnippets",
+      "url": "https://cssnippets.shefali.dev"
+    },
+    {
+      "name": "Bit",
+      "url": "https://bit.dev/components"
+    },
+    {
+      "name": "UILang",
+      "url": "http://uilang.com/"
+    },
+    {
+      "name": "Froala Design Blocks",
+      "url": "https://froala.com/design-blocks"
+    },
+    {
+      "name": "Flowbite",
+      "url": "https://flowbite.com"
+    },
+    {
+      "name": "daisyUI",
+      "url": "https://daisyui.com/"
+    },
+    {
+      "name": "Mui Treasury",
+      "url": "https://mui-treasury.com"
+    },
+    {
+      "name": "Flat UI",
+      "url": "https://designmodo.github.io/Flat-UI/"
+    },
+    {
+      "name": "Shards",
+      "url": "https://designrevision.com/downloads/shards/"
+    },
+    {
+      "name": "Creative Tim",
+      "url": "https://www.creative-tim.com/"
+    },
+    {
+      "name": "AdminLTE",
+      "url": "https://adminlte.io/"
+    },
+    {
+      "name": "SpinKit",
+      "url": "https://tobiasahlin.com/spinkit/"
+    },
+    {
+      "name": "Epic Spinners",
+      "url": "https://epic-spinners.epicmax.co/"
+    },
+    {
+      "name": "Loading.io",
+      "url": "https://loading.io/"
+    },
+    {
+      "name": "Moving Letters",
+      "url": "https://tobiasahlin.com/moving-letters/"
+    },
+    {
+      "name": "CSS Layout",
+      "url": "https://csslayout.io/"
+    },
+    {
+      "name": "Codyhouse",
+      "url": "https://codyhouse.co/"
+    },
+    {
+      "name": "sweetalert",
+      "url": "https://sweetalert.js.org/"
+    },
+    {
+      "name": "sweetalert2",
+      "url": "https://sweetalert2.github.io/"
+    },
+    {
+      "name": "tailblocks",
+      "url": "https://mertjf.github.io/tailblocks/"
+    },
+    {
+      "name": "Fast",
+      "url": "https://www.fast.design/"
+    },
+    {
+      "name": "Kutty",
+      "url": "https://kutty.netlify.app/"
+    },
+    {
+      "name": "Stitches",
+      "url": "https://stitches.hyperyolo.com/"
+    },
+    {
+      "name": "Stitches",
+      "url": "https://stitches.dev/"
+    },
+    {
+      "name": "Headless UI",
+      "url": "https://headlessui.dev/"
+    },
+    {
+      "name": "Notiflix",
+      "url": "https://notiflix.github.io"
+    },
+    {
+      "name": "CoreUI",
+      "url": "https://coreui.io"
+    },
+    {
+      "name": "AgnosticUI",
+      "url": "https://www.agnosticui.com/"
+    },
+    {
+      "name": "SVGR",
+      "url": "https://react-svgr.com/"
+    },
+    {
+      "name": "uiverse",
+      "url": "https://uiverse.io"
+    },
+    {
+      "name": "HyperUI",
+      "url": "https://www.hyperui.dev/"
+    },
+    {
+      "name": "Wicked Blocks",
+      "url": "https://wickedblocks.dev/"
+    },
+    {
+      "name": "Mamba UI",
+      "url": "https://mambaui.com/"
+    },
+    {
+      "name": "Kitwind",
+      "url": "https://kitwind.io/products/kometa/components"
+    },
+    {
+      "name": "DevUI",
+      "url": "https://www.devui.io/"
+    },
+    {
+      "name": "Tail-Kit",
+      "url": "https://www.tailwind-kit.com/"
+    },
+    {
+      "name": "Float UI",
+      "url": "https://floatui.com/"
+    },
+    {
+      "name": "Konsta UI",
+      "url": "https://konstaui.com/"
+    },
+    {
+      "name": "Wind UI",
+      "url": "https://wind-ui.com/"
+    },
+    {
+      "name": "Sonner",
+      "url": "https://sonner.emilkowal.ski/"
+    },
+    {
+      "name": "Pines",
+      "url": "https://devdojo.com/pines"
+    },
+    {
+      "name": "Kuma UI",
+      "url": "https://www.kuma-ui.com/"
+    },
+    {
+      "name": "Shadcnui Blocks",
+      "url": "https://www.shadcnui-blocks.com/"
+    },
+    {
+      "name": "Shadcn studio",
+      "url": "https://shadcnstudio.com/"
+    },
+    {
+      "name": "Material UI",
+      "url": "https://material-ui.com/"
+    },
+    {
+      "name": "Chakra UI",
+      "url": "https://chakra-ui.com/"
+    },
+    {
+      "name": "Openchakra",
+      "url": "https://openchakra.app/"
+    },
+    {
+      "name": "Semi Design",
+      "url": "https://semi.design/en-US"
+    },
+    {
+      "name": "Mantine",
+      "url": "https://mantine.dev/"
+    },
+    {
+      "name": "HeroUI - Previously NextUI",
+      "url": "https://www.heroui.com/"
+    },
+    {
+      "name": "Arco Design",
+      "url": "https://arco.design/en-US"
+    },
+    {
+      "name": "ui-playbook",
+      "url": "https://uiplaybook.dev/"
+    },
+    {
+      "name": "BlueprintJS",
+      "url": "https://blueprintjs.com/"
+    },
+    {
+      "name": "Elastic UI",
+      "url": "https://elastic.github.io/eui/#/"
+    },
+    {
+      "name": "Evergreen",
+      "url": "https://evergreen.segment.com/"
+    },
+    {
+      "name": "Grommet",
+      "url": "https://v2.grommet.io/"
+    },
+    {
+      "name": "Elemental UI",
+      "url": "http://elemental-ui.com/"
+    },
+    {
+      "name": "Ant Design",
+      "url": "https://ant.design/"
+    },
+    {
+      "name": "Bumbag",
+      "url": "https://bumbag.style/"
+    },
+    {
+      "name": "Orbit",
+      "url": "https://orbit.kiwi/"
+    },
+    {
+      "name": "Base Web",
+      "url": "https://baseweb.design/"
+    },
+    {
+      "name": "Backpack UI",
+      "url": "http://lonelyplanet.github.io/backpack-ui/?path=/story/styles--design-tokens"
+    },
+    {
+      "name": "Reaviz",
+      "url": "https://reaviz.io"
+    },
+    {
+      "name": "Recharts",
+      "url": "http://recharts.org/en-US/"
+    },
+    {
+      "name": "OAH-Admin",
+      "url": "https://gatsby-admin.paljs.com/extra-components/progress/"
+    },
+    {
+      "name": "Carolina Admin Dashboard",
+      "url": "https://demo.uifort.com/carolina-react-admin-dashboard-material-ui-free-demo/LandingPage"
+    },
+    {
+      "name": "Supabase UI",
+      "url": "https://ui.supabase.io/"
+    },
+    {
+      "name": "Reakit",
+      "url": "https://reakit.io/"
+    },
+    {
+      "name": "xstyled",
+      "url": "https://xstyled.dev/"
+    },
+    {
+      "name": "Choc UI",
+      "url": "https://choc-ui.com/"
+    },
+    {
+      "name": "Elementz",
+      "url": "https://elementz.style/"
+    },
+    {
+      "name": "Radix UI",
+      "url": "https://www.radix-ui.com/"
+    },
+    {
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com/"
+    },
+    {
+      "name": "Tremor",
+      "url": "https://tremor.so/"
+    },
+    {
+      "name": "Aceternity UI",
+      "url": "https://ui.aceternity.com/"
+    },
+    {
+      "name": "Magic UI",
+      "url": "https://magicui.design/"
+    },
+    {
+      "name": "Code UI",
+      "url": "https://www.codeui.co.in/"
+    },
+    {
+      "name": "Edil Ozi",
+      "url": "https://www.edil-ozi.pro/"
+    },
+    {
+      "name": "Eldora UI",
+      "url": "https://eldoraui.site/"
+    },
+    {
+      "name": "Buefy",
+      "url": "https://buefy.org/"
+    },
+    {
+      "name": "VEUI",
+      "url": "https://veui.dev/en-US"
+    },
+    {
+      "name": "Quasar",
+      "url": "https://quasar.dev/"
+    },
+    {
+      "name": "Element",
+      "url": "https://element.eleme.io/#/en-US"
+    },
+    {
+      "name": "Fish UI",
+      "url": "https://myliang.github.io/fish-ui/#/components/index"
+    },
+    {
+      "name": "Keen UI",
+      "url": "https://josephuspaye.github.io/Keen-UI"
+    },
+    {
+      "name": "Inkline",
+      "url": "https://inkline.io"
+    },
+    {
+      "name": "Antdv",
+      "url": "https://antdv.com/"
+    },
+    {
+      "name": "View UI",
+      "url": "https://www.iviewui.com/"
+    },
+    {
+      "name": "Vant",
+      "url": "https://youzan.github.io/vant"
+    },
+    {
+      "name": "Equal UI",
+      "url": "https://quatrochan.github.io/Equal/"
+    },
+    {
+      "name": "Mint UI",
+      "url": "https://mint-ui.github.io/#!/en"
+    },
+    {
+      "name": "Cube UI",
+      "url": "https://didi.github.io/cube-ui/#/en-US"
+    },
+    {
+      "name": "Muse UI",
+      "url": "https://muse-ui.org/#/en-US"
+    },
+    {
+      "name": "AT-UI",
+      "url": "https://at-ui.github.io/at-ui/#/en"
+    },
+    {
+      "name": "Vuikit",
+      "url": "https://vuikit.js.org/"
+    },
+    {
+      "name": "Wave UI",
+      "url": "https://antoniandre.github.io/wave-ui/"
+    },
+    {
+      "name": "Oruga",
+      "url": "https://oruga.io/"
+    },
+    {
+      "name": "BalmUI",
+      "url": "https://material.balmjs.com/#/"
+    },
+    {
+      "name": "Naive UI",
+      "url": "https://www.naiveui.com/en-US/os-theme"
+    },
+    {
+      "name": "NuxtLabs UI",
+      "url": "https://ui.nuxtlabs.com/getting-started"
+    },
+    {
+      "name": "PrimeNG",
+      "url": "https://www.primefaces.org/primeng/#/"
+    },
+    {
+      "name": "NG Lightning",
+      "url": "https://ng-lightning.github.io/ng-lightning/#/"
+    },
+    {
+      "name": "Nebular",
+      "url": "https://akveo.github.io/nebular/"
+    },
+    {
+      "name": "Alyle UI",
+      "url": "https://alyle.io/"
+    },
+    {
+      "name": "NG Zorro",
+      "url": "https://ng.ant.design/"
+    },
+    {
+      "name": "Pagination for datatables",
+      "url": "https://www.npmjs.com/package/ngx-pagination"
+    },
+    {
+      "name": "Multi select dropdown",
+      "url": "https://www.npmjs.com/package/ng-multiselect-dropdown"
+    },
+    {
+      "name": "NG Particles",
+      "url": "https://particles.matteobruni.it/"
+    },
+    {
+      "name": "Covalent UI",
+      "url": "https://teradata.github.io/covalent/v3/#/"
+    },
+    {
+      "name": "Clarity",
+      "url": "https://clarity.design/"
+    },
+    {
+      "name": "Taiga UI",
+      "url": "https://taiga-ui.dev/"
+    },
+    {
+      "name": "ngx-admin",
+      "url": "https://akveo.github.io/ngx-admin/"
+    },
+    {
+      "name": "spartan",
+      "url": "https://www.spartan.ng/"
+    },
+    {
+      "name": "Svelte Material UI",
+      "url": "https://sveltematerialui.com/"
+    },
+    {
+      "name": "SvelteStrap",
+      "url": "https://bestguy.github.io/sveltestrap/"
+    },
+    {
+      "name": "Svelte Flat UI",
+      "url": "https://svelteui.js.org/"
+    },
+    {
+      "name": "Attractions",
+      "url": "https://illright.github.io/attractions/"
+    },
+    {
+      "name": "Svelteit",
+      "url": "https://docs.svelteit.dev"
+    },
+    {
+      "name": "Radix Svelte",
+      "url": "https://www.radix-svelte.com/"
+    },
+    {
+      "name": "shadcn-svelte",
+      "url": "https://www.shadcn-svelte.com/"
+    },
+    {
+      "name": "Skeleton",
+      "url": "https://www.skeleton.dev/"
+    },
+    {
+      "name": "Aceternity UI Svelte",
+      "url": "https://aceternity.sveltekit.io/"
+    },
+    {
+      "name": "Svelte UX",
+      "url": "https://svelte-ux.techniq.dev/"
+    },
+    {
+      "name": "Flowbite-Svelte",
+      "url": "https://flowbite-svelte.com/"
+    },
+    {
+      "name": "bits-ui",
+      "url": "https://www.bits-ui.com/"
+    },
+    {
+      "name": "melt-ui",
+      "url": "https://melt-ui.com"
+    },
+    {
+      "name": "Magnus UI",
+      "url": "https://magnus-ui.com/"
+    },
+    {
+      "name": "UI Kitten",
+      "url": "https://akveo.github.io/react-native-ui-kitten/"
+    },
+    {
+      "name": "NativeBase",
+      "url": "https://nativebase.io/"
+    },
+    {
+      "name": "Shoutem UI",
+      "url": "https://shoutem.github.io/docs/ui-toolkit/introduction"
+    },
+    {
+      "name": "Ant Design Mobile RN",
+      "url": "https://rn.mobile.ant.design/"
+    },
+    {
+      "name": "Moti",
+      "url": "https://moti.fyi/"
+    },
+    {
+      "name": "Tamagui",
+      "url": "https://tamagui.dev/"
+    },
+    {
+      "name": "Ant Design",
+      "url": "https://ant.design/"
+    },
+    {
+      "name": "Apple Design Resources",
+      "url": "https://developer.apple.com/design/resources/"
+    },
+    {
+      "name": "Primer",
+      "url": "https://primer.style/"
+    },
+    {
+      "name": "Arco.design",
+      "url": "https://arco.design/en-US"
+    },
+    {
+      "name": "Alta UI",
+      "url": "https://www.oracle.com/webfolder/ux/middleware/alta/index.html"
+    },
+    {
+      "name": "Pulse",
+      "url": "https://pulse.heartbeat.ua/"
+    },
+    {
+      "name": "Bolt",
+      "url": "https://boltdesignsystem.com/"
+    },
+    {
+      "name": "AtlasKit",
+      "url": "https://atlaskit.atlassian.com/"
+    },
+    {
+      "name": "Audi Design Resources",
+      "url": "https://www.audi.com/ci/en/guides/user-interface/introduction.html"
+    },
+    {
+      "name": "Comet",
+      "url": "https://comet.discoveryeducation.com/"
+    },
+    {
+      "name": "Fundamental Library",
+      "url": "https://sap.github.io/fundamental-styles/"
+    },
+    {
+      "name": "Infor Design",
+      "url": "https://design.infor.com/"
+    },
+    {
+      "name": "Microsoft Fluent UI",
+      "url": "https://developer.microsoft.com/en-us/fluentui#/"
+    },
+    {
+      "name": "Polaris",
+      "url": "https://polaris.shopify.com/"
+    },
+    {
+      "name": "Mozilla Protocol",
+      "url": "https://protocol.mozilla.org/"
+    },
+    {
+      "name": "Rizzo",
+      "url": "https://rizzo.lonelyplanet.com/styleguide/design-elements"
+    },
+    {
+      "name": "Atomize",
+      "url": "https://atomizecode.com/"
+    },
+    {
+      "name": "Skoda Brand System",
+      "url": "https://skoda-brand.com/explore-our-brand"
+    },
+    {
+      "name": "Spectrum",
+      "url": "https://spectrum.adobe.com/"
+    },
+    {
+      "name": "Asphalt",
+      "url": "https://asphalt.gojek.io/"
+    },
+    {
+      "name": "Laws of UX",
+      "url": "https://lawsofux.com/"
+    },
+    {
+      "name": "Checklist Design",
+      "url": "https://www.checklist.design/"
+    },
+    {
+      "name": "Humane By Design",
+      "url": "https://humanebydesign.com/"
+    },
+    {
+      "name": "Patterfly",
+      "url": "https://www.patternfly.org/"
+    },
+    {
+      "name": "Patterns",
+      "url": "https://www.patterns.dev"
+    },
+    {
+      "name": "Design Principles For Developers",
+      "url": "https://medium.com/design-bootcamp/the-ultimate-design-principles-guide-for-developers-d4aa58937283"
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/graphic-design-tool/"
+    },
+    {
+      "name": "Penpot",
+      "url": "https://penpot.app/"
+    },
+    {
+      "name": "Vectr",
+      "url": "https://vectr.com/"
+    },
+    {
+      "name": "Taler",
+      "url": "https://www.taler.app/"
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "name": "Get Waves",
+      "url": "https://getwaves.io/"
+    },
+    {
+      "name": "Clippy",
+      "url": "https://bennettfeely.com/clippy/"
+    },
+    {
+      "name": "Fancy Border Radius",
+      "url": "https://9elements.github.io/fancy-border-radius/full-control.html"
+    },
+    {
+      "name": "Wireframe.cc",
+      "url": "https://wireframe.cc/"
+    },
+    {
+      "name": "Fotor",
+      "url": "https://www.fotor.com/"
+    },
+    {
+      "name": "Pixlr",
+      "url": "https://www.pixlr.com/"
+    },
+    {
+      "name": "RemoveBG",
+      "url": "https://www.remove.bg/"
+    },
+    {
+      "name": "Visme",
+      "url": "https://www.visme.co/"
+    },
+    {
+      "name": "Infogram",
+      "url": "https://infogram.com/"
+    },
+    {
+      "name": "ChartGo",
+      "url": "https://www.chartgo.com/"
+    },
+    {
+      "name": "Whimsical",
+      "url": "https://whimsical.com/"
+    },
+    {
+      "name": "Whiteboard",
+      "url": "https://witeboard.com/"
+    },
+    {
+      "name": "Octopus",
+      "url": "https://octopus.do/"
+    },
+    {
+      "name": "Onlineboard",
+      "url": "https://onlineboard.eu"
+    },
+    {
+      "name": "Personas",
+      "url": "https://personas.draftbit.com/"
+    },
+    {
+      "name": "Diagrams",
+      "url": "https://www.diagrams.net/"
+    },
+    {
+      "name": "MapInSeconds",
+      "url": "http://mapinseconds.com/"
+    },
+    {
+      "name": "Grid Malven",
+      "url": "http://grid.malven.co/"
+    },
+    {
+      "name": "Flex Malven",
+      "url": "http://flexbox.malven.co/"
+    },
+    {
+      "name": "Smart Upscaler",
+      "url": "https://icons8.com/upscaler"
+    },
+    {
+      "name": "GetAvataaars",
+      "url": "https://getavataaars.com/"
+    },
+    {
+      "name": "Webflow",
+      "url": "https://webflow.com/"
+    },
+    {
+      "name": "Trace",
+      "url": "https://stickermule.com/trace"
+    },
+    {
+      "name": "Neumorphism.io",
+      "url": "https://neumorphism.io/#55b9f3"
+    },
+    {
+      "name": "DB Designer",
+      "url": "https://app.dbdesigner.net/"
+    },
+    {
+      "name": "Ui Bakery",
+      "url": "https://uibakery.io/"
+    },
+    {
+      "name": "Faux",
+      "url": "http://knutsynstad.com/fauxcode/"
+    },
+    {
+      "name": "Rive",
+      "url": "https://rive.app/"
+    },
+    {
+      "name": "Unscreen",
+      "url": "https://www.unscreen.com/"
+    },
+    {
+      "name": "Kodeshot",
+      "url": "https://www.kodeshot.net/"
+    },
+    {
+      "name": "Wix",
+      "url": "https://www.wix.com/"
+    },
+    {
+      "name": "GTmetrix",
+      "url": "https://gtmetrix.com/"
+    },
+    {
+      "name": "Framer",
+      "url": "https://www.framer.com/"
+    },
+    {
+      "name": "CSS Arrow",
+      "url": "http://www.cssarrowplease.com/"
+    },
+    {
+      "name": "Lucidchart",
+      "url": "https://www.lucidchart.com/pages/"
+    },
+    {
+      "name": "Carbon",
+      "url": "https://carbon.now.sh"
+    },
+    {
+      "name": "PixCleaner",
+      "url": "https://www.pixcleaner.com/"
+    },
+    {
+      "name": "Glass UI",
+      "url": "https://ui.glass/generator"
+    },
+    {
+      "name": "Glassmorphism",
+      "url": "https://glassmorphism.com/"
+    },
+    {
+      "name": "TableConvert",
+      "url": "https://tableconvert.com/"
+    },
+    {
+      "name": "Doodle Ipsum",
+      "url": "https://doodleipsum.com/"
+    },
+    {
+      "name": "Figen",
+      "url": "https://figen.cc/"
+    },
+    {
+      "name": "Windframe",
+      "url": "https://www.devwares.com/windframe/"
+    },
+    {
+      "name": "Slickr",
+      "url": "https://slickr.vercel.app/"
+    },
+    {
+      "name": "Ray.so",
+      "url": "https://ray.so/"
+    },
+    {
+      "name": "Codepng",
+      "url": "https://www.codepng.app/"
+    },
+    {
+      "name": "JSONT",
+      "url": "https://www.jsont.run/"
+    },
+    {
+      "name": "Jitter",
+      "url": "https://jitter.video/"
+    },
+    {
+      "name": "Visily",
+      "url": "https://www.visily.ai"
+    },
+    {
+      "name": "okso.app",
+      "url": "https://okso.app"
+    },
+    {
+      "name": "Scrollbar.app",
+      "url": "https://scrollbar.app"
+    },
+    {
+      "name": "GrapesJS",
+      "url": "https://grapesjs.com/"
+    },
+    {
+      "name": "Gimp",
+      "url": "https://www.gimp.org/"
+    },
+    {
+      "name": "Gravit Designer",
+      "url": "https://www.designer.io/en/"
+    },
+    {
+      "name": "Blender",
+      "url": "https://www.blender.org/download/"
+    },
+    {
+      "name": "Raw Therapee",
+      "url": "https://rawtherapee.com/"
+    },
+    {
+      "name": "Be Funky",
+      "url": "https://www.befunky.com/features/graphic-designer/"
+    },
+    {
+      "name": "Krita",
+      "url": "https://krita.org/en/download/krita-desktop/"
+    },
+    {
+      "name": "Pencil Project",
+      "url": "https://pencil.evolus.vn/"
+    },
+    {
+      "name": "Inkscape",
+      "url": "https://inkscape.org/"
+    },
+    {
+      "name": "Adobe XD",
+      "url": "https://www.adobe.com/products/xd.html"
+    },
+    {
+      "name": "Shapes.so",
+      "url": "https://shape.so/pricing"
+    },
+    {
+      "name": "Lunacy",
+      "url": "https://icons8.com/lunacy"
+    },
+    {
+      "name": "InVision Studio",
+      "url": "https://www.invisionapp.com/studio"
+    },
+    {
+      "name": "Darktable",
+      "url": "https://www.darktable.org/"
+    },
+    {
+      "name": "Google Web Designer",
+      "url": "https://webdesigner.withgoogle.com/"
+    },
+    {
+      "name": "Origami Studio",
+      "url": "https://origami.design"
+    },
+    {
+      "name": "Websitevice",
+      "url": "https://websitevice.com/"
+    },
+    {
+      "name": "CSS Zen Garden",
+      "url": "http://csszengarden.com/"
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/"
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://dribbble.com/"
+    },
+    {
+      "name": "Landingfolio",
+      "url": "https://landingfolio.com/"
+    },
+    {
+      "name": "Foxyapps",
+      "url": "https://foxyapps.co/"
+    },
+    {
+      "name": "Httpster",
+      "url": "https://httpster.net/2020/apr/"
+    },
+    {
+      "name": "Land Book",
+      "url": "https://land-book.com/"
+    },
+    {
+      "name": "Frontend Mentor",
+      "url": "https://www.frontendmentor.io/"
+    },
+    {
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/"
+    },
+    {
+      "name": "Codrops",
+      "url": "https://tympanus.net/codrops/"
+    },
+    {
+      "name": "SaaS Landing Page",
+      "url": "https://saaslandingpage.com/"
+    },
+    {
+      "name": "Saaspages.xyz",
+      "url": "https://saaspages.xyz"
+    },
+    {
+      "name": "Screenlane",
+      "url": "https://screenlane.com"
+    },
+    {
+      "name": "lapa ninja",
+      "url": "https://www.lapa.ninja/"
+    },
+    {
+      "name": "Freefrontend",
+      "url": "https://freefrontend.com/"
+    },
+    {
+      "name": "Webframe",
+      "url": "https://webframe.xyz"
+    },
+    {
+      "name": "Collect UI",
+      "url": "http://collectui.com/"
+    },
+    {
+      "name": "Graphic Burger",
+      "url": "https://graphicburger.com/"
+    },
+    {
+      "name": "Really Good Emails",
+      "url": "https://reallygoodemails.com/"
+    },
+    {
+      "name": "Free Design Resource",
+      "url": "https://freedesignresources.net/"
+    },
+    {
+      "name": "Site Inspire",
+      "url": "https://www.siteinspire.com/"
+    },
+    {
+      "name": "Web Design Inspiration",
+      "url": "https://www.webdesign-inspiration.com/"
+    },
+    {
+      "name": "NavNav",
+      "url": "https://navnav.co/"
+    },
+    {
+      "name": "Calltoidea",
+      "url": "https://www.calltoidea.com/"
+    },
+    {
+      "name": "Mulzli Search",
+      "url": "https://search.muz.li"
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com/"
+    },
+    {
+      "name": "Design your way",
+      "url": "https://www.designyourway.net/blog/web-and-mobile-design/"
+    },
+    {
+      "name": "SiteSee",
+      "url": "https://sitesee.co/"
+    },
+    {
+      "name": "UI Garage",
+      "url": "https://uigarage.net/"
+    },
+    {
+      "name": "ecomm.design",
+      "url": "https://ecomm.design/"
+    },
+    {
+      "name": "Design Nominees",
+      "url": "https://www.designnominees.com/"
+    },
+    {
+      "name": "Design Vault",
+      "url": "https://designvault.io/"
+    },
+    {
+      "name": "CSS buttons",
+      "url": "https://getcssscan.com/css-buttons-examples"
+    },
+    {
+      "name": "CSS box-shadow",
+      "url": "https://getcssscan.com/css-box-shadow-examples"
+    },
+    {
+      "name": "Super Designer",
+      "url": "https://superdesigner.co"
+    },
+    {
+      "name": "Landings",
+      "url": "https://landings.dev"
+    },
+    {
+      "name": "Page Collective",
+      "url": "https://pagecollective.com/"
+    },
+    {
+      "name": "Curated",
+      "url": "https://www.curated.design/"
+    },
+    {
+      "name": "Maxibestofone",
+      "url": "https://maxibestof.one/"
+    },
+    {
+      "name": "Bento Grids",
+      "url": "https://bentogrids.com/"
+    },
+    {
+      "name": "Landing Gallery",
+      "url": "https://www.landing.gallery/"
+    },
+    {
+      "name": "a-fresh.website",
+      "url": "https://a-fresh.website"
+    },
+    {
+      "name": "Uiland Design",
+      "url": "https://uiland.design/"
+    },
+    {
+      "name": "TinyPNG",
+      "url": "https://tinypng.com/"
+    },
+    {
+      "name": "Optimizilla",
+      "url": "https://imagecompressor.com/"
+    },
+    {
+      "name": "Compressor.io",
+      "url": "https://compressor.io/"
+    },
+    {
+      "name": "Squoosh.app",
+      "url": "https://squoosh.app/"
+    },
+    {
+      "name": "iLoveIMG",
+      "url": "https://www.iloveimg.com/"
+    },
+    {
+      "name": "SvgOMG",
+      "url": "https://jakearchibald.github.io/svgomg/"
+    },
+    {
+      "name": "CompressJPEG",
+      "url": "https://compressjpeg.com/"
+    },
+    {
+      "name": "CompressNow",
+      "url": "https://compressnow.com/"
+    },
+    {
+      "name": "Promo Image Resizer",
+      "url": "https://promo.com/tools/image-resizer/"
+    },
+    {
+      "name": "SVGminify",
+      "url": "https://www.svgminify.com/"
+    },
+    {
+      "name": "Resizing.app",
+      "url": "https://resizing.app/"
+    },
+    {
+      "name": "EZGif",
+      "url": "https://ezgif.com/"
+    },
+    {
+      "name": "Verexif",
+      "url": "https://www.verexif.com/en/"
+    },
+    {
+      "name": "Vecta Nano",
+      "url": "https://vecta.io/nano"
+    },
+    {
+      "name": "Watermarkly",
+      "url": "https://watermarkly.com/compress-jpeg/"
+    },
+    {
+      "name": "Jpeg.io",
+      "url": "https://www.jpeg.io"
+    },
+    {
+      "name": "CompressImage.io",
+      "url": "https://compressimage.io"
+    },
+    {
+      "name": "JPEG Compressor",
+      "url": "https://jpegcompressor.com/"
+    },
+    {
+      "name": "WhatRuns",
+      "url": "https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip?hl=en"
+    },
+    {
+      "name": "Web Developer",
+      "url": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm"
+    },
+    {
+      "name": "Awesome Screenshot & Screen Recorder",
+      "url": "https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en"
+    },
+    {
+      "name": "daily.dev - News for Busy Developers",
+      "url": "https://chrome.google.com/webstore/detail/dailydev-news-for-busy-de/jlmpjdjjbgclbocgajdjefcidcncaied"
+    },
+    {
+      "name": "JSONView",
+      "url": "https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en"
+    },
+    {
+      "name": "Window Resizer",
+      "url": "https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en"
+    },
+    {
+      "name": "Responsive Viewer",
+      "url": "https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en"
+    },
+    {
+      "name": "BrowserStack",
+      "url": "https://chrome.google.com/webstore/detail/browserstack/nkihdmlheodkdfojglpcjjmioefjahjb?hl=en"
+    },
+    {
+      "name": "VisBug",
+      "url": "https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?hl=en"
+    },
+    {
+      "name": "Kontrast - WCAG Contrast Checker",
+      "url": "https://chrome.google.com/webstore/detail/kontrast-wcag-contrast-ch/haphaaenepedkjngghandlmhfillnhjk?hl=en"
+    },
+    {
+      "name": "PerfectPixel",
+      "url": "https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi"
+    },
+    {
+      "name": "Pesticide",
+      "url": "https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi"
+    },
+    {
+      "name": "JavaScript and CSS Code Beautifier",
+      "url": "https://chrome.google.com/webstore/detail/javascript-and-css-code-b/iiglodndmmefofehaibmaignglbpdald?hl=en"
+    },
+    {
+      "name": "Imageye - Image downloader",
+      "url": "https://chrome.google.com/webstore/detail/imageye-image-downloader/agionbommeaifngbhincahgmoflcikhm"
+    },
+    {
+      "name": "GoFullPage - Full Page Screen Capture",
+      "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl"
+    },
+    {
+      "name": "Stylebot",
+      "url": "https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha"
+    },
+    {
+      "name": "Wappalyzer",
+      "url": "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg"
+    },
+    {
+      "name": "Fake Filler",
+      "url": "https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo"
+    },
+    {
+      "name": "Page Ruler Redux",
+      "url": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
+    },
+    {
+      "name": "CSSViewer",
+      "url": "https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce"
+    },
+    {
+      "name": "Lighthouse",
+      "url": "https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk"
+    },
+    {
+      "name": "Debug CSS",
+      "url": "https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj"
+    },
+    {
+      "name": "UX Check",
+      "url": "https://chrome.google.com/webstore/detail/ux-check/giekhiebdpmljgchjojblnekkcgpdobp"
+    },
+    {
+      "name": "Hackertab.dev",
+      "url": "https://chrome.google.com/webstore/detail/hackertabdev-developer-ne/ocoipcahhaedjhnpoanfflhbdcpmalmp"
+    },
+    {
+      "name": "JSON Formatter",
+      "url": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en"
+    },
+    {
+      "name": "SEO Minion",
+      "url": "https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi?hl=en"
+    },
+    {
+      "name": "WhatRuns",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/whatruns/"
+    },
+    {
+      "name": "Web Developer",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/web-developer/"
+    },
+    {
+      "name": "Awesome Screenshot & Screen Recorder",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/"
+    },
+    {
+      "name": "daily.dev - News for Busy Developers",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/daily/"
+    },
+    {
+      "name": "JSONView",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/jsonview/"
+    },
+    {
+      "name": "Window Resizer",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/window-resizer-webextension/"
+    },
+    {
+      "name": "Responsive Viewer",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/responsify-viewer/"
+    },
+    {
+      "name": "BrowserStack",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/browserstack-toolbar-toggle/"
+    },
+    {
+      "name": "VisBug",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/visbug/"
+    },
+    {
+      "name": "Kontrast - WCAG Contrast Checker",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/"
+    },
+    {
+      "name": "PerfectPixel",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/pixel-perfect-pro/"
+    },
+    {
+      "name": "Pesticide",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/pesticide-for-firefox/"
+    },
+    {
+      "name": "JavaScript and CSS Code Beautifier",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/"
+    },
+    {
+      "name": "Imageye - Image downloader",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/imageye_image_downloader/"
+    },
+    {
+      "name": "Fireshot - Full Page Screen Capture",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/fireshot/"
+    },
+    {
+      "name": "Stylebot",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/"
+    },
+    {
+      "name": "Wappalyzer",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/"
+    },
+    {
+      "name": "Fake Filler",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/fake-filler/"
+    },
+    {
+      "name": "Leonardo.Ai",
+      "url": "https://leonardo.ai/"
+    },
+    {
+      "name": "Galileo AI",
+      "url": "https://www.usegalileo.ai/"
+    },
+    {
+      "name": "ImgGen.Ai",
+      "url": "https://imggen.ai/"
+    },
+    {
+      "name": "Unblurimage.Ai",
+      "url": "https://unblurimage.ai/"
+    },
+    {
+      "name": "VMind",
+      "url": "https://visactor.io/vmind"
+    },
+    {
+      "name": "Figpeek",
+      "url": "https://figpeek.vercel.app/"
+    },
+    {
+      "name": "Image Extractor",
+      "url": "https://extract.pics/"
+    },
+    {
+      "name": "Vertopal",
+      "url": "https://www.vertopal.com/"
+    },
+    {
+      "name": "everysize.kibalabs.com",
+      "url": "https://everysize.kibalabs.com/"
+    },
+    {
+      "name": "Devhints.io",
+      "url": "https://devhints.io/"
+    },
+    {
+      "name": "WebDevTrick",
+      "url": "https://webdevtrick.com/"
+    },
+    {
+      "name": "css-tricks",
+      "url": "https://css-tricks.com/"
+    },
+    {
+      "name": "Nodesign.dev",
+      "url": "https://nodesign.dev"
+    },
+    {
+      "name": "A11ygator",
+      "url": "https://a11ygator.chialab.io/"
+    },
+    {
+      "name": "Commitizen",
+      "url": "http://commitizen.github.io/cz-cli/"
+    },
+    {
+      "name": "CleanCss",
+      "url": "https://www.cleancss.com/"
+    },
+    {
+      "name": "Tiny helpers",
+      "url": "https://tiny-helpers.dev/"
+    },
+    {
+      "name": "Can I Use",
+      "url": "https://caniuse.com/"
+    },
+    {
+      "name": "kangax-js-compat-table",
+      "url": "https://compat-table.github.io/compat-table/es6/"
+    },
+    {
+      "name": "mydevice.io",
+      "url": "https://www.mydevice.io/"
+    },
+    {
+      "name": "Codepen",
+      "url": "https://codepen.io/"
+    },
+    {
+      "name": "Responsively",
+      "url": "https://responsively.app"
+    },
+    {
+      "name": "html2pdf.js",
+      "url": "https://ekoopmans.github.io/html2pdf.js/"
+    },
+    {
+      "name": "CSS Reference",
+      "url": "https://cssreference.io/"
+    },
+    {
+      "name": "shortcode.dev",
+      "url": "https://shortcode.dev"
+    },
+    {
+      "name": "30secondsofcode.org",
+      "url": "https://www.30secondsofcode.org/"
+    },
+    {
+      "name": "PlayCode",
+      "url": "https://playcode.io/"
+    },
+    {
+      "name": "All The Tags",
+      "url": "https://allthetags.com/"
+    },
+    {
+      "name": "Grid.js",
+      "url": "https://gridjs.io/"
+    },
+    {
+      "name": "Gerillass",
+      "url": "https://gerillass.com/"
+    },
+    {
+      "name": "Sketchize",
+      "url": "https://www.sketchize.com/"
+    },
+    {
+      "name": "{CSS}Portal",
+      "url": "https://www.cssportal.com/"
+    },
+    {
+      "name": "DevDocs",
+      "url": "https://devdocs.io/"
+    },
+    {
+      "name": "papersizes",
+      "url": "https://papersizes.io/"
+    },
+    {
+      "name": "flexboxfroggy",
+      "url": "http://flexboxfroggy.com/"
+    },
+    {
+      "name": "Designbetter Books",
+      "url": "https://www.designbetter.co/books"
+    },
+    {
+      "name": "OverAPI",
+      "url": "https://overapi.com/"
+    },
+    {
+      "name": "Pageclip",
+      "url": "https://pageclip.co/"
+    },
+    {
+      "name": "Shields",
+      "url": "https://shields.io"
+    },
+    {
+      "name": "williamsharkey",
+      "url": "http://williamsharkey.com/Shapes.html"
+    },
+    {
+      "name": "PapersDB",
+      "url": "https://papersdb.com/"
+    },
+    {
+      "name": "Rapid API",
+      "url": "https://rapidapi.com/hub"
+    },
+    {
+      "name": "Readme.so",
+      "url": "https://readme.so"
+    },
+    {
+      "name": "Showcode",
+      "url": "https://showcode.app"
+    },
+    {
+      "name": "devices.css",
+      "url": "http://marvelapp.github.io/devices.css/"
+    },
+    {
+      "name": "Troopl",
+      "url": "https://troopl.com"
+    },
+    {
+      "name": "Apifox",
+      "url": "https://apifox.cn"
+    },
+    {
+      "name": "A Modern CSS Reset",
+      "url": "https://piccalil.li/blog/a-modern-css-reset/"
+    },
+    {
+      "name": "Clipperly",
+      "url": "https://clipperly.com/"
+    },
+    {
+      "name": "DebugBear Speed Test",
+      "url": "https://www.debugbear.com/test/website-speed"
+    },
+    {
+      "name": "Code Beautify",
+      "url": "https://codebeautify.org/"
+    },
+    {
+      "name": "appydev",
+      "url": "https://appydev.co/"
+    },
+    {
+      "name": "ExtendsClass",
+      "url": "https://extendsclass.com/"
+    },
+    {
+      "name": "RunJS",
+      "url": "https://runjs.app/play"
+    },
+    {
+      "name": "Pillarstack",
+      "url": "https://www.pillarstack.com/"
+    }
+  ]
+}

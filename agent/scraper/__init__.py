@@ -5,6 +5,7 @@ from .html5up_scraper import HTML5UPScraper
 from .freecss_scraper import FreeCSScraper
 from .templatemo_scraper import TemplateMoScraper
 from .colorlib_scraper import ColorlibScraper
+from .design_resource_scraper import DesignResourceScraper
 from .scraper_manager import ScraperManager
 
-__all__ = ['BaseScraper', 'HTML5UPScraper', 'FreeCSScraper', 'TemplateMoScraper', 'ColorlibScraper', 'ScraperManager']
+__all__ = ['BaseScraper', 'HTML5UPScraper', 'FreeCSScraper', 'TemplateMoScraper', 'ColorlibScraper', 'DesignResourceScraper', 'ScraperManager']

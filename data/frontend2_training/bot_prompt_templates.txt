@@ -1,0 +1,117 @@
+Design Category: ui_frameworks
+Reference: Bootstrap Icons
+
+Learned Aesthetic:
+- Color Palette: 
+- Layout Type: Simple
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: React Icons
+
+Learned Aesthetic:
+- Color Palette: #24292e, #E1E4E8, #B392F0, #85E89D, #9ECBFF
+- Layout Type: Simple
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Start Bootstrap
+
+Learned Aesthetic:
+- Color Palette: #daf2f8, #daf0f2, #dc392d, #daefed, #0061f2
+- Layout Type: Simple
+- Visual Hierarchy: Minimal
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: BootstrapTaste
+
+Learned Aesthetic:
+- Color Palette: #c9bbde, #ffde6b, #faf6fc, #0d6efd, #212529
+- Layout Type: Semantic structured
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: BootstrapMade
+
+Learned Aesthetic:
+- Color Palette: #e9e9e9, #023e72, #023b6d, #009bd9, #18d26e
+- Layout Type: Semantic structured
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Tailwind CSS
+
+Learned Aesthetic:
+- Color Palette: 
+- Layout Type: Semantic structured
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Bootstrap
+
+Learned Aesthetic:
+- Color Palette: 
+- Layout Type: Semantic structured
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Vanilla Framework
+
+Learned Aesthetic:
+- Color Palette: 
+- Layout Type: Simple
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Material Bootstrap
+
+Learned Aesthetic:
+- Color Palette: 
+- Layout Type: Simple
+- Visual Hierarchy: Minimal
+
+Use this aesthetic pattern for generating similar designs.
+
+---
+
+Design Category: ui_frameworks
+Reference: Tailwindtoolbox
+
+Learned Aesthetic:
+- Color Palette: #1f2937, #4b5563, #84fab0, #8fd3f4, #FAFAFA
+- Layout Type: Simple
+- Visual Hierarchy: Strong
+
+Use this aesthetic pattern for generating similar designs.

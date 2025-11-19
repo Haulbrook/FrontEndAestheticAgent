@@ -10,8 +10,10 @@ from rich.panel import Panel
 from rich import print as rprint
 
 from agent.scraper.scraper_manager import ScraperManager
+from agent.scraper.design_resource_scraper import DesignResourceScraper
 from agent.analyzer.template_analyzer import TemplateAnalyzer
 from agent.learner.pattern_learner import PatternLearner
+from agent.learner.frontend2_importer import Frontend2Importer
 from agent.generator.design_generator import DesignGenerator
 from agent.generator.suggestion_engine import SuggestionEngine
 from agent.scheduler import AutoScraper
@@ -29,7 +31,7 @@ def cli():
 
 
 @cli.command()
-@click.option('--source', type=click.Choice(['html5up', 'freecss', 'templatemo', 'colorlib', 'startbootstrap', 'website-templates', 'all']), default='all',
+@click.option('--source', type=click.Choice(['html5up', 'freecss', 'templatemo', 'colorlib', 'startbootstrap', 'website-templates', 'design-resources', 'all']), default='all',
               help='Template source to scrape from')
 @click.option('--limit', default=10, help='Number of templates to scrape per source')
 @click.option('--output', default='data/templates', help='Output directory for scraped templates')
@@ -467,6 +469,91 @@ def stats():
     except Exception as e:
         console.print(f"[bold red]✗ Error: {e}[/bold red]")
         console.print("[yellow]Tip: Run 'train' command first to build the knowledge base[/yellow]")
+
+
+@cli.command()
+@click.option('--categories', default='ui_frameworks,icons,colors,design_systems,css_frameworks',
+              help='Comma-separated list of categories to scrape')
+@click.option('--limit', default=10, help='Number of resources to scrape per category')
+def scrape_resources(categories, limit):
+    """Scrape design resources from Frontend2 curated list"""
+    console.print("\n[bold cyan]🎨 Front-End Aesthetic Agent - Design Resource Scraper[/bold cyan]\n")
+
+    try:
+        scraper = DesignResourceScraper()
+        categories_list = [c.strip() for c in categories.split(',')]
+
+        console.print(f"[green]Categories: {', '.join(categories_list)}[/green]")
+        console.print(f"[green]Limit per category: {limit}[/green]\n")
+
+        results = scraper.scrape(limit=limit, categories=categories_list)
+
+        # Display results
+        table = Table(title="Scraping Results")
+        table.add_column("Metric", style="cyan")
+        table.add_column("Value", style="green")
+
+        resources_by_category = {}
+        for result in results:
+            category = result.get('category', 'unknown')
+            resources_by_category[category] = resources_by_category.get(category, 0) + 1
+
+        table.add_row("Total Resources Scraped", str(len(results)))
+        for category, count in resources_by_category.items():
+            table.add_row(f"  {category}", str(count))
+
+        console.print(table)
+        console.print(f"\n[bold green]✓ Design resources scraped successfully![/bold green]\n")
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
+
+
+@cli.command()
+@click.option('--report/--no-report', default=True, help='Generate integration report')
+def import_frontend2(report):
+    """Import Frontend2 training data into knowledge base"""
+    console.print("\n[bold cyan]📦 Front-End Aesthetic Agent - Frontend2 Data Importer[/bold cyan]\n")
+
+    try:
+        importer = Frontend2Importer()
+
+        console.print("[bold]Importing Frontend2 training data...[/bold]\n")
+        results = importer.import_training_data()
+
+        # Display results
+        if results['bot_training']['success']:
+            console.print("[green]✓ Bot training data imported[/green]")
+            console.print(f"  Colors: {results['bot_training']['colors_imported']}")
+            console.print(f"  Examples: {results['bot_training']['examples_processed']}")
+            console.print(f"  Categories: {', '.join(results['bot_training']['categories'])}\n")
+
+        if results['aesthetic_training']['success']:
+            console.print("[green]✓ Aesthetic training data imported[/green]")
+            console.print(f"  Samples: {results['aesthetic_training']['samples_imported']}\n")
+
+        # Generate report if requested
+        if report:
+            integration_report = importer.create_integration_report()
+
+        # Display stats
+        stats = importer.get_integrated_statistics()
+
+        table = Table(title="Updated Knowledge Base Statistics")
+        table.add_column("Metric", style="cyan")
+        table.add_column("Value", style="green")
+
+        table.add_row("Total Templates", str(stats['total_templates']))
+        table.add_row("Average Quality", f"{stats['avg_quality']:.1f}/100")
+        table.add_row("High Quality Count", str(stats['high_quality_count']))
+
+        console.print(table)
+        console.print(f"\n[bold green]✓ Frontend2 data imported successfully![/bold green]\n")
+
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
 
 
 if __name__ == '__main__':

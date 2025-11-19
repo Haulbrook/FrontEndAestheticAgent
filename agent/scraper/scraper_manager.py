@@ -7,6 +7,7 @@ from .templatemo_scraper import TemplateMoScraper
 from .colorlib_scraper import ColorlibScraper
 from .startbootstrap_scraper import StartBootstrapScraper
 from .website_templates_scraper import WebsiteTemplatesScraper
+from .design_resource_scraper import DesignResourceScraper
 
 
 class ScraperManager:
@@ -20,6 +21,7 @@ class ScraperManager:
             'colorlib': ColorlibScraper(f"{output_dir}/colorlib"),
             'startbootstrap': StartBootstrapScraper(f"{output_dir}/startbootstrap"),
             'website-templates': WebsiteTemplatesScraper(f"{output_dir}/website-templates"),
+            'design-resources': DesignResourceScraper("data/design_resources"),
         }
 
     def scrape_source(self, source: str, limit: int = 10) -> List[Dict]:

@@ -1,0 +1,1313 @@
+{
+  "version": "1.0",
+  "total_examples": 43,
+  "learned_patterns": {
+    "popular_colors": [
+      {
+        "color": "#ffffff",
+        "frequency": 3
+      },
+      {
+        "color": "#24292e",
+        "frequency": 2
+      },
+      {
+        "color": "#212529",
+        "frequency": 2
+      },
+      {
+        "color": "#4b5563",
+        "frequency": 2
+      },
+      {
+        "color": "#999999",
+        "frequency": 2
+      },
+      {
+        "color": "#fed7aa",
+        "frequency": 2
+      },
+      {
+        "color": "#16a34a",
+        "frequency": 2
+      },
+      {
+        "color": "#60a5fa",
+        "frequency": 2
+      },
+      {
+        "color": "#052e16",
+        "frequency": 2
+      },
+      {
+        "color": "#6366f1",
+        "frequency": 2
+      },
+      {
+        "color": "#22c55e",
+        "frequency": 2
+      },
+      {
+        "color": "#E1E4E8",
+        "frequency": 1
+      },
+      {
+        "color": "#B392F0",
+        "frequency": 1
+      },
+      {
+        "color": "#85E89D",
+        "frequency": 1
+      },
+      {
+        "color": "#9ECBFF",
+        "frequency": 1
+      },
+      {
+        "color": "#e1e4e8",
+        "frequency": 1
+      },
+      {
+        "color": "#79B8FF",
+        "frequency": 1
+      },
+      {
+        "color": "#F97583",
+        "frequency": 1
+      },
+      {
+        "color": "#daf2f8",
+        "frequency": 1
+      },
+      {
+        "color": "#daf0f2",
+        "frequency": 1
+      }
+    ],
+    "categories_analyzed": [
+      "illustrations",
+      "ui_frameworks",
+      "design_systems",
+      "colors",
+      "icons"
+    ]
+  },
+  "training_examples": [
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Bootstrap Icons"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 21,
+          "sections": 0,
+          "articles": 0,
+          "nav": 1,
+          "divs": 4233,
+          "buttons": 7
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 7
+        }
+      },
+      "metadata": {
+        "source_url": "https://icons.getbootstrap.com/",
+        "description": "Official open source SVG icon library for Bootstrap"
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "React Icons"
+      },
+      "output": {
+        "color_palette": [
+          "#24292e",
+          "#E1E4E8",
+          "#B392F0",
+          "#85E89D",
+          "#9ECBFF"
+        ],
+        "layout_structure": {
+          "headers": 7,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 132,
+          "buttons": 1
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 1
+        }
+      },
+      "metadata": {
+        "source_url": "https://react-icons.github.io/react-icons/",
+        "description": "Include popular icons in your React projects easly with react-icons."
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Start Bootstrap"
+      },
+      "output": {
+        "color_palette": [
+          "#daf2f8",
+          "#daf0f2",
+          "#dc392d",
+          "#daefed",
+          "#0061f2"
+        ],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 0,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://startbootstrap.com/",
+        "description": "Start Bootstrap develops free to download, open source Bootstrap 5 themes, templates, and snippets and creates guides and tutorials to help you learn more about designing and developing with Bootstrap."
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "BootstrapTaste"
+      },
+      "output": {
+        "color_palette": [
+          "#c9bbde",
+          "#ffde6b",
+          "#faf6fc",
+          "#0d6efd",
+          "#212529"
+        ],
+        "layout_structure": {
+          "headers": 32,
+          "sections": 2,
+          "articles": 30,
+          "nav": 1,
+          "divs": 129,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://bootstraptaste.com/",
+        "description": "100+ Best Bootstrap templates and HTML Website Templates collections to build your website or app in 2025"
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "BootstrapMade"
+      },
+      "output": {
+        "color_palette": [
+          "#e9e9e9",
+          "#023e72",
+          "#023b6d",
+          "#009bd9",
+          "#18d26e"
+        ],
+        "layout_structure": {
+          "headers": 38,
+          "sections": 1,
+          "articles": 0,
+          "nav": 4,
+          "divs": 151,
+          "buttons": 3
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 3
+        }
+      },
+      "metadata": {
+        "source_url": "https://bootstrapmade.com/",
+        "description": "Browse 150+ free and premium Bootstrap templates and themes. Beautifully designed, fully responsive, and easy to customize. Download the perfect theme for your next project today!"
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Tailwind CSS"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 16,
+          "sections": 1,
+          "articles": 0,
+          "nav": 0,
+          "divs": 927,
+          "buttons": 16
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 16
+        }
+      },
+      "metadata": {
+        "source_url": "https://tailwindcss.com/",
+        "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML."
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Bootstrap"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 37,
+          "sections": 7,
+          "articles": 0,
+          "nav": 1,
+          "divs": 103,
+          "buttons": 29
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 29
+        }
+      },
+      "metadata": {
+        "source_url": "https://getbootstrap.com/",
+        "description": "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Vanilla Framework"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 13,
+          "sections": 0,
+          "articles": 1,
+          "nav": 2,
+          "divs": 68,
+          "buttons": 5
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 5
+        }
+      },
+      "metadata": {
+        "source_url": "https://vanillaframework.io/",
+        "description": "Vanilla Framework - a simple extensible CSS framework, written in Sass, by the Ubuntu Web Team."
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Material Bootstrap"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 1,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 3,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://fezvrasta.github.io/bootstrap-material-design/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "ui_frameworks",
+        "resource_type": "Tailwindtoolbox"
+      },
+      "output": {
+        "color_palette": [
+          "#1f2937",
+          "#4b5563",
+          "#84fab0",
+          "#8fd3f4",
+          "#FAFAFA"
+        ],
+        "layout_structure": {
+          "headers": 4,
+          "sections": 0,
+          "articles": 0,
+          "nav": 1,
+          "divs": 118,
+          "buttons": 6
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 6
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.tailwindtoolbox.com/",
+        "description": "Discover a curated collection of Tailwind CSS starter templates, UI components, generators, and tools (Formerly Tailwind Toolbox)"
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Shapedfonts Iconclub"
+      },
+      "output": {
+        "color_palette": [
+          "#ff6900",
+          "#f78da7",
+          "#3e3e3e",
+          "#cf2e2e",
+          "#27e2a5"
+        ],
+        "layout_structure": {
+          "headers": 27,
+          "sections": 0,
+          "articles": 1,
+          "nav": 1,
+          "divs": 153,
+          "buttons": 2
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 2
+        }
+      },
+      "metadata": {
+        "source_url": "https://shapedfonts.com/iconclub/",
+        "description": "We've created a free icon tool for the community to enhance the workflow while creating wireframes or prototypes. Available for Adobe XD, Illustrator, Photoshop, Sketch and many more."
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Feather Icons"
+      },
+      "output": {
+        "color_palette": [
+          "#0066ff",
+          "#2f363d",
+          "#24292e",
+          "#f6f8fa",
+          "#444d56"
+        ],
+        "layout_structure": {
+          "headers": 2,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 26,
+          "buttons": 3
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 3
+        }
+      },
+      "metadata": {
+        "source_url": "https://feathericons.com/",
+        "description": "Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability."
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Tabler Icons"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 16,
+          "sections": 1,
+          "articles": 0,
+          "nav": 1,
+          "divs": 188,
+          "buttons": 9
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 9
+        }
+      },
+      "metadata": {
+        "source_url": "https://tabler-icons.io/",
+        "description": "Tabler Icons: 4964 free and open source SVG icons. Customizable size, color and stroke. Available for React, SolidJS, Vue, Figma and more for free!"
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Xicons"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 1,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.xicons.org/#/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Iconoir"
+      },
+      "output": {
+        "color_palette": [
+          "#7289da"
+        ],
+        "layout_structure": {
+          "headers": 4,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 119,
+          "buttons": 1
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 1
+        }
+      },
+      "metadata": {
+        "source_url": "https://iconoir.com/",
+        "description": "Iconoir is the biggest open source icon library that provides a massive selection of high-quality icons, available for free download. No premium options or email sign-up required, free for real. Icons available in SVG, Font, React, React Nativ, and Flutter libraries, Figma and Framer."
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Simple Icons"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 0,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://simpleicons.org/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Linear Icons"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 11,
+          "sections": 4,
+          "articles": 0,
+          "nav": 2,
+          "divs": 28,
+          "buttons": 4
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 4
+        }
+      },
+      "metadata": {
+        "source_url": "https://linearicons.com/free",
+        "description": "Linearicons is the highest quality set of line icons, matching with minimalist UI designs in iOS. This icon pack was designed on a 20\u00d720 grid with a lot of care, resulting in crisp and pixel perfect icons. Both free and premium versions are easy to use in any platform including iOS and Android."
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "IconSear.ch"
+      },
+      "output": {
+        "color_palette": [
+          "#3e32a8"
+        ],
+        "layout_structure": {
+          "headers": 1,
+          "sections": 0,
+          "articles": 0,
+          "nav": 1,
+          "divs": 9,
+          "buttons": 1
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 1
+        }
+      },
+      "metadata": {
+        "source_url": "https://iconsear.ch/search.html",
+        "description": "Search through over 182,000 SVG icons from 165 sources"
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Icon-icons.com"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 17,
+          "sections": 6,
+          "articles": 0,
+          "nav": 2,
+          "divs": 71,
+          "buttons": 15
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 15
+        }
+      },
+      "metadata": {
+        "source_url": "https://icon-icons.com/",
+        "description": "Free icons for your project, find the perfect icon you need in our amazing collection, available in SVG, PNG, ICO or ICNS."
+      }
+    },
+    {
+      "input": {
+        "category": "icons",
+        "resource_type": "Remix Icon"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 1,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://remixicon.com/",
+        "description": "Remix Icon is a set of open source neutral style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial."
+      }
+    },
+    {
+      "input": {
+        "category": "illustrations",
+        "resource_type": "Humaaans"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 16,
+          "sections": 1,
+          "articles": 0,
+          "nav": 0,
+          "divs": 54,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.humaaans.com/",
+        "description": "Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch."
+      }
+    },
+    {
+      "input": {
+        "category": "illustrations",
+        "resource_type": "Pixeltrue Illustrations"
+      },
+      "output": {
+        "color_palette": [
+          "#6d6d6d",
+          "#fd435a",
+          "#0fb8e7",
+          "#4a4949",
+          "#3a3684"
+        ],
+        "layout_structure": {
+          "headers": 723,
+          "sections": 0,
+          "articles": 0,
+          "nav": 2,
+          "divs": 3583,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.pixeltrue.com/illustrations",
+        "description": "Get access to 2500+ High-quality and affordable illustrations and animations in over 50+ different styles. Great illustration pack designs, don't have to break the bank!"
+      }
+    },
+    {
+      "input": {
+        "category": "illustrations",
+        "resource_type": "illustration kit"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 6,
+          "sections": 0,
+          "articles": 0,
+          "nav": 1,
+          "divs": 29,
+          "buttons": 2
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 2
+        }
+      },
+      "metadata": {
+        "source_url": "https://illustrationkit.com/",
+        "description": "Beautiful free illustrations for personal & commercial projects. No attribution required."
+      }
+    },
+    {
+      "input": {
+        "category": "illustrations",
+        "resource_type": "Black Illustrations"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 56,
+          "sections": 3,
+          "articles": 0,
+          "nav": 0,
+          "divs": 447,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.blackillustrations.com/",
+        "description": "Black illustrations is a series of FREE digital designs of black people for your next online project. Free for commercial and personal use."
+      }
+    },
+    {
+      "input": {
+        "category": "illustrations",
+        "resource_type": "Draw.io"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 2,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 2,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.draw.io/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Mesh Gradient"
+      },
+      "output": {
+        "color_palette": [
+          "#4de6d4"
+        ],
+        "layout_structure": {
+          "headers": 3,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 4,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://meshgradient.in/",
+        "description": "Generate beautiful and colorful mesh gradients | Download Mesh Gradients PNG | Export mesh gradients PNG"
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Colorlab"
+      },
+      "output": {
+        "color_palette": [
+          "#78716c",
+          "#cffafe",
+          "#fed7aa",
+          "#d6d3d1",
+          "#16a34a"
+        ],
+        "layout_structure": {
+          "headers": 8,
+          "sections": 7,
+          "articles": 0,
+          "nav": 0,
+          "divs": 30,
+          "buttons": 1
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 1
+        }
+      },
+      "metadata": {
+        "source_url": "https://getcolorlab.com",
+        "description": "Perfect for designers and Developers!  With Colorlab, create, customize and export your Color Palette, Gradient and Color Scales super fast!"
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Color Brewer 2"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 8,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 47,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://colorbrewer2.org/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Colormind.io"
+      },
+      "output": {
+        "color_palette": [
+          "#777777",
+          "#BBBBBB",
+          "#999999",
+          "#101010",
+          "#333333"
+        ],
+        "layout_structure": {
+          "headers": 31,
+          "sections": 0,
+          "articles": 0,
+          "nav": 1,
+          "divs": 141,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "http://colormind.io",
+        "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net."
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "ColorCurves.app"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 1,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://colorcurves.app",
+        "description": "Unique color palettes for data visualization and generative art."
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "ColorGradient"
+      },
+      "output": {
+        "color_palette": [
+          "#4c00FC",
+          "#073AFF",
+          "#71c4FF",
+          "#d9e6a7",
+          "#73f2FF"
+        ],
+        "layout_structure": {
+          "headers": 6,
+          "sections": 0,
+          "articles": 0,
+          "nav": 2,
+          "divs": 93,
+          "buttons": 6
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 6
+        }
+      },
+      "metadata": {
+        "source_url": "https://colorgradient.dev/",
+        "description": "Looking for a gradient generator? Color gradient is a CSS gradient generator that is capable of creating simple and more complex gradients."
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "UI Colors"
+      },
+      "output": {
+        "color_palette": [
+          "#b91c1c",
+          "#030712",
+          "#18181b",
+          "#dcfce7",
+          "#fed7aa"
+        ],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 49,
+          "buttons": 2
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 2
+        }
+      },
+      "metadata": {
+        "source_url": "https://uicolors.app/create",
+        "description": "Create and customize beautiful Tailwind CSS color palettes. Generate, edit, and export colors for your design with our intuitive color generator tool."
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "HTML Color Codes"
+      },
+      "output": {
+        "color_palette": [
+          "#53EAFD",
+          "#36BBA7",
+          "#7BF1A8",
+          "#193CB8",
+          "#FFC9C9"
+        ],
+        "layout_structure": {
+          "headers": 10,
+          "sections": 10,
+          "articles": 0,
+          "nav": 2,
+          "divs": 459,
+          "buttons": 14
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 14
+        }
+      },
+      "metadata": {
+        "source_url": "https://htmlcolorcodes.com/",
+        "description": "Get HTML color codes, Hex color codes, RGB, HSL and OKLCH values with our color pickers, color wheel, color chart and HTML color names. Let's go!"
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Colors & Fonts"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 1,
+          "sections": 2,
+          "articles": 55,
+          "nav": 1,
+          "divs": 146,
+          "buttons": 6
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": false,
+          "interactive_elements": 6
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.colorsandfonts.com/",
+        "description": "Explore color and typography tools for web developers and designers. Generate palettes, gradients, tokens, and typography utilities \u2014 fast and free."
+      }
+    },
+    {
+      "input": {
+        "category": "colors",
+        "resource_type": "Material Palette"
+      },
+      "output": {
+        "color_palette": [
+          "#90a4ae",
+          "#4dd0e1"
+        ],
+        "layout_structure": {
+          "headers": 1,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 4,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.materialpalette.com/",
+        "description": "Choose your favorite colors and get your Material Design palette generated and downloadable."
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Material Design Lite"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 8,
+          "articles": 0,
+          "nav": 1,
+          "divs": 7,
+          "buttons": 1
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": false,
+          "interactive_elements": 1
+        }
+      },
+      "metadata": {
+        "source_url": "https://getmdl.io/",
+        "description": "A front-end template that helps you build fast, modern mobile web apps."
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Clarity Design System"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 0,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://clarity.design/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Carbon Design Systems"
+      },
+      "output": {
+        "color_palette": [
+          "#0053ff",
+          "#33b1ff",
+          "#e5e0df",
+          "#ee5396",
+          "#007d79"
+        ],
+        "layout_structure": {
+          "headers": 20,
+          "sections": 1,
+          "articles": 0,
+          "nav": 2,
+          "divs": 147,
+          "buttons": 5
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 5
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.carbondesignsystem.com/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Yelp Style Guide"
+      },
+      "output": {
+        "color_palette": [
+          "#ffe0c3",
+          "#caf1d8",
+          "#e3e3e3",
+          "#ffffff"
+        ],
+        "layout_structure": {
+          "headers": 19,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 232,
+          "buttons": 2
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": true,
+          "interactive_elements": 2
+        }
+      },
+      "metadata": {
+        "source_url": "https://www.yelp.com/styleguide",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "ETrade Design System"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 1,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://etrade.design/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Pluralsight Design System"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 0,
+          "sections": 0,
+          "articles": 0,
+          "nav": 0,
+          "divs": 1,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": false,
+          "uses_hierarchy": false,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "https://design-system.pluralsight.com/",
+        "description": "Pando Design System \u00b7 Design system documentation, made with zeroheight"
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "SendGrid Style Guide"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 21,
+          "sections": 2,
+          "articles": 2,
+          "nav": 2,
+          "divs": 14,
+          "buttons": 0
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 0
+        }
+      },
+      "metadata": {
+        "source_url": "http://styleguide.sendgrid.com/",
+        "description": ""
+      }
+    },
+    {
+      "input": {
+        "category": "design_systems",
+        "resource_type": "Done Design System"
+      },
+      "output": {
+        "color_palette": [],
+        "layout_structure": {
+          "headers": 32,
+          "sections": 14,
+          "articles": 0,
+          "nav": 6,
+          "divs": 295,
+          "buttons": 77
+        },
+        "design_principles": {
+          "has_semantic_html": true,
+          "uses_hierarchy": true,
+          "interactive_elements": 77
+        }
+      },
+      "metadata": {
+        "source_url": "https://uilibrary.github.io/done-design-system/",
+        "description": "Done is Open source design system based on Bootstrap 4. Organized SASS code makes product development easier and faster."
+      }
+    }
+  ]
+}

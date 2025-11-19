@@ -1,0 +1,977 @@
+[
+  {
+    "url": "https://icons.getbootstrap.com/",
+    "resource_name": "Bootstrap Icons",
+    "category": "ui_frameworks",
+    "colors": [],
+    "layout": {
+      "headers": 21,
+      "sections": 0,
+      "articles": 0,
+      "nav": 1,
+      "divs": 4233,
+      "buttons": 7
+    },
+    "title": "Bootstrap Icons \u00b7 Official open source SVG icon library for Bootstrap",
+    "description": "Official open source SVG icon library for Bootstrap",
+    "scraped_at": 1763502948.1039157
+  },
+  {
+    "url": "https://react-icons.github.io/react-icons/",
+    "resource_name": "React Icons",
+    "category": "ui_frameworks",
+    "colors": [
+      "#24292e",
+      "#E1E4E8",
+      "#B392F0",
+      "#85E89D",
+      "#9ECBFF",
+      "#e1e4e8",
+      "#79B8FF",
+      "#F97583"
+    ],
+    "layout": {
+      "headers": 7,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 132,
+      "buttons": 1
+    },
+    "title": "React Icons",
+    "description": "Include popular icons in your React projects easly with react-icons.",
+    "scraped_at": 1763502952.2249842
+  },
+  {
+    "url": "https://startbootstrap.com/",
+    "resource_name": "Start Bootstrap",
+    "category": "ui_frameworks",
+    "colors": [
+      "#daf2f8",
+      "#daf0f2",
+      "#dc392d",
+      "#daefed",
+      "#0061f2",
+      "#f1e0e3",
+      "#f76400",
+      "#69707a",
+      "#b02e24",
+      "#f0e3e7",
+      "#5800e8",
+      "#c5ccd6",
+      "#00ac69",
+      "#d4dae3",
+      "#fdeccc",
+      "#f4a100",
+      "#dae7fb",
+      "#4a515b",
+      "#f0f4fa",
+      "#f2f6fc"
+    ],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 0,
+      "buttons": 0
+    },
+    "title": "Start Bootstrap",
+    "description": "Start Bootstrap develops free to download, open source Bootstrap 5 themes, templates, and snippets and creates guides and tutorials to help you learn more about designing and developing with Bootstrap.",
+    "scraped_at": 1763502956.4770958
+  },
+  {
+    "url": "https://bootstraptaste.com/",
+    "resource_name": "BootstrapTaste",
+    "category": "ui_frameworks",
+    "colors": [
+      "#c9bbde",
+      "#ffde6b",
+      "#faf6fc",
+      "#0d6efd",
+      "#212529",
+      "#422d62",
+      "#ffe484",
+      "#543b79",
+      "#ffdb5b",
+      "#0a58ca",
+      "#382653",
+      "#ebebeb"
+    ],
+    "layout": {
+      "headers": 32,
+      "sections": 2,
+      "articles": 30,
+      "nav": 1,
+      "divs": 129,
+      "buttons": 0
+    },
+    "title": "Best Bootstrap Templates and Themes 2025 | BootstrapTaste",
+    "description": "100+ Best Bootstrap templates and HTML Website Templates collections to build your website or app in 2025",
+    "scraped_at": 1763502960.4863172
+  },
+  {
+    "url": "https://bootstrapmade.com/",
+    "resource_name": "BootstrapMade",
+    "category": "ui_frameworks",
+    "colors": [
+      "#e9e9e9",
+      "#023e72",
+      "#023b6d",
+      "#009bd9",
+      "#18d26e",
+      "#035195",
+      "#024681",
+      "#cfd4e4",
+      "#00a6e8",
+      "#ed3c0d",
+      "#024077",
+      "#ffffff",
+      "#212529",
+      "#d6ebfe",
+      "#023868",
+      "#03b7ff",
+      "#edeef0",
+      "#d63384",
+      "#0089c0",
+      "#f4faff"
+    ],
+    "layout": {
+      "headers": 38,
+      "sections": 1,
+      "articles": 0,
+      "nav": 4,
+      "divs": 151,
+      "buttons": 3
+    },
+    "title": "Download 150+ Free Bootstrap Templates & Themes | BootstrapMade",
+    "description": "Browse 150+ free and premium Bootstrap templates and themes. Beautifully designed, fully responsive, and easy to customize. Download the perfect theme for your next project today!",
+    "scraped_at": 1763502964.514019
+  },
+  {
+    "url": "https://tailwindcss.com/",
+    "resource_name": "Tailwind CSS",
+    "category": "ui_frameworks",
+    "colors": [],
+    "layout": {
+      "headers": 16,
+      "sections": 1,
+      "articles": 0,
+      "nav": 0,
+      "divs": 927,
+      "buttons": 16
+    },
+    "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+    "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+    "scraped_at": 1763502968.9123425
+  },
+  {
+    "url": "https://getbootstrap.com/",
+    "resource_name": "Bootstrap",
+    "category": "ui_frameworks",
+    "colors": [],
+    "layout": {
+      "headers": 37,
+      "sections": 7,
+      "articles": 0,
+      "nav": 1,
+      "divs": 103,
+      "buttons": 29
+    },
+    "title": "Bootstrap \u00b7 The most popular HTML, CSS, and JS library in the world.",
+    "description": "Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.",
+    "scraped_at": 1763502972.9352155
+  },
+  {
+    "url": "https://vanillaframework.io/",
+    "resource_name": "Vanilla Framework",
+    "category": "ui_frameworks",
+    "colors": [],
+    "layout": {
+      "headers": 13,
+      "sections": 0,
+      "articles": 1,
+      "nav": 2,
+      "divs": 68,
+      "buttons": 5
+    },
+    "title": "Vanilla documentation",
+    "description": "Vanilla Framework - a simple extensible CSS framework, written in Sass, by the Ubuntu Web Team.",
+    "scraped_at": 1763502982.4048452
+  },
+  {
+    "url": "https://fezvrasta.github.io/bootstrap-material-design/",
+    "resource_name": "Material Bootstrap",
+    "category": "ui_frameworks",
+    "colors": [],
+    "layout": {
+      "headers": 1,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 3,
+      "buttons": 0
+    },
+    "title": "\n\n    Bootstrap Material Design \u00b7 The most popular HTML, CSS, and JS Material Design library in the world.\n\n  ",
+    "description": "",
+    "scraped_at": 1763502987.3153052
+  },
+  {
+    "url": "https://www.tailwindtoolbox.com/",
+    "resource_name": "Tailwindtoolbox",
+    "category": "ui_frameworks",
+    "colors": [
+      "#1f2937",
+      "#4b5563",
+      "#84fab0",
+      "#8fd3f4",
+      "#FAFAFA"
+    ],
+    "layout": {
+      "headers": 4,
+      "sections": 0,
+      "articles": 0,
+      "nav": 1,
+      "divs": 118,
+      "buttons": 6
+    },
+    "title": "Windy Toolbox - Tailwind CSS Templates & Resources",
+    "description": "Discover a curated collection of Tailwind CSS starter templates, UI components, generators, and tools (Formerly Tailwind Toolbox)",
+    "scraped_at": 1763502995.484355
+  },
+  {
+    "url": "https://shapedfonts.com/iconclub/",
+    "resource_name": "Shapedfonts Iconclub",
+    "category": "icons",
+    "colors": [
+      "#ff6900",
+      "#f78da7",
+      "#3e3e3e",
+      "#cf2e2e",
+      "#27e2a5",
+      "#464646",
+      "#0a0a0a",
+      "#6ceab1",
+      "#abb8c3",
+      "#999999",
+      "#00d084",
+      "#6b6b6b",
+      "#2ea3f2",
+      "#8ed1fc",
+      "#974df3",
+      "#ffffff",
+      "#808080",
+      "#7bdcb5",
+      "#29c4a9",
+      "#f3f3f3"
+    ],
+    "layout": {
+      "headers": 27,
+      "sections": 0,
+      "articles": 1,
+      "nav": 1,
+      "divs": 153,
+      "buttons": 2
+    },
+    "title": "Iconclub - 8000+ free icons I Shaped Fonts",
+    "description": "We've created a free icon tool for the community to enhance the workflow while creating wireframes or prototypes. Available for Adobe XD, Illustrator, Photoshop, Sketch and many more.",
+    "scraped_at": 1763503005.4540858
+  },
+  {
+    "url": "https://feathericons.com/",
+    "resource_name": "Feather Icons",
+    "category": "icons",
+    "colors": [
+      "#0066ff",
+      "#2f363d",
+      "#24292e",
+      "#f6f8fa",
+      "#444d56",
+      "#959da5",
+      "#d1d5da"
+    ],
+    "layout": {
+      "headers": 2,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 26,
+      "buttons": 3
+    },
+    "title": "Feather \u2013 Simply beautiful open source icons",
+    "description": "Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.",
+    "scraped_at": 1763503009.7584026
+  },
+  {
+    "url": "https://tabler-icons.io/",
+    "resource_name": "Tabler Icons",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 16,
+      "sections": 1,
+      "articles": 0,
+      "nav": 1,
+      "divs": 188,
+      "buttons": 9
+    },
+    "title": "Tabler Icons: 4950+ free vector icons for web design",
+    "description": "Tabler Icons: 4964 free and open source SVG icons. Customizable size, color and stroke. Available for React, SolidJS, Vue, Figma and more for free!",
+    "scraped_at": 1763503014.94984
+  },
+  {
+    "url": "https://www.xicons.org/#/",
+    "resource_name": "Xicons",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 1,
+      "buttons": 0
+    },
+    "title": "xicons - Icons for Vue & React",
+    "description": "",
+    "scraped_at": 1763503018.997567
+  },
+  {
+    "url": "https://iconoir.com/",
+    "resource_name": "Iconoir",
+    "category": "icons",
+    "colors": [
+      "#7289da"
+    ],
+    "layout": {
+      "headers": 4,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 119,
+      "buttons": 1
+    },
+    "title": "Iconoir | Free Icons",
+    "description": "Iconoir is the biggest open source icon library that provides a massive selection of high-quality icons, available for free download. No premium options or email sign-up required, free for real. Icons available in SVG, Font, React, React Nativ, and Flutter libraries, Figma and Framer.",
+    "scraped_at": 1763503023.0143328
+  },
+  {
+    "url": "https://simpleicons.org/",
+    "resource_name": "Simple Icons",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 0,
+      "buttons": 0
+    },
+    "title": "",
+    "description": "",
+    "scraped_at": 1763503027.0992048
+  },
+  {
+    "url": "https://linearicons.com/free",
+    "resource_name": "Linear Icons",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 11,
+      "sections": 4,
+      "articles": 0,
+      "nav": 2,
+      "divs": 28,
+      "buttons": 4
+    },
+    "title": "Free Vector Line Icons (SVG, PNG, PSD, CSH, EPS, Icon Font and more)",
+    "description": "Linearicons is the highest quality set of line icons, matching with minimalist UI designs in iOS. This icon pack was designed on a 20\u00d720 grid with a lot of care, resulting in crisp and pixel perfect icons. Both free and premium versions are easy to use in any platform including iOS and Android.",
+    "scraped_at": 1763503031.0530338
+  },
+  {
+    "url": "https://iconsear.ch/search.html",
+    "resource_name": "IconSear.ch",
+    "category": "icons",
+    "colors": [
+      "#3e32a8"
+    ],
+    "layout": {
+      "headers": 1,
+      "sections": 0,
+      "articles": 0,
+      "nav": 1,
+      "divs": 9,
+      "buttons": 1
+    },
+    "title": "Icon\u00a0Search: Instant search for SVG icons",
+    "description": "Search through over 182,000 SVG icons from 165 sources",
+    "scraped_at": 1763503040.4578424
+  },
+  {
+    "url": "https://icon-icons.com/",
+    "resource_name": "Icon-icons.com",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 17,
+      "sections": 6,
+      "articles": 0,
+      "nav": 2,
+      "divs": 71,
+      "buttons": 15
+    },
+    "title": "Free Icons PNG, ICO, ICNS and SVG",
+    "description": "Free icons for your project, find the perfect icon you need in our amazing collection, available in SVG, PNG, ICO or ICNS.",
+    "scraped_at": 1763503044.6374602
+  },
+  {
+    "url": "https://remixicon.com/",
+    "resource_name": "Remix Icon",
+    "category": "icons",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 1,
+      "buttons": 0
+    },
+    "title": "Remix Icon - Open source icon library",
+    "description": "Remix Icon is a set of open source neutral style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
+    "scraped_at": 1763503049.055038
+  },
+  {
+    "url": "https://www.humaaans.com/",
+    "resource_name": "Humaaans",
+    "category": "illustrations",
+    "colors": [],
+    "layout": {
+      "headers": 16,
+      "sections": 1,
+      "articles": 0,
+      "nav": 0,
+      "divs": 54,
+      "buttons": 0
+    },
+    "title": "Humaaans: Mix-&-Match illustration library",
+    "description": "Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch.",
+    "scraped_at": 1763503053.6384947
+  },
+  {
+    "url": "https://www.pixeltrue.com/illustrations",
+    "resource_name": "Pixeltrue Illustrations",
+    "category": "illustrations",
+    "colors": [
+      "#6d6d6d",
+      "#fd435a",
+      "#0fb8e7",
+      "#4a4949",
+      "#3a3684",
+      "#fc687b",
+      "#0fb7e7",
+      "#ffe6e9",
+      "#3898ec",
+      "#f2f2f2",
+      "#182335",
+      "#fd576d",
+      "#6fd9f6",
+      "#fc687c",
+      "#FFFFFF",
+      "#fd576c",
+      "#212121",
+      "#b3b3b3"
+    ],
+    "layout": {
+      "headers": 723,
+      "sections": 0,
+      "articles": 0,
+      "nav": 2,
+      "divs": 3583,
+      "buttons": 0
+    },
+    "title": "2500+ High Quality Illustrations & Animations Pack",
+    "description": "Get access to 2500+ High-quality and affordable illustrations and animations in over 50+ different styles. Great illustration pack designs, don't have to break the bank!",
+    "scraped_at": 1763503078.8942287
+  },
+  {
+    "url": "https://illustrationkit.com/",
+    "resource_name": "illustration kit",
+    "category": "illustrations",
+    "colors": [],
+    "layout": {
+      "headers": 6,
+      "sections": 0,
+      "articles": 0,
+      "nav": 1,
+      "divs": 29,
+      "buttons": 2
+    },
+    "title": "Illustration Kit",
+    "description": "Beautiful free illustrations for personal & commercial projects. No attribution required.",
+    "scraped_at": 1763503083.3876152
+  },
+  {
+    "url": "https://www.blackillustrations.com/",
+    "resource_name": "Black Illustrations",
+    "category": "illustrations",
+    "colors": [],
+    "layout": {
+      "headers": 56,
+      "sections": 3,
+      "articles": 0,
+      "nav": 0,
+      "divs": 447,
+      "buttons": 0
+    },
+    "title": "Illustrations of Black People for Your Next Digital Project | Black Illustrations",
+    "description": "Black illustrations is a series of FREE digital designs of black people for your next online project. Free for commercial and personal use.",
+    "scraped_at": 1763503095.4444242
+  },
+  {
+    "url": "https://www.draw.io/",
+    "resource_name": "Draw.io",
+    "category": "illustrations",
+    "colors": [],
+    "layout": {
+      "headers": 2,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 2,
+      "buttons": 0
+    },
+    "title": "Flowchart Maker & Online Diagram Software",
+    "description": "",
+    "scraped_at": 1763503101.5118425
+  },
+  {
+    "url": "https://meshgradient.in/",
+    "resource_name": "Mesh Gradient",
+    "category": "colors",
+    "colors": [
+      "#4de6d4"
+    ],
+    "layout": {
+      "headers": 3,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 4,
+      "buttons": 0
+    },
+    "title": "Generate Mesh Gradients | Customize & Free Export PNG",
+    "description": "Generate beautiful and colorful mesh gradients | Download Mesh Gradients PNG | Export mesh gradients PNG",
+    "scraped_at": 1763503106.5189037
+  },
+  {
+    "url": "https://getcolorlab.com",
+    "resource_name": "Colorlab",
+    "category": "colors",
+    "colors": [
+      "#78716c",
+      "#cffafe",
+      "#fed7aa",
+      "#d6d3d1",
+      "#16a34a",
+      "#f5d0fe",
+      "#60a5fa",
+      "#f5f5f4",
+      "#1d4ed8",
+      "#f0f9ff",
+      "#fef3c7",
+      "#dbeafe",
+      "#2563eb",
+      "#4c1d95",
+      "#a8a29e",
+      "#052e16",
+      "#6366f1",
+      "#22c55e",
+      "#9333ea",
+      "#d9f99d"
+    ],
+    "layout": {
+      "headers": 8,
+      "sections": 7,
+      "articles": 0,
+      "nav": 0,
+      "divs": 30,
+      "buttons": 1
+    },
+    "title": "Colorlab - Color Palettes for Designers and Developers",
+    "description": "Perfect for designers and Developers!  With Colorlab, create, customize and export your Color Palette, Gradient and Color Scales super fast!",
+    "scraped_at": 1763503120.7590072
+  },
+  {
+    "url": "https://colorbrewer2.org/",
+    "resource_name": "Color Brewer 2",
+    "category": "colors",
+    "colors": [],
+    "layout": {
+      "headers": 8,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 47,
+      "buttons": 0
+    },
+    "title": "ColorBrewer: Color Advice for Maps",
+    "description": "",
+    "scraped_at": 1763503124.7727013
+  },
+  {
+    "url": "http://colormind.io",
+    "resource_name": "Colormind.io",
+    "category": "colors",
+    "colors": [
+      "#777777",
+      "#BBBBBB",
+      "#999999",
+      "#101010",
+      "#333333",
+      "#555555"
+    ],
+    "layout": {
+      "headers": 31,
+      "sections": 0,
+      "articles": 0,
+      "nav": 1,
+      "divs": 141,
+      "buttons": 0
+    },
+    "title": "Colormind - the AI powered color palette generator",
+    "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.",
+    "scraped_at": 1763503128.4127262
+  },
+  {
+    "url": "https://colorcurves.app",
+    "resource_name": "ColorCurves.app",
+    "category": "colors",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 1,
+      "buttons": 0
+    },
+    "title": "Color Curves",
+    "description": "Unique color palettes for data visualization and generative art.",
+    "scraped_at": 1763503132.5063732
+  },
+  {
+    "url": "https://colorgradient.dev/",
+    "resource_name": "ColorGradient",
+    "category": "colors",
+    "colors": [
+      "#4c00FC",
+      "#073AFF",
+      "#71c4FF",
+      "#d9e6a7",
+      "#73f2FF",
+      "#cefAFF",
+      "#ff7000",
+      "#798b3c",
+      "#00fFFF",
+      "#0058ff",
+      "#4338ca",
+      "#ffe203",
+      "#a100FF",
+      "#ff0000",
+      "#2000FF",
+      "#ff0049",
+      "#7b00FF",
+      "#fffFFF",
+      "#d3fF6D",
+      "#3730a3"
+    ],
+    "layout": {
+      "headers": 6,
+      "sections": 0,
+      "articles": 0,
+      "nav": 2,
+      "divs": 93,
+      "buttons": 6
+    },
+    "title": "Color Gradient - The best CSS gradient generator. - ColorGradient",
+    "description": "Looking for a gradient generator? Color gradient is a CSS gradient generator that is capable of creating simple and more complex gradients.",
+    "scraped_at": 1763503137.2746081
+  },
+  {
+    "url": "https://uicolors.app/create",
+    "resource_name": "UI Colors",
+    "category": "colors",
+    "colors": [
+      "#b91c1c",
+      "#030712",
+      "#18181b",
+      "#dcfce7",
+      "#fed7aa",
+      "#fff7ed",
+      "#991b1b",
+      "#09090b",
+      "#16a34a",
+      "#60a5fa",
+      "#f3f4f6",
+      "#f4f4f5",
+      "#ffedd5",
+      "#a1a1aa",
+      "#facc15",
+      "#dc2626",
+      "#22c55e",
+      "#052e16",
+      "#6366f1",
+      "#4b5563"
+    ],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 49,
+      "buttons": 2
+    },
+    "title": "Tailwind CSS Color Generator | UI Colors",
+    "description": "Create and customize beautiful Tailwind CSS color palettes. Generate, edit, and export colors for your design with our intuitive color generator tool.",
+    "scraped_at": 1763503141.8747175
+  },
+  {
+    "url": "https://htmlcolorcodes.com/",
+    "resource_name": "HTML Color Codes",
+    "category": "colors",
+    "colors": [
+      "#53EAFD",
+      "#36BBA7",
+      "#7BF1A8",
+      "rgb(245 176 39)",
+      "#193CB8",
+      "rgb(245 73 39)",
+      "#FFC9C9",
+      "#2F0D68",
+      "#000080",
+      "#8B0836",
+      "#1E2939",
+      "#FFEDD4",
+      "#E7E5E4",
+      "#F4A8FF",
+      "#4F39F6",
+      "#F08080",
+      "#E5E5E5",
+      "#FFDF20",
+      "#FFCCD3",
+      "#F7FEE7"
+    ],
+    "layout": {
+      "headers": 10,
+      "sections": 10,
+      "articles": 0,
+      "nav": 2,
+      "divs": 459,
+      "buttons": 14
+    },
+    "title": "HTML Color Codes",
+    "description": "Get HTML color codes, Hex color codes, RGB, HSL and OKLCH values with our color pickers, color wheel, color chart and HTML color names. Let's go!",
+    "scraped_at": 1763503145.9900608
+  },
+  {
+    "url": "https://www.colorsandfonts.com/",
+    "resource_name": "Colors & Fonts",
+    "category": "colors",
+    "colors": [],
+    "layout": {
+      "headers": 1,
+      "sections": 2,
+      "articles": 55,
+      "nav": 1,
+      "divs": 146,
+      "buttons": 6
+    },
+    "title": "Home - Colors & Fonts",
+    "description": "Explore color and typography tools for web developers and designers. Generate palettes, gradients, tokens, and typography utilities \u2014 fast and free.",
+    "scraped_at": 1763503150.4004626
+  },
+  {
+    "url": "https://www.materialpalette.com/",
+    "resource_name": "Material Palette",
+    "category": "colors",
+    "colors": [
+      "#90a4ae",
+      "#4dd0e1"
+    ],
+    "layout": {
+      "headers": 1,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 4,
+      "buttons": 0
+    },
+    "title": "Material Design Color Palette Generator - Material Palette",
+    "description": "Choose your favorite colors and get your Material Design palette generated and downloadable.",
+    "scraped_at": 1763503156.8966463
+  },
+  {
+    "url": "https://getmdl.io/",
+    "resource_name": "Material Design Lite",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 8,
+      "articles": 0,
+      "nav": 1,
+      "divs": 7,
+      "buttons": 1
+    },
+    "title": "Material Design Lite",
+    "description": "A front-end template that helps you build fast, modern mobile web apps.",
+    "scraped_at": 1763503160.9718156
+  },
+  {
+    "url": "https://clarity.design/",
+    "resource_name": "Clarity Design System",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 0,
+      "buttons": 0
+    },
+    "title": "Clarity Design System",
+    "description": "",
+    "scraped_at": 1763503165.346575
+  },
+  {
+    "url": "https://www.carbondesignsystem.com/",
+    "resource_name": "Carbon Design Systems",
+    "category": "design_systems",
+    "colors": [
+      "#0053ff",
+      "#33b1ff",
+      "#e5e0df",
+      "#ee5396",
+      "#007d79",
+      "#ff8f97",
+      "#4589ff",
+      "#08bdba",
+      "#005956",
+      "#13622b",
+      "#565151",
+      "#eaf1ff",
+      "#a2191f",
+      "#7a7a7a",
+      "#656565",
+      "#491d8b",
+      "#005d5d",
+      "#002749",
+      "#ff5f67",
+      "#39176d"
+    ],
+    "layout": {
+      "headers": 20,
+      "sections": 1,
+      "articles": 0,
+      "nav": 2,
+      "divs": 147,
+      "buttons": 5
+    },
+    "title": "",
+    "description": "",
+    "scraped_at": 1763503170.9299586
+  },
+  {
+    "url": "https://www.yelp.com/styleguide",
+    "resource_name": "Yelp Style Guide",
+    "category": "design_systems",
+    "colors": [
+      "#ffe0c3",
+      "#caf1d8",
+      "#e3e3e3",
+      "#ffffff"
+    ],
+    "layout": {
+      "headers": 19,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 232,
+      "buttons": 2
+    },
+    "title": "Yelp Design \u2014 Cookbook",
+    "description": "",
+    "scraped_at": 1763503175.4269485
+  },
+  {
+    "url": "https://etrade.design/",
+    "resource_name": "ETrade Design System",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 1,
+      "buttons": 0
+    },
+    "title": "ETRADE Design Language",
+    "description": "",
+    "scraped_at": 1763503179.3590913
+  },
+  {
+    "url": "https://design-system.pluralsight.com/",
+    "resource_name": "Pluralsight Design System",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 0,
+      "sections": 0,
+      "articles": 0,
+      "nav": 0,
+      "divs": 1,
+      "buttons": 0
+    },
+    "title": "Pando Design System",
+    "description": "Pando Design System \u00b7 Design system documentation, made with zeroheight",
+    "scraped_at": 1763503186.5182738
+  },
+  {
+    "url": "http://styleguide.sendgrid.com/",
+    "resource_name": "SendGrid Style Guide",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 21,
+      "sections": 2,
+      "articles": 2,
+      "nav": 2,
+      "divs": 14,
+      "buttons": 0
+    },
+    "title": "SendGrid Style Guide",
+    "description": "",
+    "scraped_at": 1763503189.7695897
+  },
+  {
+    "url": "https://uilibrary.github.io/done-design-system/",
+    "resource_name": "Done Design System",
+    "category": "design_systems",
+    "colors": [],
+    "layout": {
+      "headers": 32,
+      "sections": 14,
+      "articles": 0,
+      "nav": 6,
+      "divs": 295,
+      "buttons": 77
+    },
+    "title": "Done Design System by UI Lib",
+    "description": "Done is Open source design system based on Bootstrap 4. Organized SASS code makes product development easier and faster.",
+    "scraped_at": 1763503193.8340106
+  }
+]
