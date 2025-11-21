@@ -17,6 +17,7 @@ from agent.generator.suggestion_engine import SuggestionEngine
 from agent.scheduler import AutoScraper
 from agent.extractor.component_extractor import ComponentExtractor
 from agent.browser.template_browser import TemplateBrowser
+from agent.learner.github_repo_analyzer import GitHubRepoAnalyzer
 
 console = Console()
 
@@ -467,6 +468,69 @@ def stats():
     except Exception as e:
         console.print(f"[bold red]✗ Error: {e}[/bold red]")
         console.print("[yellow]Tip: Run 'train' command first to build the knowledge base[/yellow]")
+
+
+@cli.command()
+@click.option('--category', type=click.Choice(['css', 'vue', 'react', 'html', 'all']), default='all',
+              help='Repository category to analyze')
+@click.option('--workspace', default='data/github_training', help='Workspace directory for analysis')
+def github_train(category, workspace):
+    """Train from top GitHub repositories (Bootstrap, React, Vue, etc.)"""
+    console.print("\n[bold cyan]🚀 Front-End Aesthetic Agent - GitHub Training[/bold cyan]\n")
+
+    try:
+        analyzer = GitHubRepoAnalyzer(workspace_dir=workspace)
+
+        # Display what will be analyzed
+        categories = ['css', 'vue', 'react', 'html'] if category == 'all' else [category]
+        total_repos = sum(len(analyzer.REPO_CATALOG[cat]) for cat in categories)
+
+        console.print(f"[bold]Training Plan:[/bold]")
+        for cat in categories:
+            repos = analyzer.REPO_CATALOG[cat]
+            console.print(f"\n  [cyan]{cat.upper()}:[/cyan] {len(repos)} repositories")
+            for repo in repos:
+                console.print(f"    • {repo['name']} ({repo['stars']:,} stars)")
+
+        console.print(f"\n[yellow]Total: {total_repos} repositories will be analyzed[/yellow]\n")
+
+        response = input("Continue? This will clone repositories (shallow clone). (y/n): ")
+        if response.lower() != 'y':
+            console.print("[yellow]Training cancelled[/yellow]")
+            return
+
+        # Analyze repositories
+        console.print("\n[bold]Starting analysis...[/bold]\n")
+        summary = analyzer.analyze_all_repositories(categories=categories)
+
+        # Generate report
+        console.print("\n[bold]Generating training report...[/bold]\n")
+        analyzer.generate_training_report()
+
+        # Display summary
+        console.print("\n[bold green]✓ GitHub Training Complete![/bold green]\n")
+
+        table = Table(title="Training Summary")
+        table.add_column("Category", style="cyan")
+        table.add_column("Repos Analyzed", style="green")
+        table.add_column("Status", style="yellow")
+
+        for cat, results in summary['categories'].items():
+            completed = sum(1 for r in results if r['status'] == 'completed')
+            status = f"{completed}/{len(results)} ✓" if completed == len(results) else f"{completed}/{len(results)} ⚠"
+            table.add_row(cat.upper(), str(len(results)), status)
+
+        console.print(table)
+        console.print(f"\n[bold]Results saved in:[/bold] {workspace}/")
+        console.print(f"  • Analysis: {workspace}/analysis/")
+        console.print(f"  • Report: {workspace}/learnings/training_report.md")
+        console.print(f"  • Repositories: {workspace}/repos/\n")
+
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Training interrupted[/yellow]")
+    except Exception as e:
+        console.print(f"[bold red]✗ Error: {e}[/bold red]")
+        raise click.Abort()
 
 
 if __name__ == '__main__':
