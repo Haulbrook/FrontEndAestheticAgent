@@ -36,7 +36,8 @@ env/
 data/templates/
 data/screenshots/
 data/analyzed/
-data/github_training/repos/  # Cloned repositories (large)
+data/github_training/repos/**  # Cloned repositories (large)
+data/github_training/repos/
 *.db
 *.sqlite
 *.cache
