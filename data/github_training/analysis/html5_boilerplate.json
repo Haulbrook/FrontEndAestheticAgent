@@ -1,0 +1,41 @@
+{
+  "name": "HTML5 Boilerplate",
+  "category": "html",
+  "analyzed_at": "2025-11-21T14:49:05.637915",
+  "focus_areas": [
+    "best_practices",
+    "structure",
+    "optimization"
+  ],
+  "learnings": {
+    "html_patterns": {
+      "semantic_tags": [],
+      "meta_tags": [
+        "charset=\"utf-8\"",
+        "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+        "name=\"description\" content=\"\"",
+        "property=\"og:title\" content=\"\"",
+        "property=\"og:type\" content=\"\"",
+        "property=\"og:url\" content=\"\"",
+        "property=\"og:image\" content=\"\"",
+        "property=\"og:image:alt\" content=\"\"",
+        "name=\"theme-color\" content=\"#fafafa\"",
+        "charset=\"utf-8\"",
+        "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+        "charset=\"utf-8\"",
+        "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+        "name=\"description\" content=\"\"",
+        "property=\"og:title\" content=\"\"",
+        "property=\"og:type\" content=\"\"",
+        "property=\"og:url\" content=\"\"",
+        "property=\"og:image\" content=\"\"",
+        "property=\"og:image:alt\" content=\"\"",
+        "name=\"theme-color\" content=\"#fafafa\"",
+        "charset=\"utf-8\"",
+        "name=\"viewport\" content=\"width=device-width, initial-scale=1\""
+      ],
+      "structural_patterns": []
+    }
+  },
+  "file_count": 4
+}

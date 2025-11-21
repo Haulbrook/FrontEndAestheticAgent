@@ -1,0 +1,11 @@
+{
+  "name": "Normalize.css",
+  "category": "css",
+  "analyzed_at": "2025-11-21T14:43:54.343284",
+  "focus_areas": [
+    "browser_normalization",
+    "reset_patterns"
+  ],
+  "learnings": {},
+  "file_count": 1
+}

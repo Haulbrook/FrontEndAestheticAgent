@@ -1,0 +1,24 @@
+{
+  "analyzed_at": "2025-11-21T14:49:02.991924",
+  "categories": {
+    "html": [
+      {
+        "name": "Reveal.js",
+        "status": "completed"
+      },
+      {
+        "name": "HTML5 Boilerplate",
+        "status": "completed"
+      },
+      {
+        "name": "html2canvas",
+        "status": "completed"
+      },
+      {
+        "name": "Foundation Sites",
+        "status": "completed"
+      }
+    ]
+  },
+  "total_repos": 4
+}

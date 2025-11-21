@@ -1,0 +1,27 @@
+{
+  "name": "Tailwind CSS",
+  "category": "css",
+  "analyzed_at": "2025-11-21T14:43:53.832162",
+  "focus_areas": [
+    "utility_first",
+    "design_tokens",
+    "color_schemes",
+    "spacing"
+  ],
+  "learnings": {
+    "colors": {
+      "css_variables": [
+        "#000",
+        "#fff"
+      ],
+      "scss_variables": [],
+      "hex_colors": []
+    },
+    "spacing": {
+      "margin_values": [],
+      "padding_values": [],
+      "gap_values": []
+    }
+  },
+  "file_count": 17
+}

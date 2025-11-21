@@ -1,0 +1,20 @@
+{
+  "name": "Next.js",
+  "category": "react",
+  "analyzed_at": "2025-11-21T14:45:55.756539",
+  "focus_areas": [
+    "ssr",
+    "routing",
+    "layouts",
+    "optimization"
+  ],
+  "learnings": {
+    "styling_patterns": {
+      "css_modules": 16,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 4952
+}

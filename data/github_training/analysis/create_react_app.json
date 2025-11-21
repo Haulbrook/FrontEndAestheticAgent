@@ -1,0 +1,19 @@
+{
+  "name": "Create React App",
+  "category": "react",
+  "analyzed_at": "2025-11-21T14:46:15.551941",
+  "focus_areas": [
+    "project_structure",
+    "build_config",
+    "best_practices"
+  ],
+  "learnings": {
+    "styling_patterns": {
+      "css_modules": 5,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 7
+}

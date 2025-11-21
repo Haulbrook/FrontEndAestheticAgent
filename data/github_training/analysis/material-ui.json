@@ -1,0 +1,46 @@
+{
+  "name": "Material-UI",
+  "category": "react",
+  "analyzed_at": "2025-11-21T14:48:01.817419",
+  "focus_areas": [
+    "material_design",
+    "components",
+    "theming",
+    "styling"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [],
+      "inputs": [
+        "OutlinedTextFieldOnClick",
+        "TextareaAutosizeSuspense",
+        "BasicTextareaAutosize",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "cards": [],
+      "modals": [],
+      "navbars": [
+        "PopoverMenu"
+      ],
+      "tables": []
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 2120
+}

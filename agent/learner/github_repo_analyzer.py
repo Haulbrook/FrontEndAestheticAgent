@@ -761,9 +761,18 @@ class GitHubRepoAnalyzer:
                             report_lines.append(f"- **{learning_type.replace('_', ' ').title()}:**")
                             for key, values in data.items():
                                 if values:
-                                    report_lines.append(f"  - {key}: {len(values)} patterns")
+                                    # Handle both list/string values and integer counts
+                                    if isinstance(values, (list, str)):
+                                        count = len(values) if isinstance(values, list) else 1
+                                        report_lines.append(f"  - {key}: {count} patterns")
+                                    elif isinstance(values, int):
+                                        report_lines.append(f"  - {key}: {values} instances")
+                                    else:
+                                        report_lines.append(f"  - {key}: present")
                         elif isinstance(data, list):
                             report_lines.append(f"- **{learning_type.replace('_', ' ').title()}:** {len(data)} items")
+                        elif isinstance(data, int):
+                            report_lines.append(f"- **{learning_type.replace('_', ' ').title()}:** {data} instances")
                     report_lines.append("")
 
                 report_lines.append("---\n")

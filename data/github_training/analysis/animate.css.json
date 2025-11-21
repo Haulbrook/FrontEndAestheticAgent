@@ -1,0 +1,46 @@
+{
+  "name": "Animate.css",
+  "category": "css",
+  "analyzed_at": "2025-11-21T14:43:52.202379",
+  "focus_areas": [
+    "animations",
+    "transitions",
+    "css_classes"
+  ],
+  "learnings": {
+    "animations": {
+      "keyframes": [
+        "rotateInUpLeft",
+        "backOutUp",
+        "zoomInUp",
+        "backInLeft",
+        "rotateOutDownLeft",
+        "flipOutX",
+        "rotateInUpRight",
+        "bounceInLeft",
+        "lightSpeedOutRight",
+        "backOutRight",
+        "heartBeat",
+        "zoomInDown",
+        "backInRight",
+        "backInUp",
+        "bounceInRight",
+        "bounceOutUp",
+        "slideOutRight",
+        "fadeInLeftBig",
+        "fadeInTopLeft",
+        "rotateInDownLeft",
+        "fadeInUp",
+        "shakeY",
+        "bounceInDown",
+        "zoomInLeft",
+        "fadeInRight"
+      ],
+      "animation_classes": [
+        "animate"
+      ],
+      "transitions": []
+    }
+  },
+  "file_count": 106
+}

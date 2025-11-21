@@ -1,0 +1,46 @@
+{
+  "name": "Element Plus",
+  "category": "vue",
+  "analyzed_at": "2025-11-21T14:44:44.313736",
+  "focus_areas": [
+    "ui_components",
+    "design_system",
+    "accessibility"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [
+        "button"
+      ],
+      "inputs": [
+        "input",
+        "input-number"
+      ],
+      "cards": [
+        "card",
+        "home-cards"
+      ],
+      "modals": [
+        "dialog"
+      ],
+      "navbars": [
+        "menu",
+        "vp-navbar",
+        "vp-subnav",
+        "vp-nav-full",
+        "vp-nav",
+        "vp-menu-link"
+      ],
+      "tables": [
+        "table"
+      ]
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 976
+}

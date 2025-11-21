@@ -1,0 +1,39 @@
+{
+  "name": "Vuetify",
+  "category": "vue",
+  "analyzed_at": "2025-11-21T14:44:39.849330",
+  "focus_areas": [
+    "material_design",
+    "components",
+    "theming"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [],
+      "inputs": [
+        "misc-media-with-text"
+      ],
+      "cards": [
+        "misc-card",
+        "misc-card-overview",
+        "misc-twitter-card",
+        "misc-horizontal-cards"
+      ],
+      "modals": [],
+      "navbars": [],
+      "tables": [
+        "Playground.datatable",
+        "misc-selectable-icons",
+        "prop-activatable",
+        "misc-grids"
+      ]
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 1158
+}
