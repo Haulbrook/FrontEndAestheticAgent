@@ -3,12 +3,12 @@
     "scheme": "balanced",
     "colors": [
       "#FFFFFF",
-      "#1CB495",
-      "#000000"
+      "#2E3141",
+      "#4C5C96"
     ],
     "primary": "#FFFFFF",
-    "secondary": "#1CB495",
-    "accent": "#000000",
+    "secondary": "#2E3141",
+    "accent": "#4C5C96",
     "usage_tips": [
       "Use colors consistently",
       "Maintain good contrast",
@@ -35,9 +35,9 @@
   },
   "typography": {
     "recommended_fonts": {
-      "heading": "Montserrat",
-      "body": "Open Sans",
-      "type": "modern"
+      "heading": "Inter",
+      "body": "Inter",
+      "type": "monofont"
     },
     "size_scale": {
       "base": "16px",

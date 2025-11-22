@@ -4,20 +4,63 @@ import json
 from pathlib import Path
 from typing import Dict, List
 from .knowledge_base import KnowledgeBase
+from .design_excellence import DesignExcellence
 
 
 class PatternLearner:
-    """Learns patterns from analyzed templates and builds knowledge base"""
+    """
+    Learns patterns from analyzed templates and builds knowledge base.
+
+    Philosophy: Quality over quantity. Only learn from exceptional designs.
+    """
 
     def __init__(self, knowledge_base_path: str = "data/knowledge_base/design_patterns.json"):
         self.kb = KnowledgeBase(knowledge_base_path)
+        self.excellence = DesignExcellence()
+        self.rejected_count = 0
+        self.excellence_stats = {
+            'masterpiece': 0,
+            'excellent': 0,
+            'acceptable': 0,
+            'rejected': 0
+        }
 
     def learn_from_analysis(self, analysis_file: Path) -> bool:
-        """Learn from a single analyzed template file"""
+        """
+        Learn from a single analyzed template file.
+        Only accepts designs that meet our excellence standards.
+        """
         try:
             analysis = json.loads(analysis_file.read_text(encoding='utf-8'))
+
+            # Evaluate design quality with high standards
+            evaluation = self.excellence.evaluate_design(analysis)
+            score = evaluation['overall_score']
+            level = evaluation['excellence_level']
+
+            # Only learn from designs that meet our minimum quality threshold
+            if not self.excellence.should_learn_from(analysis):
+                print(f"    ⊘ REJECTED - Score: {score}/100 ({level})")
+                print(f"      Reason: {evaluation['verdict']}")
+                self.rejected_count += 1
+                self.excellence_stats['rejected'] += 1
+                return False
+
+            # Track excellence levels
+            if level == 'masterpiece':
+                self.excellence_stats['masterpiece'] += 1
+                print(f"    ★ MASTERPIECE - Score: {score}/100")
+            elif level == 'excellent':
+                self.excellence_stats['excellent'] += 1
+                print(f"    ✓ EXCELLENT - Score: {score}/100")
+            else:  # acceptable
+                self.excellence_stats['acceptable'] += 1
+                print(f"    ✓ Acceptable - Score: {score}/100")
+
+            # Learn from this quality design
             self.kb.add_template_analysis(analysis)
             return True
+
         except Exception as e:
             print(f"! Error learning from {analysis_file.name}: {e}")
             return False
@@ -45,8 +88,14 @@ class PatternLearner:
                 print(f"    ✓ Learned")
 
         print(f"\n✓ Learned from {learned_count} templates")
-        print(f"  Knowledge base stats:")
+        print(f"  ⊘ Rejected: {self.rejected_count} (below excellence threshold)")
+        print(f"\n  Excellence Breakdown:")
+        print(f"    ★ Masterpieces: {self.excellence_stats['masterpiece']}")
+        print(f"    ✓ Excellent: {self.excellence_stats['excellent']}")
+        print(f"    ✓ Acceptable: {self.excellence_stats['acceptable']}")
+        print(f"    ⊘ Rejected: {self.excellence_stats['rejected']}")
 
+        print(f"\n  Knowledge base stats:")
         stats = self.kb.get_statistics()
         for key, value in stats.items():
             print(f"    - {key}: {value}")
@@ -54,6 +103,8 @@ class PatternLearner:
         return {
             'success': True,
             'learned': learned_count,
+            'rejected': self.rejected_count,
+            'excellence_stats': self.excellence_stats,
             'total_in_kb': stats['total_templates'],
             'statistics': stats
         }

@@ -4,14 +4,21 @@ from pathlib import Path
 from typing import Dict, List
 from ..analyzer.template_analyzer import TemplateAnalyzer
 from ..learner.knowledge_base import KnowledgeBase
+from ..learner.design_excellence import DesignExcellence
 
 
 class SuggestionEngine:
-    """Analyzes existing designs and suggests improvements"""
+    """
+    Analyzes existing designs and suggests improvements.
+
+    Attitude: Perfectionist. Pushes for excellence, not mediocrity.
+    Never settles for "good enough" - always seeking sophistication.
+    """
 
     def __init__(self, knowledge_base_path: str = "data/knowledge_base/design_patterns.json"):
         self.analyzer = TemplateAnalyzer()
         self.kb = KnowledgeBase(knowledge_base_path)
+        self.excellence = DesignExcellence()
 
     def analyze_and_suggest(self, html_file: str) -> Dict:
         """Analyze an HTML file and suggest improvements"""
@@ -39,13 +46,29 @@ class SuggestionEngine:
         # Clean up
         shutil.rmtree("temp_analysis", ignore_errors=True)
 
-        # Generate suggestions
+        # Evaluate with high standards
+        excellence_evaluation = self.excellence.evaluate_design(analysis)
+
+        # Generate demanding suggestions
         suggestions = self._generate_suggestions(analysis)
+
+        # Add excellence critique
+        suggestions['excellence_critique'] = {
+            'overall_score': excellence_evaluation['overall_score'],
+            'level': excellence_evaluation['excellence_level'],
+            'verdict': excellence_evaluation['verdict'],
+            'strengths': excellence_evaluation['strengths'],
+            'critical_issues': excellence_evaluation['critical_issues'],
+            'refinement_opportunities': excellence_evaluation['refinement_opportunities']
+        }
 
         return {
             'analysis': analysis,
             'suggestions': suggestions,
-            'quality_score': analysis.get('quality_score', 0)
+            'quality_score': analysis.get('quality_score', 0),
+            'excellence_score': excellence_evaluation['overall_score'],
+            'excellence_level': excellence_evaluation['excellence_level'],
+            'meets_standards': excellence_evaluation['overall_score'] >= 70
         }
 
     def _generate_suggestions(self, analysis: Dict) -> Dict:
