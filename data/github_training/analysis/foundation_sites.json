@@ -1,0 +1,17 @@
+{
+  "name": "Foundation Sites",
+  "category": "html",
+  "analyzed_at": "2025-11-21T17:58:43.912350",
+  "focus_areas": [
+    "responsive_framework",
+    "grid",
+    "components"
+  ],
+  "learnings": {
+    "layout_patterns": [
+      "container",
+      "wrapper"
+    ]
+  },
+  "file_count": 191
+}

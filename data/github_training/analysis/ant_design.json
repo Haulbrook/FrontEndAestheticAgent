@@ -1,0 +1,37 @@
+{
+  "name": "Ant Design",
+  "category": "react",
+  "analyzed_at": "2025-11-21T17:58:40.879085",
+  "focus_areas": [
+    "enterprise_ui",
+    "components",
+    "design_language"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [
+        "LinkButton",
+        "EditButton",
+        "SwitchBtn"
+      ],
+      "inputs": [],
+      "cards": [
+        "ColumnCard",
+        "InlineCard"
+      ],
+      "modals": [],
+      "navbars": [
+        "useMenu",
+        "Navigation"
+      ],
+      "tables": []
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 1857
+}

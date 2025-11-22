@@ -1,0 +1,46 @@
+{
+  "name": "Element Plus",
+  "category": "vue",
+  "analyzed_at": "2025-11-21T17:58:05.135400",
+  "focus_areas": [
+    "ui_components",
+    "design_system",
+    "accessibility"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [
+        "button-group",
+        "button",
+        "button",
+        "checkbox-button"
+      ],
+      "inputs": [
+        "text",
+        "input-tag",
+        "input"
+      ],
+      "cards": [],
+      "modals": [
+        "dialog-content",
+        "dialog"
+      ],
+      "navbars": [
+        "menu-item",
+        "menu-item-group",
+        "menu-collapse-transition",
+        "menu"
+      ],
+      "tables": [
+        "table"
+      ]
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 976
+}

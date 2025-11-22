@@ -1,0 +1,90 @@
+{
+  "analyzed_at": "2025-11-21T17:57:55.447157",
+  "categories": {
+    "css": [
+      {
+        "name": "Bootstrap",
+        "status": "completed"
+      },
+      {
+        "name": "Animate.css",
+        "status": "completed"
+      },
+      {
+        "name": "Tailwind CSS",
+        "status": "completed"
+      },
+      {
+        "name": "Normalize.css",
+        "status": "completed"
+      },
+      {
+        "name": "Bulma",
+        "status": "completed"
+      }
+    ],
+    "vue": [
+      {
+        "name": "Vue",
+        "status": "completed"
+      },
+      {
+        "name": "Awesome-Vue",
+        "status": "completed"
+      },
+      {
+        "name": "Nuxt",
+        "status": "completed"
+      },
+      {
+        "name": "Vuetify",
+        "status": "completed"
+      },
+      {
+        "name": "Element Plus",
+        "status": "completed"
+      }
+    ],
+    "react": [
+      {
+        "name": "React",
+        "status": "completed"
+      },
+      {
+        "name": "Next.js",
+        "status": "completed"
+      },
+      {
+        "name": "Create React App",
+        "status": "completed"
+      },
+      {
+        "name": "Material-UI",
+        "status": "completed"
+      },
+      {
+        "name": "Ant Design",
+        "status": "completed"
+      }
+    ],
+    "html": [
+      {
+        "name": "Reveal.js",
+        "status": "completed"
+      },
+      {
+        "name": "HTML5 Boilerplate",
+        "status": "completed"
+      },
+      {
+        "name": "html2canvas",
+        "status": "completed"
+      },
+      {
+        "name": "Foundation Sites",
+        "status": "completed"
+      }
+    ]
+  },
+  "total_repos": 19
+}

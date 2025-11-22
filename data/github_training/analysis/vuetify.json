@@ -1,0 +1,37 @@
+{
+  "name": "Vuetify",
+  "category": "vue",
+  "analyzed_at": "2025-11-21T17:58:03.830097",
+  "focus_areas": [
+    "material_design",
+    "components",
+    "theming"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [],
+      "inputs": [],
+      "cards": [
+        "card"
+      ],
+      "modals": [
+        "misc-edit-dialog",
+        "misc-dialog-and-menu"
+      ],
+      "navbars": [
+        "misc-dialog-and-menu"
+      ],
+      "tables": [
+        "prop-item-selectable",
+        "slot-item-data-table-select"
+      ]
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 1158
+}

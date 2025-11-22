@@ -11,6 +11,11 @@ class DesignGenerator:
 
     def __init__(self, knowledge_base_path: str = "data/knowledge_base/design_patterns.json"):
         self.kb = KnowledgeBase(knowledge_base_path)
+        self.framework_patterns = self._load_framework_patterns()
+
+    def _load_framework_patterns(self) -> Dict:
+        """Load framework patterns from knowledge base"""
+        return self.kb.patterns.get('framework_patterns', {})
 
     def generate_color_palette(self, scheme: Optional[str] = None) -> Dict:
         """Generate a color palette based on learned patterns"""
@@ -214,9 +219,94 @@ class DesignGenerator:
             ]
         }
 
-    def generate_complete_design_guide(self) -> Dict:
+    def generate_framework_guide(self, framework: str) -> Dict:
+        """Generate framework-specific design guide"""
+        guide = {
+            'framework': framework,
+            'available': False,
+            'components': [],
+            'utilities': [],
+            'animations': [],
+            'grid_system': {},
+            'code_examples': []
+        }
+
+        # Get framework-specific patterns
+        css_frameworks = self.framework_patterns.get('css_frameworks', {})
+        component_lib = self.framework_patterns.get('component_library', {})
+        anim_lib = self.framework_patterns.get('animation_library', {})
+        grid_systems = self.framework_patterns.get('grid_systems', {})
+
+        # Bootstrap guide
+        if framework.lower() == 'bootstrap':
+            if 'Bootstrap' in css_frameworks:
+                guide['available'] = True
+                guide['components'] = self._extract_framework_components('Bootstrap', component_lib)
+                guide['grid_system'] = grid_systems.get('Bootstrap', {})
+                guide['code_examples'] = [
+                    {
+                        'name': 'Grid Layout',
+                        'code': '<div class="container">\n  <div class="row">\n    <div class="col-md-6">Column 1</div>\n    <div class="col-md-6">Column 2</div>\n  </div>\n</div>'
+                    },
+                    {
+                        'name': 'Card Component',
+                        'code': '<div class="card">\n  <div class="card-body">\n    <h5 class="card-title">Card title</h5>\n    <p class="card-text">Card content</p>\n  </div>\n</div>'
+                    }
+                ]
+
+        # Tailwind guide
+        elif framework.lower() == 'tailwind':
+            if 'Tailwind CSS' in css_frameworks:
+                guide['available'] = True
+                guide['utilities'] = self._extract_framework_utilities('Tailwind CSS')
+                guide['code_examples'] = [
+                    {
+                        'name': 'Flexbox Layout',
+                        'code': '<div class="flex flex-col md:flex-row gap-4">\n  <div class="flex-1 p-4 bg-blue-500">Item 1</div>\n  <div class="flex-1 p-4 bg-green-500">Item 2</div>\n</div>'
+                    },
+                    {
+                        'name': 'Card with Hover',
+                        'code': '<div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">\n  <h3 class="text-xl font-bold mb-2">Card Title</h3>\n  <p class="text-gray-600">Card content</p>\n</div>'
+                    }
+                ]
+
+        # Animation guide
+        elif framework.lower() == 'animate.css':
+            guide['available'] = True
+            guide['animations'] = [kf['name'] for kf in anim_lib.get('keyframes', [])[:20]]
+            guide['code_examples'] = [
+                {
+                    'name': 'Fade In Animation',
+                    'code': '<div class="animate__animated animate__fadeIn">\n  Animated content\n</div>'
+                },
+                {
+                    'name': 'Bounce In Animation',
+                    'code': '<div class="animate__animated animate__bounceIn animate__delay-1s">\n  Delayed bounce\n</div>'
+                }
+            ]
+
+        return guide
+
+    def _extract_framework_components(self, framework: str, component_lib: Dict) -> List[str]:
+        """Extract components for a specific framework"""
+        components = []
+        for comp_type, frameworks in component_lib.items():
+            if framework in frameworks:
+                components.extend(frameworks[framework])
+        return list(set(components))[:15]  # Limit to 15 unique components
+
+    def _extract_framework_utilities(self, framework: str) -> Dict:
+        """Extract utility classes for a framework"""
+        util_patterns = self.framework_patterns.get('utility_patterns', {})
+        utilities = {}
+        for util_type, frameworks in util_patterns.items():
+            if framework in frameworks:
+                utilities[util_type] = frameworks[framework]
+        return utilities
+
+    def generate_complete_design_guide(self, framework: Optional[str] = None) -> Dict:
         """Generate a complete design guide based on all learned patterns"""
-        return {
+        guide = {
             'colors': self.generate_color_palette(),
             'layout': self.generate_layout_suggestions(),
             'typography': self.generate_typography_suggestions(),
@@ -230,6 +320,12 @@ class DesignGenerator:
                 'Focus on user experience and accessibility'
             ]
         }
+
+        # Add framework-specific guide if requested
+        if framework:
+            guide['framework_guide'] = self.generate_framework_guide(framework)
+
+        return guide
 
     def export_design_guide(self, output_file: str = "design_guide.json"):
         """Export design guide to a file"""

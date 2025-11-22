@@ -1,0 +1,19 @@
+{
+  "name": "React",
+  "category": "react",
+  "analyzed_at": "2025-11-21T17:58:08.200187",
+  "focus_areas": [
+    "component_patterns",
+    "hooks",
+    "composition"
+  ],
+  "learnings": {
+    "styling_patterns": {
+      "css_modules": 1,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 134
+}

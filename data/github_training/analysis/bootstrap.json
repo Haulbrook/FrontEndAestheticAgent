@@ -1,0 +1,55 @@
+{
+  "name": "Bootstrap",
+  "category": "css",
+  "analyzed_at": "2025-11-21T17:57:56.482504",
+  "focus_areas": [
+    "component_patterns",
+    "grid_system",
+    "utilities",
+    "responsive_design"
+  ],
+  "learnings": {
+    "components": {
+      "buttons": [
+        "btn"
+      ],
+      "cards": [
+        "card"
+      ],
+      "navbars": [
+        "nav"
+      ],
+      "forms": [
+        "form",
+        "input"
+      ],
+      "modals": [
+        "modal"
+      ],
+      "alerts": [
+        "alert",
+        "toast"
+      ]
+    },
+    "grid_patterns": {
+      "grid_classes": [
+        "col"
+      ],
+      "flexbox_classes": [],
+      "breakpoints": [
+        "min-768px",
+        "min-992px"
+      ]
+    },
+    "utility_classes": {
+      "spacing": [
+        "p",
+        "m"
+      ],
+      "display": [],
+      "text": [],
+      "colors": []
+    }
+  },
+  "file_count": 169
+}

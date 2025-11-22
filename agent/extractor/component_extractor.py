@@ -34,6 +34,22 @@ class ComponentExtractor:
         self.components_index = []
         self.seen_hashes = set()
 
+        # Load framework patterns
+        self.framework_patterns = self._load_framework_patterns()
+
+    def _load_framework_patterns(self) -> Dict:
+        """Load framework-specific component patterns from knowledge base"""
+        kb_path = Path("data/knowledge_base/design_patterns.json")
+        if not kb_path.exists():
+            return {}
+
+        try:
+            kb_data = json.loads(kb_path.read_text())
+            return kb_data.get('framework_patterns', {}).get('component_library', {})
+        except Exception as e:
+            print(f"! Error loading framework patterns: {e}")
+            return {}
+
     def extract_from_directory(self, template_dir: str) -> Dict:
         """Extract components from all templates in a directory"""
         template_path = Path(template_dir)
@@ -122,11 +138,19 @@ class ComponentExtractor:
         buttons = []
         seen_styles = set()
 
+        # Get framework-specific button patterns
+        button_keywords = ['btn', 'button', 'cta', 'action']
+
+        # Add framework patterns if available
+        if self.framework_patterns and 'buttons' in self.framework_patterns:
+            for framework, patterns in self.framework_patterns['buttons'].items():
+                button_keywords.extend([p.lower() for p in patterns if p])
+
         # Find button elements
         for btn in soup.find_all(['button', 'a', 'input']):
             # Check if it looks like a button
             classes = ' '.join(btn.get('class', []))
-            if not any(keyword in classes.lower() for keyword in ['btn', 'button', 'cta', 'action']):
+            if not any(keyword in classes.lower() for keyword in button_keywords):
                 if btn.name != 'button':
                     continue
 
@@ -143,9 +167,37 @@ class ComponentExtractor:
 
             component = self._create_component(btn, 'button', source, compact=True)
             if component:
+                # Add framework info if detected
+                component['framework'] = self._detect_component_framework(classes)
                 buttons.append(component)
 
         return buttons[:10]  # Limit to 10 per template
+
+    def _detect_component_framework(self, classes: str) -> str:
+        """Detect which framework a component uses based on classes"""
+        classes_lower = classes.lower()
+
+        # Bootstrap
+        if any(pattern in classes_lower for pattern in ['btn-', 'col-', 'navbar-', 'card-']):
+            return 'Bootstrap'
+
+        # Tailwind
+        if any(pattern in classes for pattern in ['hover:', 'focus:', 'bg-', 'text-', 'p-', 'm-']):
+            return 'Tailwind CSS'
+
+        # Bulma
+        if any(pattern in classes_lower for pattern in ['is-', 'has-', 'button', 'column']):
+            return 'Bulma'
+
+        # Material-UI
+        if 'mui' in classes_lower or classes.startswith('M'):
+            return 'Material-UI'
+
+        # Ant Design
+        if 'ant-' in classes_lower:
+            return 'Ant Design'
+
+        return 'Custom'
 
     def _extract_cards(self, soup: BeautifulSoup, source: Dict) -> List[Dict]:
         """Extract card components"""

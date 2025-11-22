@@ -1,0 +1,16 @@
+{
+  "name": "Reveal.js",
+  "category": "html",
+  "analyzed_at": "2025-11-21T17:58:41.545716",
+  "focus_areas": [
+    "presentation_layouts",
+    "transitions",
+    "animations"
+  ],
+  "learnings": {
+    "layout_patterns": [
+      "container"
+    ]
+  },
+  "file_count": 30
+}

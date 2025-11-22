@@ -1,0 +1,3698 @@
+{
+  "metadata": {
+    "created_at": "2025-11-16T18:45:45.999126",
+    "last_updated": "2025-11-16T22:20:57.509929",
+    "total_templates_learned": 583,
+    "version": "1.0"
+  },
+  "color_patterns": {
+    "schemes": {
+      "vibrant": 74,
+      "balanced": 192,
+      "monochromatic": 100,
+      "minimal_dark": 13,
+      "dark_mode": 17,
+      "minimal_light": 34,
+      "light_airy": 6
+    },
+    "popular_palettes": [
+      [
+        "#3D4559",
+        "#4285F4",
+        "#34A853"
+      ],
+      [
+        "#9763F6",
+        "#282A35",
+        "#FFF4A3"
+      ],
+      [
+        "#FFE6B3"
+      ],
+      [
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#0D6EFD",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#B4DCE7",
+        "#7B6995"
+      ],
+      [
+        "#303030",
+        "#000000",
+        "#333333"
+      ],
+      [
+        "#FFFFFF",
+        "#231F20",
+        "#CED4DA"
+      ],
+      [
+        "#10B981",
+        "#F3C06B"
+      ],
+      [
+        "#563D7C",
+        "#FFFFFF",
+        "#42B883"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#28CC9E"
+      ],
+      [
+        "#000000",
+        "#4C51BF",
+        "#5A67D8"
+      ],
+      [
+        "#422B0D",
+        "#EB8F00",
+        "#F44336"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#FF6900"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#000000"
+      ],
+      [
+        "#FF7F66",
+        "#FFFFFF",
+        "#2A344F"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#FF6666"
+      ],
+      [
+        "#2563EB",
+        "#00C2FF",
+        "#184BFF"
+      ],
+      [
+        "#DC392D",
+        "#69707A",
+        "#FFFFFF"
+      ],
+      [
+        "#CCCCCC",
+        "#1967D2"
+      ],
+      [
+        "#161616",
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#562B77"
+      ],
+      [
+        "#84FAB0",
+        "#8FD3F4",
+        "#3B7977"
+      ],
+      [
+        "#2B2B2B"
+      ],
+      [
+        "#FF2773",
+        "#685879",
+        "#5352ED"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#8AB4F8"
+      ],
+      [
+        "#00ABA9",
+        "#FFFFFF"
+      ],
+      [
+        "#0ED3CF",
+        "#000000",
+        "#BBAACC"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#212529"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#EEEEEE"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#3D4559",
+        "#4285F4",
+        "#34A853"
+      ],
+      [
+        "#9763F6",
+        "#282A35",
+        "#FFF4A3"
+      ],
+      [
+        "#FFE6B3"
+      ],
+      [
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#0D6EFD",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#B4DCE7",
+        "#7B6995"
+      ],
+      [
+        "#303030",
+        "#000000",
+        "#333333"
+      ],
+      [
+        "#FFFFFF",
+        "#231F20",
+        "#CED4DA"
+      ],
+      [
+        "#10B981",
+        "#F3C06B"
+      ],
+      [
+        "#563D7C",
+        "#FFFFFF",
+        "#42B883"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#28CC9E"
+      ],
+      [
+        "#000000",
+        "#4C51BF",
+        "#5A67D8"
+      ],
+      [
+        "#422B0D",
+        "#EB8F00",
+        "#F44336"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#FF6900"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#000000"
+      ],
+      [
+        "#FF7F66",
+        "#FFFFFF",
+        "#2A344F"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#FF6666"
+      ],
+      [
+        "#2563EB",
+        "#00C2FF",
+        "#184BFF"
+      ],
+      [
+        "#DC392D",
+        "#69707A",
+        "#FFFFFF"
+      ],
+      [
+        "#CCCCCC",
+        "#1967D2"
+      ],
+      [
+        "#161616",
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#562B77"
+      ],
+      [
+        "#84FAB0",
+        "#8FD3F4",
+        "#3B7977"
+      ],
+      [
+        "#2B2B2B"
+      ],
+      [
+        "#FF2773",
+        "#685879",
+        "#5352ED"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#8AB4F8"
+      ],
+      [
+        "#00ABA9",
+        "#FFFFFF"
+      ],
+      [
+        "#0ED3CF",
+        "#000000",
+        "#BBAACC"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#212529"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#1D809F"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#0085A1"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#1ABC9C"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#2A5555"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#1E30F3"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#F4623A"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#FFC800"
+      ],
+      [
+        "#FFFFFF",
+        "#858796",
+        "#4E73DF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#000000",
+        "#333333",
+        "#FFFFFF"
+      ],
+      [
+        "#0D0716"
+      ],
+      [
+        "#060010",
+        "#392E4E",
+        "#C9C9C9"
+      ],
+      [
+        "#060010",
+        "#392E4E",
+        "#271E37"
+      ],
+      [
+        "#000006",
+        "#FFFFFF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#060010",
+        "#392E4E"
+      ],
+      [
+        "#EFEFEF"
+      ],
+      [
+        "#FFFFFF",
+        "#0C4DF2",
+        "#0C87F2"
+      ],
+      [
+        "#271E37",
+        "#170D27",
+        "#392E4E"
+      ],
+      [
+        "#060010",
+        "#B19EEF",
+        "#271E37"
+      ],
+      [
+        "#060010",
+        "#170D27",
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#4F46E5"
+      ],
+      [
+        "#E0F2FE",
+        "#FEF08A",
+        "#FECDD3"
+      ],
+      [
+        "#271E37"
+      ],
+      [
+        "#B3B3B3"
+      ],
+      [
+        "#B19EEF",
+        "#FFFFFF",
+        "#271E37"
+      ],
+      [
+        "#DDEEFF",
+        "#FF79C6",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#271E37",
+        "#060010",
+        "#B19EEF"
+      ],
+      [
+        "#271E37",
+        "#170D27",
+        "#FFFFFF"
+      ],
+      [
+        "#8400FF",
+        "#060010",
+        "#FFFFFF"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#271E37",
+        "#060010",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#4C1D95"
+      ],
+      [
+        "#FFFFFF",
+        "#A194B8",
+        "#8B5FFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#060010"
+      ],
+      [
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#1F2687"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#B19EEF"
+      ],
+      [
+        "#FFFFFF",
+        "#5227FF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0B0B0B"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#A6A6A6"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#0A0214",
+        "#060010",
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF",
+        "#11111A",
+        "#000000"
+      ],
+      [
+        "#5227FF",
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#A6A6A6"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#000000"
+      ],
+      [
+        "#FC8EAC"
+      ],
+      [
+        "#392E4E",
+        "#5227FF",
+        "#060010"
+      ],
+      [
+        "#392E4E",
+        "#271E37",
+        "#060010"
+      ],
+      [
+        "#000000",
+        "#909090",
+        "#49FCD4"
+      ],
+      [
+        "#1F2224",
+        "#FFFFFF",
+        "#34A58E"
+      ],
+      [
+        "#FFFFFF",
+        "#18BFEF",
+        "#212931"
+      ],
+      [
+        "#F2849E",
+        "#585858",
+        "#C9C9C9"
+      ],
+      [
+        "#FFFFFF",
+        "#636363",
+        "#DDDDDD"
+      ],
+      [
+        "#D2D7D9",
+        "#F56A6A",
+        "#FFFFFF"
+      ],
+      [
+        "#FFE4B4",
+        "#726193",
+        "#E37B7C"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#1B1F22"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#47D3E5"
+      ],
+      [
+        "#D4D4FF",
+        "#FFFFFF",
+        "#242943"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#DDDDDD",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#0099FF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#428BCA"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#222222",
+        "#FFFFFF",
+        "#666666"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#EEEEEE"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#882211"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#337AB7"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#E5E5E5",
+        "#5272A4",
+        "#425A74"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#DDDDDD",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#5A799D",
+        "#FFFFFF",
+        "#EEEEEE"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#444444"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#428BCA"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#003399",
+        "#EEEEEE"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#EDEDED"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#999999"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#428BCA"
+      ],
+      [
+        "#FFFFFF",
+        "#222222",
+        "#B4C835"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#EEEEEE"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#0B70CE",
+        "#164677"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#DDDDDD"
+      ],
+      [
+        "#3D4559",
+        "#4285F4",
+        "#34A853"
+      ],
+      [
+        "#9763F6",
+        "#282A35",
+        "#FFF4A3"
+      ],
+      [
+        "#FFE6B3"
+      ],
+      [
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#0D6EFD",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#B4DCE7",
+        "#7B6995"
+      ],
+      [
+        "#303030",
+        "#000000",
+        "#333333"
+      ],
+      [
+        "#FFFFFF",
+        "#231F20",
+        "#CED4DA"
+      ],
+      [
+        "#10B981",
+        "#F3C06B"
+      ],
+      [
+        "#563D7C",
+        "#FFFFFF",
+        "#42B883"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#28CC9E"
+      ],
+      [
+        "#000000",
+        "#4C51BF",
+        "#5A67D8"
+      ],
+      [
+        "#422B0D",
+        "#EB8F00",
+        "#F44336"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#FF6900"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#000000"
+      ],
+      [
+        "#FF7F66",
+        "#FFFFFF",
+        "#2A344F"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#FF6666"
+      ],
+      [
+        "#2563EB",
+        "#00C2FF",
+        "#184BFF"
+      ],
+      [
+        "#DC392D",
+        "#69707A",
+        "#FFFFFF"
+      ],
+      [
+        "#CCCCCC",
+        "#1967D2"
+      ],
+      [
+        "#161616",
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#562B77"
+      ],
+      [
+        "#84FAB0",
+        "#8FD3F4",
+        "#3B7977"
+      ],
+      [
+        "#2B2B2B"
+      ],
+      [
+        "#FF2773",
+        "#685879",
+        "#5352ED"
+      ],
+      [
+        "#FFFFFF",
+        "#1A73E8",
+        "#8AB4F8"
+      ],
+      [
+        "#00ABA9",
+        "#FFFFFF"
+      ],
+      [
+        "#0ED3CF",
+        "#000000",
+        "#BBAACC"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#212529"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#1D809F"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#0085A1"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#1ABC9C"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#2A5555"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#2937F0"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#E6A756"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#1E30F3"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#007BFF",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#EE0979"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#F4623A"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#BD5D38"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#FFC800"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#64A19D"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#0D6EFD"
+      ],
+      [
+        "#FFFFFF",
+        "#858796",
+        "#4E73DF"
+      ],
+      [
+        "#FFFFFF",
+        "#70A1FF",
+        "#4785FF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#392E4E",
+        "#FF9FFC",
+        "#000000"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#999999",
+        "#222222",
+        "#000000"
+      ],
+      [
+        "#7B7481"
+      ],
+      [
+        "#808080",
+        "#888888",
+        "#DDDDDD"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#000000",
+        "#333333",
+        "#FFFFFF"
+      ],
+      [
+        "#0D0716"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#111111"
+      ],
+      [
+        "#060010",
+        "#392E4E",
+        "#C9C9C9"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#060010",
+        "#392E4E",
+        "#271E37"
+      ],
+      [
+        "#000006",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#0E152E"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#060010",
+        "#222222",
+        "#111111"
+      ],
+      [
+        "#B19EEF"
+      ],
+      [
+        "#060010",
+        "#EBEBEB",
+        "#000000"
+      ],
+      [
+        "#060010",
+        "#222222",
+        "#000000"
+      ],
+      [
+        "#00FF00"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#060010"
+      ],
+      [
+        "#DDEEFF",
+        "#FF79C6",
+        "#FFFFFF"
+      ],
+      [
+        "#000000",
+        "#FF0096",
+        "#0096FF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#4F46E5"
+      ],
+      [
+        "#FF0000",
+        "#FFFFFF",
+        "#5227FF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF",
+        "#060010"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#2D2D2D"
+      ],
+      [
+        "#060010",
+        "#392E4E"
+      ],
+      [
+        "#EFEFEF"
+      ],
+      [
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#0C4DF2",
+        "#0C87F2"
+      ],
+      [
+        "#271E37",
+        "#170D27",
+        "#392E4E"
+      ],
+      [
+        "#060010",
+        "#B19EEF",
+        "#271E37"
+      ],
+      [
+        "#FFFFFF",
+        "#545050"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#060010",
+        "#170D27",
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#2D2D2D"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#4F46E5"
+      ],
+      [
+        "#FFFFFF",
+        "#16181C",
+        "#0C4DF2"
+      ],
+      [
+        "#E0F2FE",
+        "#FEF08A",
+        "#FECDD3"
+      ],
+      [
+        "#DDEEFF",
+        "#FF0000",
+        "#B19EEF"
+      ],
+      [
+        "#271E37"
+      ],
+      [
+        "#FFFFFF",
+        "#5227FF",
+        "#FF9FFC"
+      ],
+      [
+        "#FFFFFF",
+        "#B3B3B3"
+      ],
+      [
+        "#B3B3B3"
+      ],
+      [
+        "#FFFFFF",
+        "#222222"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#B19EEF",
+        "#FFFFFF",
+        "#271E37"
+      ],
+      [
+        "#DDEEFF",
+        "#FF79C6",
+        "#FFFFFF"
+      ],
+      [
+        "#000000",
+        "#EBEBEB",
+        "#060010"
+      ],
+      [
+        "#060010"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#5227FF",
+        "#222222",
+        "#A3A3A3"
+      ],
+      [
+        "#222222",
+        "#060010",
+        "#333333"
+      ],
+      [
+        "#222222",
+        "#000000"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#B5B5B5"
+      ],
+      [
+        "#555555",
+        "#FFFFFF",
+        "#0D0716"
+      ],
+      [
+        "#FFFFFF",
+        "#FF0000"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#5227FF",
+        "#DDEEFF",
+        "#7CFF67"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#271E37",
+        "#060010",
+        "#B19EEF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#5227FF",
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#271E37",
+        "#170D27",
+        "#FFFFFF"
+      ],
+      [
+        "#8400FF",
+        "#060010",
+        "#FFFFFF"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#271E37",
+        "#060010",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#4C1D95"
+      ],
+      [
+        "#FFAA40",
+        "#9C40FF"
+      ],
+      [
+        "#5227FF"
+      ],
+      [
+        "#FC8EAC"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#11111A",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#111111",
+        "#000000"
+      ],
+      [
+        "#5227FF",
+        "#FFFFFF",
+        "#FF0000"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#8400FF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0B0B0B"
+      ],
+      [
+        "#5227FF",
+        "#DDEEFF",
+        "#7CFF67"
+      ],
+      [
+        "#000000",
+        "#2B4539",
+        "#61DCA3"
+      ],
+      [
+        "#FF9FFC",
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#DDEEFF",
+        "#DE443B",
+        "#006BB4"
+      ],
+      [
+        "#FFFFFF",
+        "#A194B8",
+        "#8B5FFF"
+      ],
+      [
+        "#160000"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#060010"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#5227FF"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#1F2687"
+      ],
+      [
+        "#060010",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#5227FF",
+        "#FFFFFF",
+        "#A3A3A3"
+      ],
+      [
+        "#B19EEF"
+      ],
+      [
+        "#FFFFFF",
+        "#545050"
+      ],
+      [
+        "#FDF9F3",
+        "#FF6188",
+        "#FC9867"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#5227FF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#0B0B0B"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#5227FF",
+        "#000000",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#A6A6A6"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#392E4E"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#DDEEFF",
+        "#00FFFF",
+        "#060010"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#DDEEFF",
+        "#DE443B",
+        "#006BB4"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#E0F2FE",
+        "#FEF08A",
+        "#FECDD3"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#3B82F6"
+      ],
+      [
+        "#0A0214",
+        "#060010",
+        "#DDEEFF"
+      ],
+      [
+        "#FFFFFF",
+        "#11111A",
+        "#000000"
+      ],
+      [
+        "#5227FF",
+        "#FFFFFF",
+        "#000000"
+      ],
+      [
+        "#111111"
+      ],
+      [
+        "#000000"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#A6A6A6"
+      ],
+      [
+        "#FFFFFF",
+        "#060010",
+        "#000000"
+      ],
+      [
+        "#000000",
+        "#333333",
+        "#FFFFFF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#DDEEFF"
+      ],
+      [
+        "#DDEEFF",
+        "#FF0000",
+        "#B19EEF"
+      ],
+      [
+        "#FC8EAC"
+      ],
+      [
+        "#392E4E",
+        "#5227FF",
+        "#060010"
+      ],
+      [
+        "#FFFFFF",
+        "#222222",
+        "#111111"
+      ],
+      [
+        "#060010",
+        "#FFFFFF",
+        "#8400FF"
+      ],
+      [
+        "#060010",
+        "#271E37",
+        "#170D27"
+      ],
+      [
+        "#060010"
+      ],
+      [
+        "#392E4E",
+        "#271E37",
+        "#060010"
+      ],
+      [
+        "#EFEFEF"
+      ],
+      [
+        "#000000",
+        "#909090",
+        "#49FCD4"
+      ],
+      [
+        "#1F2224",
+        "#FFFFFF",
+        "#34A58E"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#2E3842"
+      ],
+      [
+        "#FFFFFF",
+        "#E44C65",
+        "#1C1D26"
+      ],
+      [
+        "#FFFFFF",
+        "#18BFEF",
+        "#212931"
+      ],
+      [
+        "#F2849E",
+        "#585858",
+        "#C9C9C9"
+      ],
+      [
+        "#FFFFFF",
+        "#636363",
+        "#DDDDDD"
+      ],
+      [
+        "#FFFFFF",
+        "#E6E6E6",
+        "#4696E5"
+      ],
+      [
+        "#D2D7D9",
+        "#F56A6A",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#49BF9D",
+        "#EFEFEF"
+      ],
+      [
+        "#A0A0A0",
+        "#2EBAAE",
+        "#3C3B3B"
+      ],
+      [
+        "#FFFFFF",
+        "#E4E4E4",
+        "#4ACAA8"
+      ],
+      [
+        "#101010",
+        "#CCCCCC",
+        "#FFFFFF"
+      ],
+      [
+        "#FFFFFF",
+        "#E0E0E0",
+        "#4EB980"
+      ],
+      [
+        "#FFFFFF",
+        "#E5E5E5",
+        "#999999"
+      ],
+      [
+        "#FFE4B4",
+        "#726193",
+        "#E37B7C"
+      ],
+      [
+        "#FFFFFF",
+        "#1CB495",
+        "#000000"
+      ],
+      [
+        "#FFFFFF",
+        "#000000",
+        "#1B1F22"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#47D3E5"
+      ],
+      [
+        "#FFFFFF",
+        "#B74E91",
+        "#5E42A6"
+      ],
+      [
+        "#000000",
+        "#FFFFFF",
+        "#348CB2"
+      ],
+      [
+        "#D4D4FF",
+        "#FFFFFF",
+        "#242943"
+      ],
+      [
+        "#FFFFFF",
+        "#909090",
+        "#555555"
+      ],
+      [
+        "#FFFFFF",
+        "#2E3141",
+        "#4C5C96"
+      ],
+      [
+        "#DDDDDD",
+        "#FFFFFF",
+        "#313A3D"
+      ]
+    ],
+    "dominant_colors": []
+  },
+  "layout_patterns": {
+    "structures": {
+      "float": 146,
+      "position": 208,
+      "flexbox": 122,
+      "grid": 51
+    },
+    "component_usage": {
+      "buttons": 4787,
+      "forms": 271,
+      "modals": 573,
+      "sliders": 210,
+      "cards": 2599,
+      "icons": 4575
+    },
+    "section_types": {
+      "content": 744,
+      "features": 23,
+      "about": 10,
+      "hero": 6,
+      "contact": 14,
+      "gallery": 3,
+      "testimonials": 2,
+      "call_to_action": 2
+    }
+  },
+  "typography_patterns": {
+    "popular_fonts": {
+      "Source Sans Pro Topnav": 3,
+      "sans-serif!important": 3,
+      "Source Sans Pro": 30,
+      "var(--bs-font-sans-serif)": 25,
+      "var(--bs-body-font-family)": 45,
+      "inherit": 121,
+      "": 35,
+      "var(--bs-btn-font-family)": 39,
+      "Manrope": 3,
+      "-apple-system": 48,
+      "BlinkMacSystemFont": 48,
+      "Segoe UI": 45,
+      "Roboto": 55,
+      "Helvetica Neue": 104,
+      "Arial": 117,
+      "Open Sans": 47,
+      "Manrope bold": 3,
+      "Karla": 3,
+      "Helvetica": 98,
+      "Apple Color Emoji": 36,
+      "Segoe UI Emoji": 36,
+      "Segoe UI Symbol": 36,
+      "dm": 3,
+      "monospace!important": 5,
+      "helvetica": 8,
+      "arial": 12,
+      "HelveticaNeue - Light": 3,
+      "Helvetica Neue Light": 3,
+      "Lucida Grande": 3,
+      "sans-serif !important": 3,
+      "Titillium Web": 6,
+      "Inter": 3,
+      "Noto Sans": 7,
+      "Noto Color Emoji": 27,
+      "Menlo": 70,
+      "Monaco": 67,
+      "Consolas": 67,
+      "Liberation Mono": 11,
+      "Courier New": 98,
+      "var(--font-1)": 3,
+      "var(--font-2)": 3,
+      "georgia": 3,
+      "var(--wp--preset--font-family--system-sans-serif) !important": 3,
+      "var(--wp--preset--font-family--system-serif) !important": 3,
+      "Jost": 3,
+      "Oxygen-Sans": 6,
+      "Ubuntu": 7,
+      "\n        Cantarell": 6,
+      "Metropolis": 3,
+      "IBM Plex Mono": 3,
+      "DejaVu Sans Mono": 3,
+      "Bitstream Vera Sans Mono": 3,
+      "Courier": 3,
+      "var(--cds-code-01-font-family": 3,
+      ".SFNSText-Regular": 3,
+      "monospace)": 3,
+      "var(--cds-code-02-font-family": 3,
+      "IBM Plex Sans VF": 3,
+      "IBM Plex Serif": 3,
+      "IBM Plex Sans": 3,
+      "\\.SFNSText-Regular": 3,
+      "IBM Plex Sans Var": 3,
+      "IBM Plex Sans Condensed": 3,
+      "IBM Plex Sans Arabic": 3,
+      "IBM Plex Sans Devanagari": 3,
+      "IBM Plex Sans Hebrew": 3,
+      "IBM Plex Sans JP": 3,
+      "IBM Plex Sans KR": 3,
+      "IBM Plex Sans Thai Looped": 3,
+      "IBM Plex Sans Thai": 3,
+      "Arial\n": 3,
+      "Helvetica-FF": 3,
+      "Tahoma": 3,
+      "sans-serif\n": 3,
+      "Montserrat-FF": 3,
+      "detiknetwork-FF": 3,
+      "Nunito": 6,
+      "Google Sans": 3,
+      "Cantarell": 3,
+      "Glyphicons Halflings": 56,
+      "Raleway": 25,
+      "Oswald": 15,
+      "FontAwesome": 52,
+      "Icons": 10,
+      "Noto Serif": 10,
+      "36px 'Open Sans": 8,
+      "Alice": 3,
+      "Georgia": 20,
+      "Open sans": 4,
+      "Fontawesome": 8,
+      "Lato": 7,
+      "var(--bs-font-monospace)": 36,
+      "var(--bs-font-monospace) !important": 36,
+      "Lora": 3,
+      "Montserrat": 5,
+      "DM Sans": 2,
+      "Tinos": 2,
+      "Merriweather": 4,
+      "Merriweather Sans": 2,
+      "Roboto Slab": 4,
+      "SFMono-Regular": 8,
+      "Font Awesome 5 Free": 37,
+      "monospace !important": 2,
+      "Font Awesome 5 Brands": 37,
+      "Playball": 1,
+      "fontawesome": 2,
+      "Droid Sans": 1,
+      "Yanone Kaffeesatz": 3,
+      "News Cycle": 4,
+      "AnimalsNormal": 1,
+      "Bookman Old Style": 1,
+      "Bookman": 1,
+      "Garamond": 1,
+      "Century Gothic": 1,
+      "Lobster Two": 2,
+      "Alegreya Sans": 3,
+      "times new roman": 1,
+      "fontAwesome": 1,
+      "Economica": 1,
+      "Pacifico": 1,
+      "Trebuchet MS\" Arial": 1,
+      "Lobster": 1,
+      "Verdana": 1,
+      "Mulish": 1,
+      "Newsreader": 1,
+      "Kanit": 1,
+      "Noto Color Emoji\" !important": 1,
+      "Catamaran": 1,
+      "Muli": 1,
+      "Saira Extra Condensed": 1,
+      "Varela Round": 1,
+      "$": 1,
+      "Font Awesome 5 Brands' !important": 1,
+      "Source Code Pro": 1
+    },
+    "font_pairings": [],
+    "size_scales": []
+  },
+  "style_patterns": {
+    "animation_techniques": [],
+    "shadow_styles": [],
+    "border_styles": {}
+  },
+  "modern_features": {
+    "feature_usage": {
+      "transforms": 175,
+      "filters": 148,
+      "css_variables": 70,
+      "css_grid": 51,
+      "flexbox": 106,
+      "clip_path": 3,
+      "backdrop_filter": 12,
+      "blend_modes": 6
+    },
+    "framework_popularity": {
+      "bootstrap": 203,
+      "tailwind": 316,
+      "foundation": 15,
+      "bulma": 3
+    }
+  },
+  "quality_benchmarks": {
+    "high_quality_templates": [
+      {
+        "template_id": "startbootstrap_stylish-portfolio",
+        "score": 95,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 75.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_clean-blog",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_freelancer",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_coming-soon",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_personal",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_landing-page",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_bare",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_creative",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_agency",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_sb-admin-2",
+        "score": 80,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 50.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "f12bffe0db07",
+        "score": 85,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 87.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "0dc48fa692f6",
+        "score": 90,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 50.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "744bd7435848",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "7ebbe77d6ef3",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "bd0df50fab7d",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "da228533fb90",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "4e027acd8eee",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "95e6d7c901f7",
+        "score": 77,
+        "features": {
+          "color_scheme": "vibrant",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "website-templates_free-bootstrap-template-real-estate-my-home",
+        "score": 75,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 25.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_business-frontpage",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_stylish-portfolio",
+        "score": 95,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 75.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_clean-blog",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_simple-sidebar",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_freelancer",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_4-col-portfolio",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_shop-item",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_coming-soon",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_thumbnail-gallery",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_1-col-portfolio",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_new-age",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_business-casual",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_full-width-pics",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_blog-post",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_blog-home",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_scrolling-nav",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_2-col-portfolio",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_heroic-features",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_3-col-portfolio",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_modern-business",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_small-business",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_personal",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_shop-homepage",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_portfolio-item",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_one-page-wonder",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_landing-page",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_bare",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_creative",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_resume",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_the-big-picture",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_agency",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_grayscale",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_sb-admin",
+        "score": 92,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "startbootstrap_sb-admin-2",
+        "score": 80,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 50.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "1018c7e5d0b0",
+        "score": 73,
+        "features": {
+          "color_scheme": "vibrant",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 87.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "98e0ef6d6005",
+        "score": 76,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 62.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "f12bffe0db07",
+        "score": 85,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 87.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "0dc48fa692f6",
+        "score": 90,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": true,
+          "uses_flexbox": true,
+          "modernity_score": 50.0,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "75cf57620c46",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "b463905e763c",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "744bd7435848",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "7ebbe77d6ef3",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "bd0df50fab7d",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "da228533fb90",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "ce947e8dbef5",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "4e027acd8eee",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "bdb85a05cbff",
+        "score": 77,
+        "features": {
+          "color_scheme": "balanced",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      },
+      {
+        "template_id": "95e6d7c901f7",
+        "score": 77,
+        "features": {
+          "color_scheme": "vibrant",
+          "uses_grid": false,
+          "uses_flexbox": true,
+          "modernity_score": 37.5,
+          "responsive": true
+        }
+      }
+    ],
+    "avg_quality_score": 27.48
+  },
+  "framework_patterns": {
+    "css_frameworks": {
+      "Animate.css": {
+        "focus_areas": [
+          "animations",
+          "transitions",
+          "css_classes"
+        ],
+        "learnings": {
+          "animations": {
+            "keyframes": [
+              "slideOutLeft",
+              "hinge",
+              "fadeInTopLeft",
+              "bounceInRight",
+              "slideInDown",
+              "fadeOutBottomLeft",
+              "pulse",
+              "zoomInLeft",
+              "zoomIn",
+              "lightSpeedInLeft",
+              "rotateOutDownRight",
+              "rotateOutUpLeft",
+              "flipOutX",
+              "zoomOutLeft",
+              "fadeInUp",
+              "bounceIn",
+              "headShake",
+              "bounce",
+              "rotateOut",
+              "backOutLeft",
+              "backInUp",
+              "rotateIn",
+              "fadeInUpBig",
+              "fadeIn",
+              "bounceInDown"
+            ],
+            "animation_classes": [
+              "animation",
+              "animate"
+            ],
+            "transitions": []
+          }
+        },
+        "file_count": 106,
+        "component_count": 0
+      },
+      "Normalize.css": {
+        "focus_areas": [
+          "browser_normalization",
+          "reset_patterns"
+        ],
+        "learnings": {},
+        "file_count": 1,
+        "component_count": 0
+      },
+      "Tailwind CSS": {
+        "focus_areas": [
+          "utility_first",
+          "design_tokens",
+          "color_schemes",
+          "spacing"
+        ],
+        "learnings": {
+          "colors": {
+            "css_variables": [
+              "#000",
+              "#fff"
+            ],
+            "scss_variables": [],
+            "hex_colors": []
+          },
+          "spacing": {
+            "margin_values": [],
+            "padding_values": [],
+            "gap_values": []
+          }
+        },
+        "file_count": 17,
+        "component_count": 0
+      },
+      "Bulma": {
+        "focus_areas": [
+          "flexbox",
+          "components",
+          "modular_css"
+        ],
+        "learnings": {},
+        "file_count": 248,
+        "component_count": 0
+      },
+      "Bootstrap": {
+        "focus_areas": [
+          "component_patterns",
+          "grid_system",
+          "utilities",
+          "responsive_design"
+        ],
+        "learnings": {
+          "components": {
+            "buttons": [
+              "btn"
+            ],
+            "cards": [
+              "card"
+            ],
+            "navbars": [
+              "nav"
+            ],
+            "forms": [
+              "form",
+              "input"
+            ],
+            "modals": [
+              "modal"
+            ],
+            "alerts": [
+              "alert",
+              "toast"
+            ]
+          },
+          "grid_patterns": {
+            "grid_classes": [
+              "col"
+            ],
+            "flexbox_classes": [],
+            "breakpoints": [
+              "min-768px",
+              "min-992px"
+            ]
+          },
+          "utility_classes": {
+            "spacing": [
+              "p",
+              "m"
+            ],
+            "display": [],
+            "text": [],
+            "colors": []
+          }
+        },
+        "file_count": 169,
+        "component_count": 0
+      }
+    },
+    "vue_frameworks": {
+      "Nuxt": {
+        "focus_areas": [
+          "ssr_patterns",
+          "layouts",
+          "routing"
+        ],
+        "learnings": {
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 292
+      },
+      "Awesome-Vue": {
+        "focus_areas": [
+          "curated_components",
+          "libraries",
+          "resources"
+        ],
+        "learnings": {},
+        "file_count": 0,
+        "component_count": 0
+      },
+      "Vuetify": {
+        "focus_areas": [
+          "material_design",
+          "components",
+          "theming"
+        ],
+        "learnings": {
+          "component_types": {
+            "buttons": [],
+            "inputs": [],
+            "cards": [
+              "card"
+            ],
+            "modals": [
+              "misc-edit-dialog",
+              "misc-dialog-and-menu"
+            ],
+            "navbars": [
+              "misc-dialog-and-menu"
+            ],
+            "tables": [
+              "prop-item-selectable",
+              "slot-item-data-table-select"
+            ]
+          },
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 1158
+      },
+      "Element Plus": {
+        "focus_areas": [
+          "ui_components",
+          "design_system",
+          "accessibility"
+        ],
+        "learnings": {
+          "component_types": {
+            "buttons": [
+              "button-group",
+              "button",
+              "button",
+              "checkbox-button"
+            ],
+            "inputs": [
+              "text",
+              "input-tag",
+              "input"
+            ],
+            "cards": [],
+            "modals": [
+              "dialog-content",
+              "dialog"
+            ],
+            "navbars": [
+              "menu-item",
+              "menu-item-group",
+              "menu-collapse-transition",
+              "menu"
+            ],
+            "tables": [
+              "table"
+            ]
+          },
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 976
+      },
+      "Vue": {
+        "focus_areas": [
+          "component_architecture",
+          "reactive_patterns",
+          "directives"
+        ],
+        "learnings": {
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 0
+      }
+    },
+    "react_frameworks": {
+      "Next.js": {
+        "focus_areas": [
+          "ssr",
+          "routing",
+          "layouts",
+          "optimization"
+        ],
+        "learnings": {
+          "styling_patterns": {
+            "css_modules": 4,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 4952
+      },
+      "React": {
+        "focus_areas": [
+          "component_patterns",
+          "hooks",
+          "composition"
+        ],
+        "learnings": {
+          "styling_patterns": {
+            "css_modules": 1,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 134
+      },
+      "Material-UI": {
+        "focus_areas": [
+          "material_design",
+          "components",
+          "theming",
+          "styling"
+        ],
+        "learnings": {
+          "component_types": {
+            "buttons": [
+              "ToggleButtonGroupContext",
+              "ToggleButtonGroup.test",
+              "ToggleButtonGroup",
+              "MenuButton.test",
+              "MenuButton",
+              "ButtonGroup",
+              "ButtonGroup.spec",
+              "ButtonGroup.test"
+            ],
+            "inputs": [
+              "ToggleButtonGroupContext",
+              "Input.test",
+              "Input.spec",
+              "Input"
+            ],
+            "cards": [
+              "Card",
+              "Card.test",
+              "CardActions.test",
+              "CardActions"
+            ],
+            "modals": [
+              "DialogTitle",
+              "DialogTitle.test"
+            ],
+            "navbars": [
+              "MenuButton.test",
+              "MenuButton",
+              "MenuList",
+              "MenuList.test"
+            ],
+            "tables": []
+          },
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 2120
+      },
+      "Create React App": {
+        "focus_areas": [
+          "project_structure",
+          "build_config",
+          "best_practices"
+        ],
+        "learnings": {
+          "styling_patterns": {
+            "css_modules": 5,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 7
+      },
+      "Ant Design": {
+        "focus_areas": [
+          "enterprise_ui",
+          "components",
+          "design_language"
+        ],
+        "learnings": {
+          "component_types": {
+            "buttons": [
+              "LinkButton",
+              "EditButton",
+              "SwitchBtn"
+            ],
+            "inputs": [],
+            "cards": [
+              "ColumnCard",
+              "InlineCard"
+            ],
+            "modals": [],
+            "navbars": [
+              "useMenu",
+              "Navigation"
+            ],
+            "tables": []
+          },
+          "styling_patterns": {
+            "css_modules": 0,
+            "styled_components": 0,
+            "scoped_styles": 0,
+            "utility_classes": 0
+          }
+        },
+        "file_count": 0,
+        "component_count": 1857
+      }
+    },
+    "html_frameworks": {
+      "Reveal.js": {
+        "focus_areas": [
+          "presentation_layouts",
+          "transitions",
+          "animations"
+        ],
+        "learnings": {
+          "layout_patterns": [
+            "container"
+          ]
+        },
+        "file_count": 30,
+        "component_count": 0
+      },
+      "html2canvas": {
+        "focus_areas": [
+          "dom_manipulation",
+          "rendering"
+        ],
+        "learnings": {},
+        "file_count": 102,
+        "component_count": 0
+      },
+      "HTML5 Boilerplate": {
+        "focus_areas": [
+          "best_practices",
+          "structure",
+          "optimization"
+        ],
+        "learnings": {
+          "html_patterns": {
+            "semantic_tags": [],
+            "meta_tags": [
+              "charset=\"utf-8\"",
+              "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+              "name=\"description\" content=\"\"",
+              "property=\"og:title\" content=\"\"",
+              "property=\"og:type\" content=\"\"",
+              "property=\"og:url\" content=\"\"",
+              "property=\"og:image\" content=\"\"",
+              "property=\"og:image:alt\" content=\"\"",
+              "name=\"theme-color\" content=\"#fafafa\"",
+              "charset=\"utf-8\"",
+              "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+              "charset=\"utf-8\"",
+              "name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+              "name=\"description\" content=\"\"",
+              "property=\"og:title\" content=\"\"",
+              "property=\"og:type\" content=\"\"",
+              "property=\"og:url\" content=\"\"",
+              "property=\"og:image\" content=\"\"",
+              "property=\"og:image:alt\" content=\"\"",
+              "name=\"theme-color\" content=\"#fafafa\"",
+              "charset=\"utf-8\"",
+              "name=\"viewport\" content=\"width=device-width, initial-scale=1\""
+            ],
+            "structural_patterns": []
+          }
+        },
+        "file_count": 4,
+        "component_count": 0
+      },
+      "Foundation Sites": {
+        "focus_areas": [
+          "responsive_framework",
+          "grid",
+          "components"
+        ],
+        "learnings": {
+          "layout_patterns": [
+            "container",
+            "wrapper"
+          ]
+        },
+        "file_count": 191,
+        "component_count": 0
+      }
+    },
+    "component_library": {
+      "buttons": {
+        "Element Plus": [
+          "button-group",
+          "button",
+          "checkbox-button"
+        ],
+        "Material-UI": [
+          "ToggleButtonGroupContext",
+          "ToggleButtonGroup.test",
+          "ToggleButtonGroup",
+          "MenuButton.test",
+          "MenuButton",
+          "ButtonGroup",
+          "ButtonGroup.spec",
+          "ButtonGroup.test"
+        ],
+        "Ant Design": [
+          "LinkButton",
+          "EditButton",
+          "SwitchBtn"
+        ],
+        "Bootstrap": [
+          "btn"
+        ]
+      },
+      "cards": {
+        "Vuetify": [
+          "card"
+        ],
+        "Material-UI": [
+          "Card",
+          "Card.test",
+          "CardActions.test",
+          "CardActions"
+        ],
+        "Ant Design": [
+          "ColumnCard",
+          "InlineCard"
+        ],
+        "Bootstrap": [
+          "card"
+        ]
+      },
+      "navbars": {
+        "Vuetify": [
+          "misc-dialog-and-menu"
+        ],
+        "Element Plus": [
+          "menu-item",
+          "menu-item-group",
+          "menu-collapse-transition",
+          "menu"
+        ],
+        "Material-UI": [
+          "MenuButton.test",
+          "MenuButton",
+          "MenuList",
+          "MenuList.test"
+        ],
+        "Ant Design": [
+          "useMenu",
+          "Navigation"
+        ],
+        "Bootstrap": [
+          "nav"
+        ]
+      },
+      "forms": {
+        "Bootstrap": [
+          "form",
+          "input"
+        ]
+      },
+      "modals": {
+        "Vuetify": [
+          "misc-edit-dialog",
+          "misc-dialog-and-menu"
+        ],
+        "Element Plus": [
+          "dialog-content",
+          "dialog"
+        ],
+        "Material-UI": [
+          "DialogTitle",
+          "DialogTitle.test"
+        ],
+        "Bootstrap": [
+          "modal"
+        ]
+      },
+      "inputs": {
+        "Element Plus": [
+          "text",
+          "input-tag",
+          "input"
+        ],
+        "Material-UI": [
+          "ToggleButtonGroupContext",
+          "Input.test",
+          "Input.spec",
+          "Input"
+        ]
+      },
+      "tables": {
+        "Vuetify": [
+          "prop-item-selectable",
+          "slot-item-data-table-select"
+        ],
+        "Element Plus": [
+          "table"
+        ]
+      },
+      "alerts": {
+        "Bootstrap": [
+          "alert",
+          "toast"
+        ]
+      }
+    },
+    "animation_library": {
+      "keyframes": [
+        {
+          "name": "slideOutLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "hinge",
+          "source": "Animate.css"
+        },
+        {
+          "name": "fadeInTopLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "bounceInRight",
+          "source": "Animate.css"
+        },
+        {
+          "name": "slideInDown",
+          "source": "Animate.css"
+        },
+        {
+          "name": "fadeOutBottomLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "pulse",
+          "source": "Animate.css"
+        },
+        {
+          "name": "zoomInLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "zoomIn",
+          "source": "Animate.css"
+        },
+        {
+          "name": "lightSpeedInLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "rotateOutDownRight",
+          "source": "Animate.css"
+        },
+        {
+          "name": "rotateOutUpLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "flipOutX",
+          "source": "Animate.css"
+        },
+        {
+          "name": "zoomOutLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "fadeInUp",
+          "source": "Animate.css"
+        },
+        {
+          "name": "bounceIn",
+          "source": "Animate.css"
+        },
+        {
+          "name": "headShake",
+          "source": "Animate.css"
+        },
+        {
+          "name": "bounce",
+          "source": "Animate.css"
+        },
+        {
+          "name": "rotateOut",
+          "source": "Animate.css"
+        },
+        {
+          "name": "backOutLeft",
+          "source": "Animate.css"
+        },
+        {
+          "name": "backInUp",
+          "source": "Animate.css"
+        },
+        {
+          "name": "rotateIn",
+          "source": "Animate.css"
+        },
+        {
+          "name": "fadeInUpBig",
+          "source": "Animate.css"
+        },
+        {
+          "name": "fadeIn",
+          "source": "Animate.css"
+        },
+        {
+          "name": "bounceInDown",
+          "source": "Animate.css"
+        }
+      ],
+      "animation_classes": [
+        {
+          "name": "animation",
+          "source": "Animate.css"
+        },
+        {
+          "name": "animate",
+          "source": "Animate.css"
+        }
+      ],
+      "transitions": []
+    },
+    "utility_patterns": {
+      "spacing": {
+        "Bootstrap": [
+          "p",
+          "m"
+        ]
+      },
+      "colors": {},
+      "display": {},
+      "text": {}
+    },
+    "grid_systems": {
+      "Bootstrap": {
+        "grid_classes": [
+          "col"
+        ],
+        "flexbox_classes": [],
+        "breakpoints": [
+          "min-768px",
+          "min-992px"
+        ]
+      }
+    },
+    "design_tokens": {
+      "colors": [
+        {
+          "value": "#000",
+          "source": "Tailwind CSS"
+        },
+        {
+          "value": "#fff",
+          "source": "Tailwind CSS"
+        }
+      ],
+      "spacing": [],
+      "breakpoints": []
+    }
+  }
+}

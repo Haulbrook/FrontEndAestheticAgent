@@ -1,0 +1,19 @@
+{
+  "name": "Vue",
+  "category": "vue",
+  "analyzed_at": "2025-11-21T17:58:01.304797",
+  "focus_areas": [
+    "component_architecture",
+    "reactive_patterns",
+    "directives"
+  ],
+  "learnings": {
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 0
+}

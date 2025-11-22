@@ -1,0 +1,92 @@
+{
+  "colors": {
+    "scheme": "balanced",
+    "colors": [
+      "#FFFFFF",
+      "#1CB495",
+      "#000000"
+    ],
+    "primary": "#FFFFFF",
+    "secondary": "#1CB495",
+    "accent": "#000000",
+    "usage_tips": [
+      "Use colors consistently",
+      "Maintain good contrast",
+      "Test accessibility"
+    ]
+  },
+  "layout": {
+    "recommended_systems": [
+      "flexbox"
+    ],
+    "popular_components": [],
+    "section_structure": [
+      "hero",
+      "content",
+      "contact"
+    ],
+    "layout_tips": [
+      "Use CSS Grid for page-level layouts",
+      "Use Flexbox for component-level layouts",
+      "Implement mobile-first responsive design",
+      "Use consistent spacing (8px or 4px grid)",
+      "Limit content width for readability (max 1200-1400px)"
+    ]
+  },
+  "typography": {
+    "recommended_fonts": {
+      "heading": "Montserrat",
+      "body": "Open Sans",
+      "type": "modern"
+    },
+    "size_scale": {
+      "base": "16px",
+      "small": "14.0px",
+      "h6": "16px",
+      "h5": "20.0px",
+      "h4": "25.008px",
+      "h3": "31.248px",
+      "h2": "39.056px",
+      "h1": "48.832px",
+      "display": "61.04px"
+    },
+    "typography_tips": [
+      "Use a maximum of 2-3 font families",
+      "Establish a clear hierarchy with size and weight",
+      "Maintain consistent line-height (1.5-1.6 for body text)",
+      "Use system fonts for better performance",
+      "Ensure sufficient contrast for readability"
+    ]
+  },
+  "style": {
+    "recommended_features": [],
+    "animation_suggestions": [
+      "Use subtle transitions (200-300ms) for interactive elements",
+      "Add fade-in animations for content on scroll",
+      "Implement smooth hover effects on buttons and cards",
+      "Use transform instead of position for animations (better performance)"
+    ],
+    "modern_techniques": [
+      "Use CSS custom properties (variables) for theming",
+      "Implement smooth scrolling behavior",
+      "Add subtle shadows for depth",
+      "Use backdrop-filter for glass morphism effects",
+      "Implement dark mode support"
+    ],
+    "accessibility_tips": [
+      "Respect prefers-reduced-motion for animations",
+      "Ensure sufficient color contrast (WCAG AA: 4.5:1)",
+      "Use semantic HTML elements",
+      "Add focus indicators for keyboard navigation",
+      "Test with screen readers"
+    ]
+  },
+  "overall_tips": [
+    "Start with mobile-first design",
+    "Maintain consistent spacing throughout",
+    "Use a design system or style guide",
+    "Test across different browsers and devices",
+    "Optimize for performance (lazy loading, code splitting)",
+    "Focus on user experience and accessibility"
+  ]
+}

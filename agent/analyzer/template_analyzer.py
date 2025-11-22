@@ -7,6 +7,7 @@ from .color_analyzer import ColorAnalyzer
 from .layout_analyzer import LayoutAnalyzer
 from .typography_analyzer import TypographyAnalyzer
 from .style_analyzer import StyleAnalyzer
+from .framework_detector import FrameworkDetector
 
 
 class TemplateAnalyzer:
@@ -17,6 +18,7 @@ class TemplateAnalyzer:
         self.layout_analyzer = LayoutAnalyzer()
         self.typography_analyzer = TypographyAnalyzer()
         self.style_analyzer = StyleAnalyzer()
+        self.framework_detector = FrameworkDetector()
 
     def analyze_template(self, template_dir: Path) -> Optional[Dict]:
         """Analyze a template directory"""
@@ -56,6 +58,7 @@ class TemplateAnalyzer:
                 'layout': self.layout_analyzer.analyze(html_content, css_content),
                 'typography': self.typography_analyzer.analyze(html_content, css_content),
                 'style': self.style_analyzer.analyze(html_content, css_content),
+                'frameworks': self.framework_detector.detect_frameworks(html_content, css_content),
                 'files_analyzed': {
                     'html_count': len(html_files),
                     'css_count': len(css_files)
@@ -64,6 +67,13 @@ class TemplateAnalyzer:
 
             # Add overall quality score
             analysis['quality_score'] = self._calculate_quality_score(analysis)
+
+            # Display detected frameworks
+            detected_frameworks = analysis['frameworks']['css_frameworks'] + \
+                                  analysis['frameworks']['component_libraries'] + \
+                                  analysis['frameworks']['animation_libraries']
+            if detected_frameworks:
+                print(f"    📦 Frameworks: {', '.join(detected_frameworks)}")
 
             print(f"    ✓ Analysis complete (Quality: {analysis['quality_score']}/100)")
             return analysis

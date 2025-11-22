@@ -1,0 +1,11 @@
+{
+  "name": "html2canvas",
+  "category": "html",
+  "analyzed_at": "2025-11-21T17:58:42.451084",
+  "focus_areas": [
+    "dom_manipulation",
+    "rendering"
+  ],
+  "learnings": {},
+  "file_count": 102
+}

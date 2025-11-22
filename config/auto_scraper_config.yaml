@@ -9,6 +9,8 @@ templates_per_run: 5  # Number of templates to scrape per source per run
 sources:
   - html5up
   - colorlib
+  - design-resources  # Scrapes from design-resources-for-developers repo
+  - react-bits  # NEW: Extracts React components from react-bits repo
   # - templatemo  # Disabled - not finding templates
   # - freecss  # Disabled due to SSL issues
 

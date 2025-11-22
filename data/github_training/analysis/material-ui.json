@@ -1,0 +1,55 @@
+{
+  "name": "Material-UI",
+  "category": "react",
+  "analyzed_at": "2025-11-21T17:58:36.356244",
+  "focus_areas": [
+    "material_design",
+    "components",
+    "theming",
+    "styling"
+  ],
+  "learnings": {
+    "component_types": {
+      "buttons": [
+        "ToggleButtonGroupContext",
+        "ToggleButtonGroup.test",
+        "ToggleButtonGroup",
+        "MenuButton.test",
+        "MenuButton",
+        "ButtonGroup",
+        "ButtonGroup.spec",
+        "ButtonGroup.test"
+      ],
+      "inputs": [
+        "ToggleButtonGroupContext",
+        "Input.test",
+        "Input.spec",
+        "Input"
+      ],
+      "cards": [
+        "Card",
+        "Card.test",
+        "CardActions.test",
+        "CardActions"
+      ],
+      "modals": [
+        "DialogTitle",
+        "DialogTitle.test"
+      ],
+      "navbars": [
+        "MenuButton.test",
+        "MenuButton",
+        "MenuList",
+        "MenuList.test"
+      ],
+      "tables": []
+    },
+    "styling_patterns": {
+      "css_modules": 0,
+      "styled_components": 0,
+      "scoped_styles": 0,
+      "utility_classes": 0
+    }
+  },
+  "component_count": 2120
+}

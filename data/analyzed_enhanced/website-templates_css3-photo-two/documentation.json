@@ -1,0 +1,194 @@
+{
+  "template_id": "documentation",
+  "colors": {
+    "total_colors": 0,
+    "dominant_colors": [],
+    "palette_characteristics": {},
+    "color_scheme": "unknown"
+  },
+  "layout": {
+    "structure": {
+      "has_header": false,
+      "has_footer": false,
+      "has_sidebar": false,
+      "main_content_containers": 0,
+      "max_nesting_depth": 7
+    },
+    "layout_systems": {
+      "flexbox": {
+        "detected": false,
+        "usage_count": 0
+      },
+      "grid": {
+        "detected": false,
+        "usage_count": 0
+      },
+      "float": {
+        "detected": false,
+        "usage_count": 0
+      },
+      "position": {
+        "detected": false,
+        "usage_count": 0
+      }
+    },
+    "sections": {
+      "total_sections": 0,
+      "section_types": []
+    },
+    "navigation": {
+      "nav_count": 0,
+      "total_nav_links": 0,
+      "has_dropdown": false,
+      "has_hamburger": false
+    },
+    "responsive": {
+      "has_media_queries": false,
+      "media_query_count": 0,
+      "breakpoints": [],
+      "responsive_score": 0
+    },
+    "components": {
+      "buttons": 0,
+      "cards": 0,
+      "forms": 0,
+      "modals": 0,
+      "sliders": 0,
+      "icons": 0
+    }
+  },
+  "typography": {
+    "fonts": {
+      "total_unique": 1,
+      "most_used": [
+        [
+          "arial",
+          1
+        ]
+      ],
+      "custom_fonts": [
+        "arial"
+      ],
+      "font_stack_count": 1
+    },
+    "sizes": {
+      "unique_sizes": 0,
+      "size_distribution": {},
+      "size_range": {
+        "min": 0,
+        "max": 0,
+        "avg": 0
+      },
+      "uses_relative_units": false
+    },
+    "weights": {
+      "weights_used": {},
+      "uses_variable_weights": false,
+      "most_common_weight": [
+        "normal",
+        0
+      ]
+    },
+    "spacing": {
+      "line_height": {
+        "used": false,
+        "avg": 1.5,
+        "range": [
+          0,
+          0
+        ]
+      },
+      "letter_spacing": {
+        "used": false,
+        "count": 0
+      }
+    },
+    "headings": {
+      "heading_count": {
+        "h1": 1,
+        "h2": 1,
+        "h3": 6,
+        "h4": 0,
+        "h5": 0,
+        "h6": 0
+      },
+      "uses_semantic_headings": true,
+      "heading_hierarchy_score": 100
+    },
+    "web_fonts": {
+      "google_fonts": false,
+      "adobe_fonts": false,
+      "font_awesome": false,
+      "custom_font_face": false,
+      "font_face_count": 0
+    }
+  },
+  "style": {
+    "animations": {
+      "has_animations": false,
+      "keyframe_count": 0,
+      "animation_count": 0,
+      "animation_names": []
+    },
+    "transitions": {
+      "has_transitions": false,
+      "transition_count": 0,
+      "transitioned_properties": {}
+    },
+    "shadows": {
+      "box_shadow_count": 0,
+      "text_shadow_count": 0,
+      "drop_shadow_count": 0,
+      "uses_shadows": false,
+      "shadow_intensity": "low"
+    },
+    "borders": {
+      "uses_borders": false,
+      "border_count": 0,
+      "uses_border_radius": false,
+      "border_radius_count": 0,
+      "style": "sharp"
+    },
+    "gradients": {
+      "uses_gradients": false,
+      "linear_gradient_count": 0,
+      "radial_gradient_count": 0,
+      "conic_gradient_count": 0,
+      "gradient_intensity": "low"
+    },
+    "modern_features": {
+      "css_variables": false,
+      "css_grid": false,
+      "flexbox": false,
+      "backdrop_filter": false,
+      "clip_path": false,
+      "transforms": false,
+      "filters": false,
+      "blend_modes": false,
+      "modernity_score": 0.0
+    },
+    "css_frameworks": {
+      "bootstrap": false,
+      "tailwind": false,
+      "bulma": false,
+      "foundation": false,
+      "materialize": false,
+      "semantic_ui": false,
+      "pure_css": false,
+      "detected_frameworks": [],
+      "uses_framework": false
+    }
+  },
+  "frameworks": {
+    "css_frameworks": [],
+    "component_libraries": [],
+    "animation_libraries": [],
+    "confidence_scores": {},
+    "detected_patterns": {}
+  },
+  "files_analyzed": {
+    "html_count": 1,
+    "css_count": 0
+  },
+  "quality_score": 10
+}

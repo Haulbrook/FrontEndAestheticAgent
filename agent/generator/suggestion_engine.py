@@ -55,11 +55,107 @@ class SuggestionEngine:
             'layout': self._suggest_layout_improvements(analysis.get('layout', {})),
             'typography': self._suggest_typography_improvements(analysis.get('typography', {})),
             'style': self._suggest_style_improvements(analysis.get('style', {})),
+            'frameworks': self._suggest_framework_improvements(analysis.get('frameworks', {})),
             'priority_improvements': []
         }
 
         # Determine priority improvements
         suggestions['priority_improvements'] = self._prioritize_suggestions(analysis, suggestions)
+
+        return suggestions
+
+    def _suggest_framework_improvements(self, frameworks: Dict) -> List[Dict]:
+        """Suggest framework-specific improvements"""
+        suggestions = []
+
+        css_frameworks = frameworks.get('css_frameworks', [])
+        component_libs = frameworks.get('component_libraries', [])
+        anim_libs = frameworks.get('animation_libraries', [])
+        confidence = frameworks.get('confidence_scores', {})
+
+        # If using Bootstrap
+        if 'Bootstrap' in css_frameworks:
+            suggestions.append({
+                'type': 'info',
+                'framework': 'Bootstrap',
+                'confidence': confidence.get('Bootstrap', 0),
+                'suggestions': [
+                    'Use Bootstrap\'s utility classes (m-, p-, d-, flex-) for spacing and layout',
+                    'Ensure consistent use of the grid system (container > row > col)',
+                    'Leverage Bootstrap components like cards, alerts, and modals',
+                    'Use Bootstrap\'s responsive breakpoints (sm, md, lg, xl, xxl)'
+                ]
+            })
+
+        # If using Tailwind CSS
+        if 'Tailwind CSS' in css_frameworks:
+            suggestions.append({
+                'type': 'info',
+                'framework': 'Tailwind CSS',
+                'confidence': confidence.get('Tailwind CSS', 0),
+                'suggestions': [
+                    'Follow utility-first principles for consistent styling',
+                    'Use Tailwind\'s responsive prefixes (sm:, md:, lg:)',
+                    'Leverage hover:, focus:, and active: state variants',
+                    'Consider extracting repeated patterns into components',
+                    'Use Tailwind\'s color palette system for consistency'
+                ]
+            })
+
+        # If using Bulma
+        if 'Bulma' in css_frameworks:
+            suggestions.append({
+                'type': 'info',
+                'framework': 'Bulma',
+                'confidence': confidence.get('Bulma', 0),
+                'suggestions': [
+                    'Use Bulma\'s columns system for layouts',
+                    'Leverage modifier classes (is-*, has-*)',
+                    'Use Bulma\'s flexbox-based components',
+                    'Consider Bulma\'s color helpers'
+                ]
+            })
+
+        # If using Material-UI or Ant Design
+        if component_libs:
+            for lib in component_libs:
+                suggestions.append({
+                    'type': 'info',
+                    'framework': lib,
+                    'suggestions': [
+                        f'Follow {lib}\'s design system guidelines',
+                        f'Use {lib}\'s theming capabilities for consistency',
+                        f'Leverage {lib}\'s built-in accessibility features'
+                    ]
+                })
+
+        # If using animation libraries
+        if 'Animate.css' in anim_libs:
+            suggestions.append({
+                'type': 'info',
+                'framework': 'Animate.css',
+                'confidence': confidence.get('Animate.css', 0),
+                'suggestions': [
+                    'Use animation delays for better UX',
+                    'Consider animation duration for smooth effects',
+                    'Don\'t overuse animations - less is more',
+                    'Test animations on different devices for performance'
+                ]
+            })
+
+        # If no frameworks detected, suggest adopting one
+        if not css_frameworks and not component_libs:
+            suggestions.append({
+                'type': 'recommendation',
+                'framework': 'None detected',
+                'suggestions': [
+                    'Consider using a CSS framework like Bootstrap or Tailwind for consistency',
+                    'Bootstrap: Great for rapid prototyping with pre-built components',
+                    'Tailwind: Perfect for custom designs with utility-first approach',
+                    'Bulma: Modern, flexbox-based, no JavaScript dependencies',
+                    'Add Animate.css for professional animations with minimal effort'
+                ]
+            })
 
         return suggestions
 
